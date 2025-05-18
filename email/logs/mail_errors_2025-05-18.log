@@ -3,3 +3,8 @@
 [18-May-2025 07:19:11 Europe/Berlin] [2025-05-18 07:19:11] [INFO] Successfully sent invitation to eddiemagtanggol@gmail.com using PHPMailer
 [18-May-2025 07:19:11 Europe/Berlin] [2025-05-18 07:19:11] [INFO] Processing invitation for: Mike Acenas <mikeacenas2715@gmail.com>
 [18-May-2025 07:19:15 Europe/Berlin] [2025-05-18 07:19:15] [INFO] Successfully sent invitation to mikeacenas2715@gmail.com using PHPMailer
+[18-May-2025 07:53:18 Europe/Berlin] [2025-05-18 07:53:18] [INFO] Starting to send invitations for booking ID: 76 with 2 guests
+[18-May-2025 07:53:18 Europe/Berlin] [2025-05-18 07:53:18] [INFO] Processing invitation for: John Hanssen N. Eya <eddiemagtanggol@gmail.com>
+[18-May-2025 07:53:21 Europe/Berlin] [2025-05-18 07:53:21] [INFO] Successfully sent invitation to eddiemagtanggol@gmail.com using PHPMailer
+[18-May-2025 07:53:21 Europe/Berlin] [2025-05-18 07:53:21] [INFO] Processing invitation for: Mike Acenas <mikeacenas2715@gmail.com>
+[18-May-2025 07:53:25 Europe/Berlin] [2025-05-18 07:53:25] [INFO] Successfully sent invitation to mikeacenas2715@gmail.com using PHPMailer

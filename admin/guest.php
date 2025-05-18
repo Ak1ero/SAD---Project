@@ -1148,6 +1148,8 @@ if ($paginatedResult && $paginatedResult->num_rows > 0) {
         fetch(`check_event_status.php?booking_id=${bookingId}`)
           .then(response => response.json())
           .then(data => {
+            console.log('Event status check:', data); // Debug log
+            
             isEventStarted = data.is_started;
             let isEventEnded = data.is_ended;
             
@@ -1174,7 +1176,9 @@ if ($paginatedResult && $paginatedResult->num_rows > 0) {
               
               // Enable the Take Attendance button
               takeAttendanceBtn.disabled = false;
-              takeAttendanceBtn.classList.remove('opacity-50', 'cursor-not-allowed');
+              takeAttendanceBtn.classList.remove('opacity-50', 'cursor-not-allowed', 'bg-gray-500', 'hover:bg-gray-500');
+              takeAttendanceBtn.classList.add('bg-green-600', 'hover:bg-green-700');
+              takeAttendanceBtn.innerHTML = '<i class="fas fa-check-circle mr-1"></i> Take Attendance';
               
               // Hide warning in attendance modal
               eventNotStartedWarning.classList.add('hidden');
@@ -1207,60 +1211,76 @@ if ($paginatedResult && $paginatedResult->num_rows > 0) {
           return;
         }
         
-        // Check if event has started before proceeding
-        if (!isEventStarted) {
-          // Show warning message
-          const warningModal = document.createElement('div');
-          warningModal.className = 'fixed inset-0 bg-black bg-opacity-70 z-50 flex items-center justify-center backdrop-blur-sm';
-          warningModal.innerHTML = `
-            <div class="bg-white dark:bg-slate-800 rounded-xl shadow-2xl max-w-md w-full mx-4 p-6">
-              <div class="text-center mb-4">
-                <div class="mx-auto flex items-center justify-center h-12 w-12 rounded-full bg-red-100 dark:bg-red-900/30 mb-4">
-                  <i class="fas fa-exclamation-triangle text-xl text-red-600 dark:text-red-400"></i>
+        // Recheck event status to ensure we have the most up-to-date information
+        fetch(`check_event_status.php?booking_id=${currentBookingId}`)
+          .then(response => response.json())
+          .then(data => {
+            console.log('Rechecking event status before taking attendance:', data);
+            isEventStarted = data.is_started;
+            
+            if (!isEventStarted) {
+              // Show warning message
+              const warningModal = document.createElement('div');
+              warningModal.className = 'fixed inset-0 bg-black bg-opacity-70 z-50 flex items-center justify-center backdrop-blur-sm';
+              warningModal.innerHTML = `
+                <div class="bg-white dark:bg-slate-800 rounded-xl shadow-2xl max-w-md w-full mx-4 p-6">
+                  <div class="text-center mb-4">
+                    <div class="mx-auto flex items-center justify-center h-12 w-12 rounded-full bg-red-100 dark:bg-red-900/30 mb-4">
+                      <i class="fas fa-exclamation-triangle text-xl text-red-600 dark:text-red-400"></i>
+                    </div>
+                    <h3 class="text-lg font-medium text-gray-900 dark:text-white">Event Not Started</h3>
+                    <p class="mt-2 text-sm text-gray-600 dark:text-gray-400">
+                      This event hasn't started yet. Attendance can only be taken when the event begins at the scheduled start time.
+                    </p>
+                    <p class="mt-2 text-xs text-gray-500 dark:text-gray-500">
+                      Event starts on ${data.event_date} at ${data.start_time}
+                    </p>
+                    <p class="mt-2 text-xs text-gray-400 dark:text-gray-600">
+                      Current time: ${data.current_time} | Start time: ${data.start_time} 
+                    </p>
+                  </div>
+                  <div class="flex justify-center">
+                    <button class="px-4 py-2 bg-primary-600 hover:bg-primary-700 text-white rounded-lg">
+                      Understood
+                    </button>
+                  </div>
                 </div>
-                <h3 class="text-lg font-medium text-gray-900 dark:text-white">Event Not Started</h3>
-                <p class="mt-2 text-sm text-gray-600 dark:text-gray-400">
-                  This event hasn't started yet. Attendance can only be taken once the event begins.
-                </p>
-                <p class="mt-2 text-xs text-gray-500 dark:text-gray-500">
-                  Event starts on ${currentEventDate} at ${currentEventStartTime}
-                </p>
-              </div>
-              <div class="flex justify-center">
-                <button class="px-4 py-2 bg-primary-600 hover:bg-primary-700 text-white rounded-lg">
-                  Understood
-                </button>
-              </div>
-            </div>
-          `;
-          
-          document.body.appendChild(warningModal);
-          
-          // Add event listener to close the warning
-          warningModal.querySelector('button').addEventListener('click', function() {
-            document.body.removeChild(warningModal);
+              `;
+              
+              document.body.appendChild(warningModal);
+              
+              // Add event listener to close the warning
+              warningModal.querySelector('button').addEventListener('click', function() {
+                document.body.removeChild(warningModal);
+              });
+              
+              return;
+            }
+            
+            // Continue with showing the attendance modal
+            // Hide the guest list modal
+            guestListModal.classList.add('hidden');
+            
+            // Set the attendance modal details
+            attendanceEventDetails.textContent = `${currentEventName} - ${currentCustomerName}`;
+            
+            // Clear previous inputs and errors
+            guestUniqueCode.value = '';
+            attendanceError.classList.add('hidden');
+            
+            // Show the attendance modal
+            attendanceModal.classList.remove('hidden');
+            
+            // Focus on the input field
+            setTimeout(() => {
+              guestUniqueCode.focus();
+            }, 100);
+          })
+          .catch(error => {
+            console.error('Error rechecking event status:', error);
+            // Show a generic error message
+            alert('Could not verify event status. Please try again.');
           });
-          
-          return;
-        }
-        
-        // Hide the guest list modal
-        guestListModal.classList.add('hidden');
-        
-        // Set the attendance modal details
-        attendanceEventDetails.textContent = `${currentEventName} - ${currentCustomerName}`;
-        
-        // Clear previous inputs and errors
-        guestUniqueCode.value = '';
-        attendanceError.classList.add('hidden');
-        
-        // Show the attendance modal
-        attendanceModal.classList.remove('hidden');
-        
-        // Focus on the input field
-        setTimeout(() => {
-          guestUniqueCode.focus();
-        }, 100);
       });
       
       // Close Attendance Modal
@@ -1289,6 +1309,7 @@ if ($paginatedResult && $paginatedResult->num_rows > 0) {
       });
       
       function submitAttendance() {
+        console.log('Submit attendance - Event started status:', isEventStarted);
         // Check if event has started before proceeding
         if (!isEventStarted) {
           attendanceError.textContent = 'This event has not started yet. Attendance can only be taken once the event begins.';

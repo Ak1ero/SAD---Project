@@ -1,5 +1,7 @@
 <?php
 session_start();
+// Set timezone to Philippines
+date_default_timezone_set('Asia/Manila');
 include '../db/config.php';
 
 // Check if the user is logged in as an admin
@@ -48,17 +50,23 @@ if ($bookingId > 0) {
   // Check if event has started
   $hasStarted = false;
   
-  if ($eventDate < $currentDate) {
+  // Convert to timestamps for more reliable comparison
+  $eventDateTimestamp = strtotime($eventDate);
+  $currentDateTimestamp = strtotime($currentDate);
+  $eventStartTimestamp = strtotime($eventDate . ' ' . $eventStartTime);
+  $currentTimestamp = strtotime($currentDate . ' ' . $currentTime);
+  
+  if ($eventDateTimestamp < $currentDateTimestamp) {
     // Event date is in the past
     $hasStarted = true;
-  } elseif ($eventDate == $currentDate && $eventStartTime <= $currentTime) {
-    // Event is today and start time has passed
+  } elseif ($eventDateTimestamp == $currentDateTimestamp && $eventStartTimestamp <= $currentTimestamp) {
+    // Event is today and start time has passed or equals current time
     $hasStarted = true;
   }
   
   // Allow a 15-minute grace period before the event starts
-  $graceStartTime = date('H:i:s', strtotime($eventStartTime . ' - 15 minutes'));
-  if ($eventDate == $currentDate && $currentTime >= $graceStartTime && $currentTime <= $eventEndTime) {
+  $graceStartTimestamp = strtotime($eventDate . ' ' . $eventStartTime . ' - 15 minutes');
+  if ($eventDateTimestamp == $currentDateTimestamp && $currentTimestamp >= $graceStartTimestamp) {
     $hasStarted = true;
   }
   
@@ -73,11 +81,12 @@ if ($bookingId > 0) {
   
   // Check if event has ended
   $hasEnded = false;
+  $eventEndTimestamp = strtotime($eventDate . ' ' . $eventEndTime);
   
-  if ($eventDate < $currentDate) {
+  if ($eventDateTimestamp < $currentDateTimestamp) {
     // Event date is in the past
     $hasEnded = true;
-  } elseif ($eventDate == $currentDate && $eventEndTime < $currentTime) {
+  } elseif ($eventDateTimestamp == $currentDateTimestamp && $eventEndTimestamp < $currentTimestamp) {
     // Event is today and end time has passed
     $hasEnded = true;
   }
