@@ -1,0 +1,193 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="2AB6DB15-9BD9-F622-DBEF-FECBB06EE6FC" name="PAYMENT_TRANSACTIONS">
+<sourceDDLFile>event_oracle.sql</sourceDDLFile>
+<createdBy>mikea</createdBy>
+<createdTime>2025-05-04 08:00:25 UTC</createdTime>
+<commentInRDBMS><![CDATA[Payment records for bookings]]></commentInRDBMS>
+<ownerDesignName>event</ownerDesignName>
+<importedID>794065F8-2F5F-39E6-3BE3-DC050B8056DA</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="payment_id" id="AD6A22FA-6272-3BF7-E6AA-42ABE8F8B9B4">
+<sourceDDLFile>event_oracle.sql</sourceDDLFile>
+<createdBy>mikea</createdBy>
+<createdTime>2025-05-04 08:00:25 UTC</createdTime>
+<ownerDesignName>event</ownerDesignName>
+<importedID>8CAD98E1-C56C-E502-C051-CA0F2FAC8C09</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>B16A44A4-0F04-BCE5-7686-9BA729020D49</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="BOOKINGS_id" id="DCBC5CB3-22A6-C28E-E2C3-B3171A70A96D">
+<sourceDDLFile>event_oracle.sql</sourceDDLFile>
+<createdBy>mikea</createdBy>
+<createdTime>2025-05-04 08:00:25 UTC</createdTime>
+<ownerDesignName>event</ownerDesignName>
+<importedID>412082FB-C59E-23D9-F84A-F78FE8DDA22D</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>B16A44A4-0F04-BCE5-7686-9BA729020D49</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="5FFBA93E-0642-75F9-F7DC-60E86FA1465B" referredColumn="0F26F79A-1B91-E6A6-3D21-1F19643E55BA"/>
+</associations>
+</Column>
+<Column name="amount" id="42654963-B849-A157-D594-857DF69E8ED4">
+<sourceDDLFile>event_oracle.sql</sourceDDLFile>
+<createdBy>mikea</createdBy>
+<createdTime>2025-05-04 08:00:25 UTC</createdTime>
+<ownerDesignName>event</ownerDesignName>
+<importedID>858DB4AE-832E-2953-77B4-A25D784CD26E</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>4DE4F3F1-7C8B-365D-64F5-530AA29E516C</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="payment_method" id="E5166642-8E13-2A71-738A-FD24C944F237">
+<sourceDDLFile>event_oracle.sql</sourceDDLFile>
+<createdBy>mikea</createdBy>
+<createdTime>2025-05-04 08:00:25 UTC</createdTime>
+<ownerDesignName>event</ownerDesignName>
+<importedID>6181A700-98FD-FE8B-8B3D-AF629DF82416</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>4FA6A9BE-CB54-ADDC-B48E-848B55420312</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="account_name" id="C342728D-677C-FE0B-0C40-8DE9D5F57560">
+<sourceDDLFile>event_oracle.sql</sourceDDLFile>
+<createdBy>mikea</createdBy>
+<createdTime>2025-05-04 08:00:25 UTC</createdTime>
+<ownerDesignName>event</ownerDesignName>
+<importedID>B49C76D8-1ADC-A6B3-E9C1-30E970D32687</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>0BDD9D6D-B67E-E702-E8F6-2C4A84AFEFC1</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="phone_number" id="4EEBBB5C-1E91-C654-5B11-E18261F9B81C">
+<sourceDDLFile>event_oracle.sql</sourceDDLFile>
+<createdBy>mikea</createdBy>
+<createdTime>2025-05-04 08:00:25 UTC</createdTime>
+<ownerDesignName>event</ownerDesignName>
+<importedID>F3FB9A35-43FF-AAB3-A155-687168D23743</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>B6265BD9-3950-EE1D-1A53-A39829806183</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="status" id="C0437E3F-6236-1815-F71A-088CC9000E93">
+<sourceDDLFile>event_oracle.sql</sourceDDLFile>
+<createdBy>mikea</createdBy>
+<createdTime>2025-05-04 08:00:25 UTC</createdTime>
+<ownerDesignName>event</ownerDesignName>
+<importedID>D31E0987-CFAD-C98A-5BA3-BA8520576184</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>FA1A2AC2-AD5C-8802-A4A7-3C94B63F93EA</domain>
+<defaultValue>&apos;pending&apos;</defaultValue>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="reference_number" id="F72FBF2D-3666-A801-73A7-B0571CE1E325">
+<sourceDDLFile>event_oracle.sql</sourceDDLFile>
+<createdBy>mikea</createdBy>
+<createdTime>2025-05-04 08:00:25 UTC</createdTime>
+<ownerDesignName>event</ownerDesignName>
+<importedID>B021A75B-7284-94AD-E712-65C644EDA64E</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>0BDD9D6D-B67E-E702-E8F6-2C4A84AFEFC1</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="receipt_path" id="ABCE7720-A4F0-B36C-6DAC-1FCCE281CD85">
+<sourceDDLFile>event_oracle.sql</sourceDDLFile>
+<createdBy>mikea</createdBy>
+<createdTime>2025-05-04 08:00:25 UTC</createdTime>
+<ownerDesignName>event</ownerDesignName>
+<importedID>D0C35973-5173-004D-A311-A5963EB576A0</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>5ADBCC8C-D7D1-7094-837B-BE41D1B05F7A</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="created_at" id="FB96C403-375C-96B0-6ABC-7C68FE1329BB">
+<sourceDDLFile>event_oracle.sql</sourceDDLFile>
+<createdBy>mikea</createdBy>
+<createdTime>2025-05-04 08:00:25 UTC</createdTime>
+<ownerDesignName>event</ownerDesignName>
+<importedID>41DFF099-092A-F42E-5330-4256FFFD042A</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT015</logicalDatatype>
+<domain>0D915F14-7077-E21D-4D71-CCB0B32320F7</domain>
+<defaultValue>SYSTIMESTAMP</defaultValue>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="updated_at" id="DFBD7A89-86E8-65C2-0FAD-25E5C6C065FF">
+<sourceDDLFile>event_oracle.sql</sourceDDLFile>
+<createdBy>mikea</createdBy>
+<createdTime>2025-05-04 08:00:25 UTC</createdTime>
+<ownerDesignName>event</ownerDesignName>
+<importedID>EDAD0274-B1EE-C6FE-8302-F435F6228DFB</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT015</logicalDatatype>
+<domain>0D915F14-7077-E21D-4D71-CCB0B32320F7</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="53A3ED04-CABC-6285-5AB6-B7D755F88738" name="PAYMENT_TRANSACTIONS_PK">
+<sourceDDLFile>event_oracle.sql</sourceDDLFile>
+<createdBy>mikea</createdBy>
+<createdTime>2025-05-04 08:00:25 UTC</createdTime>
+<ownerDesignName>event</ownerDesignName>
+<importedID>B825887A-A704-88A8-1F35-E5F8736C42E4</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="AD6A22FA-6272-3BF7-E6AA-42ABE8F8B9B4"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="EA6B832E-8952-2CD9-1E43-2E7F8F69A8CE" name="PAYMENT_TRANSACTIONS_BOOKINGS_FK">
+<createdBy>mikea</createdBy>
+<createdTime>2025-05-04 08:00:25 UTC</createdTime>
+<ownerDesignName>event</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="DCBC5CB3-22A6-C28E-E2C3-B3171A70A96D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+<tableCheckConstraints itemClass="oracle.dbtools.crest.model.design.constraint.TableLevelConstraint">
+<tableCheckConstraint name="payment_transactions_status_chk" directorySegmentName="seg_0" id="D7F083D2-4FC2-E5A5-B932-91252B92B2AE">
+<sourceDDLFile>event_oracle.sql</sourceDDLFile>
+<createdBy>mikea</createdBy>
+<createdTime>2025-05-04 08:00:25 UTC</createdTime>
+<ownerDesignName>event</ownerDesignName>
+<importedID>CECCCA41-B237-54FD-0D6A-79D131B5B2A7</importedID>
+<rule><![CDATA[status IN ('pending', 'paid', 'failed')]]></rule>
+</tableCheckConstraint>
+</tableCheckConstraints>
+</Table>

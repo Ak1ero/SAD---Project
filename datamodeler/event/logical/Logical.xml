@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<LogicalDesign class="oracle.dbtools.crest.model.design.logical.LogicalDesign" name="Logical" id="C07B78BD-C120-D04E-1943-98E00941D61D" mainViewID="8E4D2CEF-1C92-1574-D20C-C291D812959C">
+<createdBy>mikea</createdBy>
+<createdTime>2025-05-04 08:00:01 UTC</createdTime>
+<ownerDesignName>event</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</LogicalDesign>

@@ -1,0 +1,120 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="CF5A6252-53E9-AD36-497F-369F920AFAB5" name="BOOKING SERVICE ITEMS">
+<createdBy>mikea</createdBy>
+<createdTime>2025-05-04 08:00:28 UTC</createdTime>
+<commentInRDBMS><![CDATA[Junction table for bookings and specific service items]]></commentInRDBMS>
+<generatorID>E7406430-2CEF-95F5-C35D-9F960D2A84F3</generatorID>
+<ownerDesignName>event</ownerDesignName>
+<engineerTo>
+<item key="FD95F36E-90EF-CE47-21E2-5B50F7DBDC36" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="items_id" id="357B3CFC-51D4-5C7C-BCE8-14A26097A265">
+<createdBy>mikea</createdBy>
+<createdTime>2025-05-04 08:00:28 UTC</createdTime>
+<generatorID>4A5F9F6A-701C-BE0C-4E86-25B04BB7AB35</generatorID>
+<ownerDesignName>event</ownerDesignName>
+<engineerTo>
+<item key="FD95F36E-90EF-CE47-21E2-5B50F7DBDC36" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>B16A44A4-0F04-BCE5-7686-9BA729020D49</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="bookings_id" id="441BB1A1-8949-D21B-8677-77F032D1F2DE">
+<createdBy>mikea</createdBy>
+<createdTime>2025-05-04 08:00:28 UTC</createdTime>
+<generatorID>0FF01586-B5BC-F42B-BA5B-046378B046E6</generatorID>
+<ownerDesignName>event</ownerDesignName>
+<engineerTo>
+<item key="FD95F36E-90EF-CE47-21E2-5B50F7DBDC36" value="true"/>
+</engineerTo>
+<referedAttribute>8E9E4CE7-525A-667C-F335-C81A4DA52540</referedAttribute>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>B16A44A4-0F04-BCE5-7686-9BA729020D49</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="servicess_items_id" id="D4B861F6-519C-A864-AB7E-DEAD12F37137">
+<createdBy>mikea</createdBy>
+<createdTime>2025-05-04 08:00:28 UTC</createdTime>
+<generatorID>EA1B5811-5C5C-3610-EC2E-B2FF3F165CC0</generatorID>
+<ownerDesignName>event</ownerDesignName>
+<engineerTo>
+<item key="FD95F36E-90EF-CE47-21E2-5B50F7DBDC36" value="true"/>
+</engineerTo>
+<referedAttribute>26EFDED1-713E-53D2-837F-DF0073385BAE</referedAttribute>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>B16A44A4-0F04-BCE5-7686-9BA729020D49</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="created at" id="D0FA3460-3DE8-F9D0-318E-30BDB6A7C05D">
+<createdBy>mikea</createdBy>
+<createdTime>2025-05-04 08:00:28 UTC</createdTime>
+<generatorID>BB9112C6-B736-15DA-FE6B-5C719F7A7DB7</generatorID>
+<ownerDesignName>event</ownerDesignName>
+<engineerTo>
+<item key="FD95F36E-90EF-CE47-21E2-5B50F7DBDC36" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT015</logicalDatatype>
+<domain>0D915F14-7077-E21D-4D71-CCB0B32320F7</domain>
+<defaultValue>SYSTIMESTAMP</defaultValue>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="services_id" id="1B96E76B-AF0B-B812-C52E-09EDDB24BF11">
+<createdBy>mikea</createdBy>
+<createdTime>2025-05-04 14:38:49 UTC</createdTime>
+<generatorID>598D9296-D83B-C402-5EA7-F99BF365AB0C</generatorID>
+<ownerDesignName>event</ownerDesignName>
+<engineerTo>
+<item key="FD95F36E-90EF-CE47-21E2-5B50F7DBDC36" value="true"/>
+</engineerTo>
+<referedAttribute>D87AF7B4-A110-4A69-B243-677E29B82012</referedAttribute>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>B16A44A4-0F04-BCE5-7686-9BA729020D49</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="B3BCD180-AA76-07B1-D4FC-762D76AECF50" name="booking service items pk">
+<createdBy>mikea</createdBy>
+<createdTime>2025-05-04 08:00:28 UTC</createdTime>
+<generatorID>E1937522-4CCC-59F9-1664-6B77C4D78AB2</generatorID>
+<ownerDesignName>event</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="FD95F36E-90EF-CE47-21E2-5B50F7DBDC36" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>357B3CFC-51D4-5C7C-BCE8-14A26097A265</attributeRef>
+</usedAttributes>
+</identifier>
+<identifier id="7B1404D7-75D4-3670-8AF7-25297719D293" name="booking service items uk">
+<createdBy>mikea</createdBy>
+<createdTime>2025-05-04 08:00:28 UTC</createdTime>
+<generatorID>C4E4BD4A-D784-FA21-EB0D-E8BDBFF8C848</generatorID>
+<ownerDesignName>event</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="FD95F36E-90EF-CE47-21E2-5B50F7DBDC36" value="false"/>
+</engineerTo>
+<usedAttributes>
+<attributeRef>441BB1A1-8949-D21B-8677-77F032D1F2DE</attributeRef>
+<attributeRef>D4B861F6-519C-A864-AB7E-DEAD12F37137</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

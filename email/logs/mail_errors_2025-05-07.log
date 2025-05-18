@@ -1,0 +1,395 @@
+[07-May-2025 13:51:18 Europe/Berlin] [2025-05-07 13:51:18] [INFO] Starting to send invitations for booking ID: 64 with 1 guests
+[07-May-2025 13:51:18 Europe/Berlin] [2025-05-07 13:51:18] [INFO] Processing invitation for: John Hanssen N. Eya <eddiemagtanggol@gmail.com>
+[07-May-2025 13:51:20 Europe/Berlin] [2025-05-07 13:51:20] [ERROR] Error (2): mail(): Failed to connect to mailserver at &quot;localhost&quot; port 25, verify your &quot;SMTP&quot; and &quot;smtp_port&quot; setting in php.ini or use ini_set() in C:\xampp\htdocs\event\email\send-invitations.php on line 240
+[07-May-2025 13:51:20 Europe/Berlin] PHP Warning:  mail(): Failed to connect to mailserver at &quot;localhost&quot; port 25, verify your &quot;SMTP&quot; and &quot;smtp_port&quot; setting in php.ini or use ini_set() in C:\xampp\htdocs\event\email\send-invitations.php on line 240
+[07-May-2025 13:51:20 Europe/Berlin] [2025-05-07 13:51:20] [WARNING] PHP mail() failed for eddiemagtanggol@gmail.com, trying PHPMailer
+[07-May-2025 13:51:22 Europe/Berlin] [2025-05-07 13:51:22] [ERROR] Error (2): mail(): Failed to connect to mailserver at &quot;localhost&quot; port 25, verify your &quot;SMTP&quot; and &quot;smtp_port&quot; setting in php.ini or use ini_set() in C:\xampp\htdocs\event\vendor\phpmailer\phpmailer\src\PHPMailer.php on line 895
+[07-May-2025 13:51:22 Europe/Berlin] [2025-05-07 13:51:22] [ERROR] Exception while sending to eddiemagtanggol@gmail.com: Could not instantiate mail function.
+[07-May-2025 13:51:31 Europe/Berlin] [2025-05-07 13:51:31] [INFO] Starting to send invitations for booking ID: 64 with 1 guests
+[07-May-2025 13:51:31 Europe/Berlin] [2025-05-07 13:51:31] [INFO] Processing invitation for: John Hanssen N. Eya <eddiemagtanggol@gmail.com>
+[07-May-2025 13:51:33 Europe/Berlin] [2025-05-07 13:51:33] [ERROR] Error (2): mail(): Failed to connect to mailserver at &quot;localhost&quot; port 25, verify your &quot;SMTP&quot; and &quot;smtp_port&quot; setting in php.ini or use ini_set() in C:\xampp\htdocs\event\email\send-invitations.php on line 240
+[07-May-2025 13:51:33 Europe/Berlin] PHP Warning:  mail(): Failed to connect to mailserver at &quot;localhost&quot; port 25, verify your &quot;SMTP&quot; and &quot;smtp_port&quot; setting in php.ini or use ini_set() in C:\xampp\htdocs\event\email\send-invitations.php on line 240
+[07-May-2025 13:51:33 Europe/Berlin] [2025-05-07 13:51:33] [WARNING] PHP mail() failed for eddiemagtanggol@gmail.com, trying PHPMailer
+[07-May-2025 13:51:35 Europe/Berlin] [2025-05-07 13:51:35] [ERROR] Error (2): mail(): Failed to connect to mailserver at &quot;localhost&quot; port 25, verify your &quot;SMTP&quot; and &quot;smtp_port&quot; setting in php.ini or use ini_set() in C:\xampp\htdocs\event\vendor\phpmailer\phpmailer\src\PHPMailer.php on line 895
+[07-May-2025 13:51:35 Europe/Berlin] [2025-05-07 13:51:35] [ERROR] Exception while sending to eddiemagtanggol@gmail.com: Could not instantiate mail function.
+[07-May-2025 13:56:16 Europe/Berlin] [2025-05-07 13:56:16] [INFO] Starting to send invitations for booking ID: 64 with 1 guests
+[07-May-2025 13:56:16 Europe/Berlin] [2025-05-07 13:56:16] [INFO] Processing invitation for: John Hanssen N. Eya <eddiemagtanggol@gmail.com>
+[07-May-2025 13:56:18 Europe/Berlin] [2025-05-07 13:56:18] [ERROR] Error (2): mail(): Failed to connect to mailserver at &quot;localhost&quot; port 25, verify your &quot;SMTP&quot; and &quot;smtp_port&quot; setting in php.ini or use ini_set() in C:\xampp\htdocs\event\email\send-invitations.php on line 254
+[07-May-2025 13:56:18 Europe/Berlin] [2025-05-07 13:56:18] [WARNING] PHP mail() failed for eddiemagtanggol@gmail.com, trying PHPMailer
+[07-May-2025 13:56:20 Europe/Berlin] [2025-05-07 13:56:20] [ERROR] PHPMailer exception: SMTP Error: Could not authenticate.
+[07-May-2025 13:56:33 Europe/Berlin] PHP Warning:  mail(): Failed to connect to mailserver at &quot;localhost&quot; port 25, verify your &quot;SMTP&quot; and &quot;smtp_port&quot; setting in php.ini or use ini_set() in C:\xampp\htdocs\event\email\test.php on line 299
+[07-May-2025 15:26:45 Europe/Berlin] [2025-05-07 15:26:45] [INFO] Starting to send invitations for booking ID: 64 with 1 guests
+[07-May-2025 15:26:45 Europe/Berlin] [2025-05-07 15:26:45] [INFO] Processing invitation for: John Hanssen N. Eya <eddiemagtanggol@gmail.com>
+[07-May-2025 15:26:47 Europe/Berlin] [2025-05-07 15:26:47] [ERROR] Error (2): mail(): Failed to connect to mailserver at &quot;localhost&quot; port 25, verify your &quot;SMTP&quot; and &quot;smtp_port&quot; setting in php.ini or use ini_set() in C:\xampp\htdocs\event\email\send-invitations.php on line 254
+[07-May-2025 15:26:47 Europe/Berlin] [2025-05-07 15:26:47] [WARNING] PHP mail() failed for eddiemagtanggol@gmail.com, trying PHPMailer
+[07-May-2025 15:26:50 Europe/Berlin] [2025-05-07 15:26:50] [ERROR] PHPMailer exception: SMTP Error: Could not authenticate.
+[07-May-2025 15:29:46 Europe/Berlin] [2025-05-07 15:29:46] [INFO] Starting to send invitations for booking ID: 64 with 1 guests
+[07-May-2025 15:29:46 Europe/Berlin] [2025-05-07 15:29:46] [INFO] Processing invitation for: John Hanssen N. Eya <eddiemagtanggol@gmail.com>
+[07-May-2025 15:29:48 Europe/Berlin] [2025-05-07 15:29:48] [ERROR] Error (2): mail(): Failed to connect to mailserver at &quot;localhost&quot; port 25, verify your &quot;SMTP&quot; and &quot;smtp_port&quot; setting in php.ini or use ini_set() in C:\xampp\htdocs\event\email\send-invitations.php on line 254
+[07-May-2025 15:29:48 Europe/Berlin] [2025-05-07 15:29:48] [WARNING] PHP mail() failed for eddiemagtanggol@gmail.com, trying PHPMailer
+[07-May-2025 15:29:52 Europe/Berlin] [2025-05-07 15:29:52] [INFO] Successfully sent invitation to eddiemagtanggol@gmail.com using PHPMailer
+[07-May-2025 15:29:52 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'invitation_sent' in 'field list' in C:\xampp\htdocs\event\email\send-invitations.php:310
+Stack trace:
+#0 C:\xampp\htdocs\event\email\send-invitations.php(310): mysqli->prepare('UPDATE guests S...')
+#1 {main}
+  thrown in C:\xampp\htdocs\event\email\send-invitations.php on line 310
+[07-May-2025 15:35:38 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'invitation_sent' in 'field list' in C:\xampp\htdocs\event\email\send-invitations.php:88
+Stack trace:
+#0 C:\xampp\htdocs\event\email\send-invitations.php(88): mysqli->prepare('SELECT id, name...')
+#1 {main}
+  thrown in C:\xampp\htdocs\event\email\send-invitations.php on line 88
+[07-May-2025 15:35:40 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'invitation_sent' in 'field list' in C:\xampp\htdocs\event\email\send-invitations.php:88
+Stack trace:
+#0 C:\xampp\htdocs\event\email\send-invitations.php(88): mysqli->prepare('SELECT id, name...')
+#1 {main}
+  thrown in C:\xampp\htdocs\event\email\send-invitations.php on line 88
+[07-May-2025 15:35:41 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'invitation_sent' in 'field list' in C:\xampp\htdocs\event\email\send-invitations.php:88
+Stack trace:
+#0 C:\xampp\htdocs\event\email\send-invitations.php(88): mysqli->prepare('SELECT id, name...')
+#1 {main}
+  thrown in C:\xampp\htdocs\event\email\send-invitations.php on line 88
+[07-May-2025 15:35:41 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'invitation_sent' in 'field list' in C:\xampp\htdocs\event\email\send-invitations.php:88
+Stack trace:
+#0 C:\xampp\htdocs\event\email\send-invitations.php(88): mysqli->prepare('SELECT id, name...')
+#1 {main}
+  thrown in C:\xampp\htdocs\event\email\send-invitations.php on line 88
+[07-May-2025 15:35:41 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'invitation_sent' in 'field list' in C:\xampp\htdocs\event\email\send-invitations.php:88
+Stack trace:
+#0 C:\xampp\htdocs\event\email\send-invitations.php(88): mysqli->prepare('SELECT id, name...')
+#1 {main}
+  thrown in C:\xampp\htdocs\event\email\send-invitations.php on line 88
+[07-May-2025 15:35:42 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'invitation_sent' in 'field list' in C:\xampp\htdocs\event\email\send-invitations.php:88
+Stack trace:
+#0 C:\xampp\htdocs\event\email\send-invitations.php(88): mysqli->prepare('SELECT id, name...')
+#1 {main}
+  thrown in C:\xampp\htdocs\event\email\send-invitations.php on line 88
+[07-May-2025 15:35:44 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'invitation_sent' in 'field list' in C:\xampp\htdocs\event\email\send-invitations.php:88
+Stack trace:
+#0 C:\xampp\htdocs\event\email\send-invitations.php(88): mysqli->prepare('SELECT id, name...')
+#1 {main}
+  thrown in C:\xampp\htdocs\event\email\send-invitations.php on line 88
+[07-May-2025 15:40:51 Europe/Berlin] [2025-05-07 15:40:51] [INFO] Starting to send invitations for booking ID: 64 with 1 guests
+[07-May-2025 15:40:51 Europe/Berlin] [2025-05-07 15:40:51] [INFO] Processing invitation for: John Hanssen N. Eya <eddiemagtanggol@gmail.com>
+[07-May-2025 15:40:53 Europe/Berlin] [2025-05-07 15:40:53] [ERROR] Error (2): mail(): Failed to connect to mailserver at &quot;localhost&quot; port 25, verify your &quot;SMTP&quot; and &quot;smtp_port&quot; setting in php.ini or use ini_set() in C:\xampp\htdocs\event\email\send-invitations.php on line 254
+[07-May-2025 15:40:53 Europe/Berlin] [2025-05-07 15:40:53] [WARNING] PHP mail() failed for eddiemagtanggol@gmail.com, trying PHPMailer
+[07-May-2025 15:40:57 Europe/Berlin] [2025-05-07 15:40:57] [INFO] Successfully sent invitation to eddiemagtanggol@gmail.com using PHPMailer
+[07-May-2025 15:45:21 Europe/Berlin] [2025-05-07 15:45:21] [INFO] Starting to send invitations for booking ID: 64 with 1 guests
+[07-May-2025 15:45:21 Europe/Berlin] [2025-05-07 15:45:21] [INFO] Processing invitation for: John Hanssen N. Eya <eddiemagtanggol@gmail.com>
+[07-May-2025 15:45:23 Europe/Berlin] [2025-05-07 15:45:23] [ERROR] Error (2): mail(): Failed to connect to mailserver at &quot;localhost&quot; port 25, verify your &quot;SMTP&quot; and &quot;smtp_port&quot; setting in php.ini or use ini_set() in C:\xampp\htdocs\event\email\send-invitations.php on line 254
+[07-May-2025 15:45:23 Europe/Berlin] [2025-05-07 15:45:23] [WARNING] PHP mail() failed for eddiemagtanggol@gmail.com, trying PHPMailer
+[07-May-2025 15:45:26 Europe/Berlin] [2025-05-07 15:45:26] [INFO] Successfully sent invitation to eddiemagtanggol@gmail.com using PHPMailer
+[07-May-2025 13:51:06 UTC] PHP Fatal error:  Uncaught TypeError: error_log(): Argument #2 ($message_type) must be of type int, string given in C:\xampp\htdocs\event\email\fix-qr-paths.php:18
+Stack trace:
+#0 C:\xampp\htdocs\event\email\fix-qr-paths.php(18): error_log()
+#1 C:\xampp\htdocs\event\email\fix-qr-paths.php(24): {closure:C:\xampp\htdocs\event\email\fix-qr-paths.php:16}()
+#2 C:\xampp\htdocs\event\email\fix-qr-paths.php(24): include('...')
+#3 {main}
+  thrown in C:\xampp\htdocs\event\email\fix-qr-paths.php on line 18
+[07-May-2025 13:51:24 UTC] PHP Fatal error:  Uncaught TypeError: error_log(): Argument #2 ($message_type) must be of type int, string given in C:\xampp\htdocs\event\email\fix-qr-paths.php:18
+Stack trace:
+#0 C:\xampp\htdocs\event\email\fix-qr-paths.php(18): error_log()
+#1 C:\xampp\htdocs\event\email\fix-qr-paths.php(24): {closure:C:\xampp\htdocs\event\email\fix-qr-paths.php:16}()
+#2 C:\xampp\htdocs\event\email\fix-qr-paths.php(24): include('...')
+#3 {main}
+  thrown in C:\xampp\htdocs\event\email\fix-qr-paths.php on line 18
+[07-May-2025 15:53:04 Europe/Berlin] [2025-05-07 15:53:04] [INFO] Starting to send invitations for booking ID: 64 with 1 guests
+[07-May-2025 15:53:04 Europe/Berlin] [2025-05-07 15:53:04] [INFO] Processing invitation for: John Hanssen N. Eya <eddiemagtanggol@gmail.com>
+[07-May-2025 15:53:04 Europe/Berlin] [2025-05-07 15:53:04] [INFO] Using QR code URL: http://localhost/uploads/qrcodes/guest_63_910e776a70f4be7378b5acf6f2a3a8d3.png
+[07-May-2025 15:53:06 Europe/Berlin] [2025-05-07 15:53:06] [ERROR] Error (2): mail(): Failed to connect to mailserver at &quot;localhost&quot; port 25, verify your &quot;SMTP&quot; and &quot;smtp_port&quot; setting in php.ini or use ini_set() in C:\xampp\htdocs\event\email\send-invitations.php on line 276
+[07-May-2025 15:53:06 Europe/Berlin] [2025-05-07 15:53:06] [WARNING] PHP mail() failed for eddiemagtanggol@gmail.com, trying PHPMailer
+[07-May-2025 15:53:10 Europe/Berlin] [2025-05-07 15:53:10] [INFO] Successfully sent invitation to eddiemagtanggol@gmail.com using PHPMailer
+[07-May-2025 15:54:18 Europe/Berlin] PHPMailer class not found. Email functionality will be limited.
+[07-May-2025 15:54:18 Europe/Berlin] Using QR code from guest data: uploads/qrcodes/BK20250507133833676_fce53b06a746aeb1cea2625b44426446.png
+[07-May-2025 15:54:18 Europe/Berlin] QR code file not found: uploads/qrcodes/BK20250507133833676_fce53b06a746aeb1cea2625b44426446.png
+[07-May-2025 15:54:18 Europe/Berlin] PHP Fatal error:  Cannot redeclare getEnvVar() (previously declared in C:\xampp\htdocs\event\email\config.php:24) in C:\xampp\htdocs\event\email\config.php on line 25
+[07-May-2025 15:58:30 Europe/Berlin] PHPMailer class not found. Email functionality will be limited.
+[07-May-2025 15:58:31 Europe/Berlin] PHPMailer class not found. Email functionality will be limited.
+[07-May-2025 15:58:37 Europe/Berlin] PHPMailer class not found. Email functionality will be limited.
+[07-May-2025 15:58:37 Europe/Berlin] Using QR code from guest data: uploads/qrcodes/BK20250507133833676_fce53b06a746aeb1cea2625b44426446.png
+[07-May-2025 15:58:37 Europe/Berlin] Using QR code URL in email: http://localhost/uploads/qrcodes/BK20250507133833676_fce53b06a746aeb1cea2625b44426446.png
+[07-May-2025 15:58:37 Europe/Berlin] PHP Fatal error:  Cannot redeclare getEnvVar() (previously declared in C:\xampp\htdocs\event\email\config.php:24) in C:\xampp\htdocs\event\email\config.php on line 25
+[07-May-2025 15:58:56 Europe/Berlin] PHPMailer class not found. Email functionality will be limited.
+[07-May-2025 15:59:11 Europe/Berlin] PHPMailer class not found. Email functionality will be limited.
+[07-May-2025 15:59:11 Europe/Berlin] Using QR code from guest data: uploads/qrcodes/BK20250507133833676_fce53b06a746aeb1cea2625b44426446.png
+[07-May-2025 15:59:11 Europe/Berlin] Using QR code URL in email: http://localhost/uploads/qrcodes/BK20250507133833676_fce53b06a746aeb1cea2625b44426446.png
+[07-May-2025 15:59:11 Europe/Berlin] PHP Fatal error:  Cannot redeclare getEnvVar() (previously declared in C:\xampp\htdocs\event\email\config.php:24) in C:\xampp\htdocs\event\email\config.php on line 25
+[07-May-2025 15:59:51 Europe/Berlin] PHPMailer class not found. Email functionality will be limited.
+[07-May-2025 16:00:01 Europe/Berlin] PHPMailer class not found. Email functionality will be limited.
+[07-May-2025 16:00:05 Europe/Berlin] PHPMailer class not found. Email functionality will be limited.
+[07-May-2025 16:00:06 Europe/Berlin] PHPMailer class not found. Email functionality will be limited.
+[07-May-2025 16:00:06 Europe/Berlin] Using QR code from guest data: uploads/qrcodes/BK20250507133833676_fce53b06a746aeb1cea2625b44426446.png
+[07-May-2025 16:00:06 Europe/Berlin] Using QR code URL in email: http://localhost/uploads/qrcodes/BK20250507133833676_fce53b06a746aeb1cea2625b44426446.png
+[07-May-2025 16:00:06 Europe/Berlin] PHP Fatal error:  Cannot redeclare getEnvVar() (previously declared in C:\xampp\htdocs\event\email\config.php:24) in C:\xampp\htdocs\event\email\config.php on line 25
+[07-May-2025 16:01:05 Europe/Berlin] [2025-05-07 16:01:05] [INFO] Starting to send invitations for booking ID: 64 with 1 guests
+[07-May-2025 16:01:05 Europe/Berlin] [2025-05-07 16:01:05] [INFO] Processing invitation for: John Hanssen N. Eya <eddiemagtanggol@gmail.com>
+[07-May-2025 16:01:05 Europe/Berlin] [2025-05-07 16:01:05] [INFO] Using QR code URL: http://localhost/uploads/qrcodes/BK20250507133833676_fce53b06a746aeb1cea2625b44426446.png
+[07-May-2025 16:01:07 Europe/Berlin] [2025-05-07 16:01:07] [ERROR] Error (2): mail(): Failed to connect to mailserver at &quot;localhost&quot; port 25, verify your &quot;SMTP&quot; and &quot;smtp_port&quot; setting in php.ini or use ini_set() in C:\xampp\htdocs\event\email\send-invitations.php on line 276
+[07-May-2025 16:01:07 Europe/Berlin] [2025-05-07 16:01:07] [WARNING] PHP mail() failed for eddiemagtanggol@gmail.com, trying PHPMailer
+[07-May-2025 16:01:11 Europe/Berlin] [2025-05-07 16:01:12] [INFO] Successfully sent invitation to eddiemagtanggol@gmail.com using PHPMailer
+[07-May-2025 16:07:16 Europe/Berlin] PHPMailer class not found. Email functionality will be limited.
+[07-May-2025 16:07:20 Europe/Berlin] PHPMailer class not found. Email functionality will be limited.
+[07-May-2025 16:07:20 Europe/Berlin] Using QR code from guest data: uploads/qrcodes/TEST20250507160704_fce53b06a746aeb1cea2625b44426446.png
+[07-May-2025 16:07:20 Europe/Berlin] Using QR code with CID: qrcode_00542362fc488ac859c7f8bd637e40d7 and URL fallback: http://localhost/uploads/qrcodes/TEST20250507160704_fce53b06a746aeb1cea2625b44426446.png
+[07-May-2025 16:07:20 Europe/Berlin] PHP Fatal error:  Cannot redeclare getEnvVar() (previously declared in C:\xampp\htdocs\event\email\config.php:24) in C:\xampp\htdocs\event\email\config.php on line 25
+[07-May-2025 16:08:08 Europe/Berlin] PHPMailer class not found. Email functionality will be limited.
+[07-May-2025 16:08:10 Europe/Berlin] PHPMailer class not found. Email functionality will be limited.
+[07-May-2025 16:08:10 Europe/Berlin] Using QR code from guest data: uploads/qrcodes/BK20250507133833676_fce53b06a746aeb1cea2625b44426446.png
+[07-May-2025 16:08:10 Europe/Berlin] Using QR code with CID: qrcode_fa03e1bd0f60e29ea27f4ca9db7be22b and URL fallback: http://localhost/uploads/qrcodes/BK20250507133833676_fce53b06a746aeb1cea2625b44426446.png
+[07-May-2025 16:08:10 Europe/Berlin] PHP Fatal error:  Cannot redeclare getEnvVar() (previously declared in C:\xampp\htdocs\event\email\config.php:24) in C:\xampp\htdocs\event\email\config.php on line 25
+[07-May-2025 16:08:25 Europe/Berlin] PHPMailer class not found. Email functionality will be limited.
+[07-May-2025 16:08:25 Europe/Berlin] Using QR code from guest data: uploads/qrcodes/BK20250507133833676_fce53b06a746aeb1cea2625b44426446.png
+[07-May-2025 16:08:25 Europe/Berlin] Using QR code with CID: qrcode_fa03e1bd0f60e29ea27f4ca9db7be22b and URL fallback: http://localhost/uploads/qrcodes/BK20250507133833676_fce53b06a746aeb1cea2625b44426446.png
+[07-May-2025 16:08:25 Europe/Berlin] PHP Fatal error:  Cannot redeclare getEnvVar() (previously declared in C:\xampp\htdocs\event\email\config.php:24) in C:\xampp\htdocs\event\email\config.php on line 25
+[07-May-2025 16:10:16 Europe/Berlin] PHPMailer class not found. Email functionality will be limited.
+[07-May-2025 16:10:16 Europe/Berlin] Using QR code from guest data: uploads/qrcodes/BK20250507133833676_fce53b06a746aeb1cea2625b44426446.png
+[07-May-2025 16:10:16 Europe/Berlin] Using QR code with CID: qrcode_fa03e1bd0f60e29ea27f4ca9db7be22b and URL fallback: http://localhost/uploads/qrcodes/BK20250507133833676_fce53b06a746aeb1cea2625b44426446.png
+[07-May-2025 16:10:16 Europe/Berlin] PHP Fatal error:  Cannot redeclare getEnvVar() (previously declared in C:\xampp\htdocs\event\email\config.php:24) in C:\xampp\htdocs\event\email\config.php on line 25
+[07-May-2025 16:10:17 Europe/Berlin] PHPMailer class not found. Email functionality will be limited.
+[07-May-2025 16:10:18 Europe/Berlin] PHPMailer class not found. Email functionality will be limited.
+[07-May-2025 16:10:19 Europe/Berlin] PHPMailer class not found. Email functionality will be limited.
+[07-May-2025 16:10:19 Europe/Berlin] PHPMailer class not found. Email functionality will be limited.
+[07-May-2025 16:10:19 Europe/Berlin] PHPMailer class not found. Email functionality will be limited.
+[07-May-2025 16:10:19 Europe/Berlin] PHPMailer class not found. Email functionality will be limited.
+[07-May-2025 16:10:19 Europe/Berlin] PHPMailer class not found. Email functionality will be limited.
+[07-May-2025 16:10:20 Europe/Berlin] PHPMailer class not found. Email functionality will be limited.
+[07-May-2025 16:10:20 Europe/Berlin] PHPMailer class not found. Email functionality will be limited.
+[07-May-2025 16:10:20 Europe/Berlin] PHPMailer class not found. Email functionality will be limited.
+[07-May-2025 16:10:20 Europe/Berlin] PHPMailer class not found. Email functionality will be limited.
+[07-May-2025 16:10:20 Europe/Berlin] PHPMailer class not found. Email functionality will be limited.
+[07-May-2025 16:10:20 Europe/Berlin] PHPMailer class not found. Email functionality will be limited.
+[07-May-2025 16:10:21 Europe/Berlin] PHPMailer class not found. Email functionality will be limited.
+[07-May-2025 16:10:21 Europe/Berlin] PHPMailer class not found. Email functionality will be limited.
+[07-May-2025 16:10:21 Europe/Berlin] PHPMailer class not found. Email functionality will be limited.
+[07-May-2025 16:10:21 Europe/Berlin] PHPMailer class not found. Email functionality will be limited.
+[07-May-2025 16:10:21 Europe/Berlin] PHPMailer class not found. Email functionality will be limited.
+[07-May-2025 16:10:21 Europe/Berlin] PHPMailer class not found. Email functionality will be limited.
+[07-May-2025 16:10:22 Europe/Berlin] PHPMailer class not found. Email functionality will be limited.
+[07-May-2025 16:10:22 Europe/Berlin] PHPMailer class not found. Email functionality will be limited.
+[07-May-2025 16:10:22 Europe/Berlin] PHPMailer class not found. Email functionality will be limited.
+[07-May-2025 16:10:22 Europe/Berlin] PHPMailer class not found. Email functionality will be limited.
+[07-May-2025 16:10:22 Europe/Berlin] PHPMailer class not found. Email functionality will be limited.
+[07-May-2025 16:10:22 Europe/Berlin] PHPMailer class not found. Email functionality will be limited.
+[07-May-2025 16:10:23 Europe/Berlin] PHPMailer class not found. Email functionality will be limited.
+[07-May-2025 16:10:23 Europe/Berlin] PHPMailer class not found. Email functionality will be limited.
+[07-May-2025 16:10:23 Europe/Berlin] PHPMailer class not found. Email functionality will be limited.
+[07-May-2025 16:10:23 Europe/Berlin] PHPMailer class not found. Email functionality will be limited.
+[07-May-2025 16:10:23 Europe/Berlin] PHPMailer class not found. Email functionality will be limited.
+[07-May-2025 16:10:23 Europe/Berlin] PHPMailer class not found. Email functionality will be limited.
+[07-May-2025 16:11:05 Europe/Berlin] PHPMailer class not found. Email functionality will be limited.
+[07-May-2025 16:11:06 Europe/Berlin] PHPMailer class not found. Email functionality will be limited.
+[07-May-2025 16:14:13 Europe/Berlin] PHPMailer class not found. Email functionality will be limited.
+[07-May-2025 16:14:17 Europe/Berlin] [2025-05-07 16:14:17] [INFO] Starting to send invitations for booking ID: 64 with 1 guests
+[07-May-2025 16:14:17 Europe/Berlin] [2025-05-07 16:14:17] [INFO] Processing invitation for: John Hanssen N. Eya <eddiemagtanggol@gmail.com>
+[07-May-2025 16:14:19 Europe/Berlin] [2025-05-07 16:14:19] [ERROR] Error (2): mail(): Failed to connect to mailserver at &quot;localhost&quot; port 25, verify your &quot;SMTP&quot; and &quot;smtp_port&quot; setting in php.ini or use ini_set() in C:\xampp\htdocs\event\email\send-invitations.php on line 237
+[07-May-2025 16:14:19 Europe/Berlin] [2025-05-07 16:14:19] [WARNING] PHP mail() failed for eddiemagtanggol@gmail.com, trying PHPMailer
+[07-May-2025 16:14:23 Europe/Berlin] [2025-05-07 16:14:23] [INFO] Successfully sent invitation to eddiemagtanggol@gmail.com using PHPMailer
+[07-May-2025 16:18:32 Europe/Berlin] [2025-05-07 16:18:32] [INFO] Starting to send invitations for booking ID: 64 with 1 guests
+[07-May-2025 16:18:32 Europe/Berlin] [2025-05-07 16:18:32] [INFO] Processing invitation for: John Hanssen N. Eya <eddiemagtanggol@gmail.com>
+[07-May-2025 16:18:34 Europe/Berlin] [2025-05-07 16:18:34] [ERROR] Error (2): mail(): Failed to connect to mailserver at &quot;localhost&quot; port 25, verify your &quot;SMTP&quot; and &quot;smtp_port&quot; setting in php.ini or use ini_set() in C:\xampp\htdocs\event\email\send-invitations.php on line 163
+[07-May-2025 16:18:34 Europe/Berlin] [2025-05-07 16:18:34] [WARNING] PHP mail() failed for eddiemagtanggol@gmail.com, trying PHPMailer
+[07-May-2025 16:18:37 Europe/Berlin] [2025-05-07 16:18:37] [INFO] Successfully sent invitation to eddiemagtanggol@gmail.com using PHPMailer
+[07-May-2025 17:52:12 Europe/Berlin] [2025-05-07 17:52:12] [INFO] Starting to send invitations for booking ID: 64 with 1 guests
+[07-May-2025 17:52:12 Europe/Berlin] [2025-05-07 17:52:12] [INFO] Processing invitation for: John Hanssen N. Eya <eddiemagtanggol@gmail.com>
+[07-May-2025 17:52:14 Europe/Berlin] [2025-05-07 17:52:14] [ERROR] Error (2): mail(): Failed to connect to mailserver at &quot;localhost&quot; port 25, verify your &quot;SMTP&quot; and &quot;smtp_port&quot; setting in php.ini or use ini_set() in C:\xampp\htdocs\event\email\send-invitations.php on line 163
+[07-May-2025 17:52:14 Europe/Berlin] [2025-05-07 17:52:14] [WARNING] PHP mail() failed for eddiemagtanggol@gmail.com, trying PHPMailer
+[07-May-2025 17:52:18 Europe/Berlin] [2025-05-07 17:52:18] [INFO] Successfully sent invitation to eddiemagtanggol@gmail.com using PHPMailer
+[07-May-2025 17:53:23 Europe/Berlin] [2025-05-07 17:53:23] [INFO] Starting to send invitations for booking ID: 64 with 1 guests
+[07-May-2025 17:53:23 Europe/Berlin] [2025-05-07 17:53:23] [INFO] Processing invitation for: John Hanssen N. Eya <eddiemagtanggol@gmail.com>
+[07-May-2025 17:53:25 Europe/Berlin] [2025-05-07 17:53:25] [ERROR] Error (2): mail(): Failed to connect to mailserver at &quot;localhost&quot; port 25, verify your &quot;SMTP&quot; and &quot;smtp_port&quot; setting in php.ini or use ini_set() in C:\xampp\htdocs\event\email\send-invitations.php on line 163
+[07-May-2025 17:53:25 Europe/Berlin] [2025-05-07 17:53:25] [WARNING] PHP mail() failed for eddiemagtanggol@gmail.com, trying PHPMailer
+[07-May-2025 17:53:28 Europe/Berlin] [2025-05-07 17:53:28] [INFO] Successfully sent invitation to eddiemagtanggol@gmail.com using PHPMailer
+[07-May-2025 18:00:42 Europe/Berlin] [2025-05-07 18:00:42] [INFO] Starting to send invitations for booking ID: 64 with 1 guests
+[07-May-2025 18:00:42 Europe/Berlin] [2025-05-07 18:00:42] [INFO] Processing invitation for: John Hanssen N. Eya <eddiemagtanggol@gmail.com>
+[07-May-2025 18:00:42 Europe/Berlin] [2025-05-07 18:00:42] [INFO] Generated QR code with chillerlan/php-qrcode at C:\xampp\htdocs\event\email/../uploads/qrcodes/guest_5_0ff1d186d9f5b7379fd08b5a4962abd9.png
+[07-May-2025 18:00:44 Europe/Berlin] [2025-05-07 18:00:44] [ERROR] Error (2): mail(): Failed to connect to mailserver at &quot;localhost&quot; port 25, verify your &quot;SMTP&quot; and &quot;smtp_port&quot; setting in php.ini or use ini_set() in C:\xampp\htdocs\event\email\send-invitations.php on line 181
+[07-May-2025 18:00:44 Europe/Berlin] [2025-05-07 18:00:44] [WARNING] PHP mail() failed for eddiemagtanggol@gmail.com, trying PHPMailer
+[07-May-2025 18:00:48 Europe/Berlin] [2025-05-07 18:00:48] [INFO] Successfully sent invitation to eddiemagtanggol@gmail.com using PHPMailer
+[07-May-2025 18:12:49 Europe/Berlin] [2025-05-07 18:12:49] [INFO] Starting to send invitations for booking ID: 64 with 1 guests
+[07-May-2025 18:12:49 Europe/Berlin] [2025-05-07 18:12:49] [INFO] Processing invitation for: John Hanssen N. Eya <eddiemagtanggol@gmail.com>
+[07-May-2025 18:12:49 Europe/Berlin] [2025-05-07 18:12:49] [INFO] Using existing QR code for guest: C:\xampp\htdocs\event\email/../uploads/qrcodes/guest_5_0ff1d186d9f5b7379fd08b5a4962abd9.png
+[07-May-2025 18:12:51 Europe/Berlin] [2025-05-07 18:12:51] [ERROR] Error (2): mail(): Failed to connect to mailserver at &quot;localhost&quot; port 25, verify your &quot;SMTP&quot; and &quot;smtp_port&quot; setting in php.ini or use ini_set() in C:\xampp\htdocs\event\email\send-invitations.php on line 231
+[07-May-2025 18:12:51 Europe/Berlin] [2025-05-07 18:12:51] [WARNING] PHP mail() failed for eddiemagtanggol@gmail.com, trying PHPMailer
+[07-May-2025 18:12:55 Europe/Berlin] [2025-05-07 18:12:55] [INFO] Successfully sent invitation to eddiemagtanggol@gmail.com using PHPMailer
+[07-May-2025 18:17:49 Europe/Berlin] [2025-05-07 18:17:49] [INFO] Starting to send invitations for booking ID: 64 with 1 guests
+[07-May-2025 18:17:49 Europe/Berlin] [2025-05-07 18:17:49] [INFO] Processing invitation for: John Hanssen N. Eya <eddiemagtanggol@gmail.com>
+[07-May-2025 18:17:49 Europe/Berlin] [2025-05-07 18:17:49] [INFO] Using existing QR code for guest: C:\xampp\htdocs\event\email/../uploads/qrcodes/guest_5_0ff1d186d9f5b7379fd08b5a4962abd9.png
+[07-May-2025 18:17:49 Europe/Berlin] [2025-05-07 18:17:49] [INFO] Fixed QR code URL for local Windows environment: http://localhost/uploads/qrcodes/guest_5_0ff1d186d9f5b7379fd08b5a4962abd9.png
+[07-May-2025 18:17:49 Europe/Berlin] [2025-05-07 18:17:49] [INFO] QR code URL in email: http://localhost/uploads/qrcodes/guest_5_0ff1d186d9f5b7379fd08b5a4962abd9.png
+[07-May-2025 18:17:51 Europe/Berlin] [2025-05-07 18:17:51] [ERROR] Error (2): mail(): Failed to connect to mailserver at &quot;localhost&quot; port 25, verify your &quot;SMTP&quot; and &quot;smtp_port&quot; setting in php.ini or use ini_set() in C:\xampp\htdocs\event\email\send-invitations.php on line 244
+[07-May-2025 18:17:51 Europe/Berlin] [2025-05-07 18:17:51] [WARNING] PHP mail() failed for eddiemagtanggol@gmail.com, trying PHPMailer
+[07-May-2025 18:17:54 Europe/Berlin] [2025-05-07 18:17:54] [INFO] Successfully sent invitation to eddiemagtanggol@gmail.com using PHPMailer
+[07-May-2025 18:21:47 Europe/Berlin] [2025-05-07 18:21:47] [INFO] Starting to send invitations for booking ID: 64 with 1 guests
+[07-May-2025 18:21:47 Europe/Berlin] [2025-05-07 18:21:47] [INFO] Processing invitation for: John Hanssen N. Eya <eddiemagtanggol@gmail.com>
+[07-May-2025 18:21:47 Europe/Berlin] [2025-05-07 18:21:47] [INFO] Using existing QR code for guest: C:\xampp\htdocs\event\email/../uploads/qrcodes/guest_5_0ff1d186d9f5b7379fd08b5a4962abd9.png
+[07-May-2025 18:21:47 Europe/Berlin] [2025-05-07 18:21:47] [INFO] Fixed QR code URL for local Windows environment: http://localhost/uploads/qrcodes/guest_5_0ff1d186d9f5b7379fd08b5a4962abd9.png
+[07-May-2025 18:21:47 Europe/Berlin] [2025-05-07 18:21:47] [INFO] QR code URL in email: http://localhost/uploads/qrcodes/guest_5_0ff1d186d9f5b7379fd08b5a4962abd9.png
+[07-May-2025 18:21:49 Europe/Berlin] [2025-05-07 18:21:49] [ERROR] Error (2): mail(): Failed to connect to mailserver at &quot;localhost&quot; port 25, verify your &quot;SMTP&quot; and &quot;smtp_port&quot; setting in php.ini or use ini_set() in C:\xampp\htdocs\event\email\send-invitations.php on line 244
+[07-May-2025 18:21:49 Europe/Berlin] [2025-05-07 18:21:49] [WARNING] PHP mail() failed for eddiemagtanggol@gmail.com, trying PHPMailer
+[07-May-2025 18:21:49 Europe/Berlin] [2025-05-07 18:21:49] [INFO] Embedding QR code in email using PHPMailer with CID: qrimage
+[07-May-2025 18:21:54 Europe/Berlin] [2025-05-07 18:21:54] [INFO] Successfully sent invitation to eddiemagtanggol@gmail.com using PHPMailer
+[07-May-2025 18:22:15 Europe/Berlin] [2025-05-07 18:22:15] [INFO] Starting to send invitations for booking ID: 64 with 1 guests
+[07-May-2025 18:22:15 Europe/Berlin] [2025-05-07 18:22:15] [INFO] Processing invitation for: John Hanssen N. Eya <eddiemagtanggol@gmail.com>
+[07-May-2025 18:22:17 Europe/Berlin] [2025-05-07 18:22:17] [ERROR] Error (2): mail(): Failed to connect to mailserver at &quot;localhost&quot; port 25, verify your &quot;SMTP&quot; and &quot;smtp_port&quot; setting in php.ini or use ini_set() in C:\xampp\htdocs\event\email\send-invitations.php on line 163
+[07-May-2025 18:22:17 Europe/Berlin] [2025-05-07 18:22:17] [WARNING] PHP mail() failed for eddiemagtanggol@gmail.com, trying PHPMailer
+[07-May-2025 18:22:21 Europe/Berlin] [2025-05-07 18:22:21] [INFO] Successfully sent invitation to eddiemagtanggol@gmail.com using PHPMailer
+[07-May-2025 18:29:18 Europe/Berlin] [2025-05-07 18:29:18] [INFO] Starting to send invitations for booking ID: 64 with 1 guests
+[07-May-2025 18:29:18 Europe/Berlin] [2025-05-07 18:29:18] [INFO] Processing invitation for: John Hanssen N. Eya <eddiemagtanggol@gmail.com>
+[07-May-2025 18:29:18 Europe/Berlin] [2025-05-07 18:29:18] [INFO] Generating new QR code for guest: John Hanssen N. Eya
+[07-May-2025 18:29:18 Europe/Berlin] [2025-05-07 18:29:18] [INFO] Created QR code using PHP QR Code library
+[07-May-2025 18:29:20 Europe/Berlin] [2025-05-07 18:29:20] [ERROR] Error (2): mail(): Failed to connect to mailserver at &quot;localhost&quot; port 25, verify your &quot;SMTP&quot; and &quot;smtp_port&quot; setting in php.ini or use ini_set() in C:\xampp\htdocs\event\email\send-invitations.php on line 255
+[07-May-2025 18:29:20 Europe/Berlin] [2025-05-07 18:29:20] [WARNING] PHP mail() failed for eddiemagtanggol@gmail.com, trying PHPMailer
+[07-May-2025 18:29:27 Europe/Berlin] [2025-05-07 18:29:27] [INFO] Successfully sent invitation to eddiemagtanggol@gmail.com using PHPMailer
+[07-May-2025 18:31:09 Europe/Berlin] [2025-05-07 18:31:09] [INFO] Starting to send invitations for booking ID: 64 with 1 guests
+[07-May-2025 18:31:09 Europe/Berlin] [2025-05-07 18:31:09] [INFO] Processing invitation for: John Hanssen N. Eya <eddiemagtanggol@gmail.com>
+[07-May-2025 18:31:09 Europe/Berlin] [2025-05-07 18:31:09] [INFO] Using existing QR code for guest: John Hanssen N. Eya
+[07-May-2025 18:31:11 Europe/Berlin] [2025-05-07 18:31:11] [ERROR] Error (2): mail(): Failed to connect to mailserver at &quot;localhost&quot; port 25, verify your &quot;SMTP&quot; and &quot;smtp_port&quot; setting in php.ini or use ini_set() in C:\xampp\htdocs\event\email\send-invitations.php on line 255
+[07-May-2025 18:31:11 Europe/Berlin] [2025-05-07 18:31:11] [WARNING] PHP mail() failed for eddiemagtanggol@gmail.com, trying PHPMailer
+[07-May-2025 18:31:17 Europe/Berlin] [2025-05-07 18:31:17] [INFO] Successfully sent invitation to eddiemagtanggol@gmail.com using PHPMailer
+[07-May-2025 18:33:44 Europe/Berlin] [2025-05-07 18:33:44] [INFO] Starting to send invitations for booking ID: 64 with 1 guests
+[07-May-2025 18:33:44 Europe/Berlin] [2025-05-07 18:33:44] [INFO] Processing invitation for: John Hanssen N. Eya <eddiemagtanggol@gmail.com>
+[07-May-2025 18:33:44 Europe/Berlin] [2025-05-07 18:33:44] [INFO] Using existing QR code for guest: John Hanssen N. Eya
+[07-May-2025 18:33:46 Europe/Berlin] [2025-05-07 18:33:46] [ERROR] Error (2): mail(): Failed to connect to mailserver at &quot;localhost&quot; port 25, verify your &quot;SMTP&quot; and &quot;smtp_port&quot; setting in php.ini or use ini_set() in C:\xampp\htdocs\event\email\send-invitations.php on line 245
+[07-May-2025 18:33:46 Europe/Berlin] [2025-05-07 18:33:46] [WARNING] PHP mail() failed for eddiemagtanggol@gmail.com, trying PHPMailer
+[07-May-2025 18:33:50 Europe/Berlin] [2025-05-07 18:33:50] [INFO] Successfully sent invitation to eddiemagtanggol@gmail.com using PHPMailer
+[07-May-2025 18:37:29 Europe/Berlin] [2025-05-07 18:37:29] [INFO] Starting to send invitations for booking ID: 64 with 1 guests
+[07-May-2025 18:37:29 Europe/Berlin] [2025-05-07 18:37:29] [INFO] Processing invitation for: John Hanssen N. Eya <eddiemagtanggol@gmail.com>
+[07-May-2025 18:37:29 Europe/Berlin] [2025-05-07 18:37:29] [INFO] Using existing QR code for guest: John Hanssen N. Eya
+[07-May-2025 18:37:31 Europe/Berlin] [2025-05-07 18:37:31] [ERROR] Error (2): mail(): Failed to connect to mailserver at &quot;localhost&quot; port 25, verify your &quot;SMTP&quot; and &quot;smtp_port&quot; setting in php.ini or use ini_set() in C:\xampp\htdocs\event\email\send-invitations.php on line 241
+[07-May-2025 18:37:31 Europe/Berlin] [2025-05-07 18:37:31] [WARNING] PHP mail() failed for eddiemagtanggol@gmail.com, trying PHPMailer
+[07-May-2025 18:37:36 Europe/Berlin] [2025-05-07 18:37:36] [INFO] Successfully sent invitation to eddiemagtanggol@gmail.com using PHPMailer
+[07-May-2025 18:40:42 Europe/Berlin] [2025-05-07 18:40:42] [INFO] Starting to send invitations for booking ID: 64 with 1 guests
+[07-May-2025 18:40:42 Europe/Berlin] [2025-05-07 18:40:42] [INFO] Processing invitation for: John Hanssen N. Eya <eddiemagtanggol@gmail.com>
+[07-May-2025 18:40:42 Europe/Berlin] [2025-05-07 18:40:42] [INFO] Using existing QR code for guest: John Hanssen N. Eya
+[07-May-2025 18:40:44 Europe/Berlin] [2025-05-07 18:40:44] [ERROR] Error (2): mail(): Failed to connect to mailserver at &quot;localhost&quot; port 25, verify your &quot;SMTP&quot; and &quot;smtp_port&quot; setting in php.ini or use ini_set() in C:\xampp\htdocs\event\email\send-invitations.php on line 233
+[07-May-2025 18:40:44 Europe/Berlin] [2025-05-07 18:40:44] [WARNING] PHP mail() failed for eddiemagtanggol@gmail.com, trying PHPMailer
+[07-May-2025 18:40:48 Europe/Berlin] [2025-05-07 18:40:48] [INFO] Successfully sent invitation to eddiemagtanggol@gmail.com using PHPMailer
+[07-May-2025 18:42:18 Europe/Berlin] [2025-05-07 18:42:18] [INFO] Starting to send invitations for booking ID: 64 with 1 guests
+[07-May-2025 18:42:18 Europe/Berlin] [2025-05-07 18:42:18] [INFO] Processing invitation for: John Hanssen N. Eya <eddiemagtanggol@gmail.com>
+[07-May-2025 18:42:18 Europe/Berlin] [2025-05-07 18:42:18] [INFO] Using existing QR code for guest: John Hanssen N. Eya
+[07-May-2025 18:42:20 Europe/Berlin] [2025-05-07 18:42:20] [ERROR] Error (2): mail(): Failed to connect to mailserver at &quot;localhost&quot; port 25, verify your &quot;SMTP&quot; and &quot;smtp_port&quot; setting in php.ini or use ini_set() in C:\xampp\htdocs\event\email\send-invitations.php on line 233
+[07-May-2025 18:42:20 Europe/Berlin] [2025-05-07 18:42:20] [WARNING] PHP mail() failed for eddiemagtanggol@gmail.com, trying PHPMailer
+[07-May-2025 18:42:24 Europe/Berlin] [2025-05-07 18:42:24] [INFO] Successfully sent invitation to eddiemagtanggol@gmail.com using PHPMailer
+[07-May-2025 18:42:52 Europe/Berlin] [2025-05-07 18:42:52] [INFO] Starting to send invitations for booking ID: 64 with 1 guests
+[07-May-2025 18:42:52 Europe/Berlin] [2025-05-07 18:42:52] [INFO] Processing invitation for: John Hanssen N. Eya <eddiemagtanggol@gmail.com>
+[07-May-2025 18:42:54 Europe/Berlin] [2025-05-07 18:42:54] [ERROR] Error (2): mail(): Failed to connect to mailserver at &quot;localhost&quot; port 25, verify your &quot;SMTP&quot; and &quot;smtp_port&quot; setting in php.ini or use ini_set() in C:\xampp\htdocs\event\email\send-invitations.php on line 163
+[07-May-2025 18:42:54 Europe/Berlin] [2025-05-07 18:42:54] [WARNING] PHP mail() failed for eddiemagtanggol@gmail.com, trying PHPMailer
+[07-May-2025 18:42:58 Europe/Berlin] [2025-05-07 18:42:58] [INFO] Successfully sent invitation to eddiemagtanggol@gmail.com using PHPMailer
+[07-May-2025 18:49:03 Europe/Berlin] [2025-05-07 18:49:03] [INFO] Starting to send invitations for booking ID: 64 with 1 guests
+[07-May-2025 18:49:03 Europe/Berlin] [2025-05-07 18:49:03] [INFO] Processing invitation for: John Hanssen N. Eya <eddiemagtanggol@gmail.com>
+[07-May-2025 18:49:05 Europe/Berlin] [2025-05-07 18:49:05] [ERROR] Error (2): mail(): Failed to connect to mailserver at &quot;localhost&quot; port 25, verify your &quot;SMTP&quot; and &quot;smtp_port&quot; setting in php.ini or use ini_set() in C:\xampp\htdocs\event\email\send-invitations.php on line 177
+[07-May-2025 18:49:05 Europe/Berlin] [2025-05-07 18:49:05] [WARNING] PHP mail() failed for eddiemagtanggol@gmail.com, trying PHPMailer
+[07-May-2025 18:49:09 Europe/Berlin] [2025-05-07 18:49:09] [INFO] Successfully sent invitation to eddiemagtanggol@gmail.com using PHPMailer
+[07-May-2025 18:53:26 Europe/Berlin] [2025-05-07 18:53:26] [INFO] Starting to send invitations for booking ID: 64 with 1 guests
+[07-May-2025 18:53:26 Europe/Berlin] [2025-05-07 18:53:26] [INFO] Processing invitation for: John Hanssen N. Eya <eddiemagtanggol@gmail.com>
+[07-May-2025 18:53:26 Europe/Berlin] [2025-05-07 18:53:26] [INFO] Attempting to generate QR code using API: https://api.qrserver.com/v1/create-qr-code/?size=150x150&data=https%3A%2F%2Fbarnbackyard.com%2Fconfirm-attendance%3Fref%3DBK20250507133833676%26guest%3DJohn%2BHanssen%2BN.%2BEya
+[07-May-2025 18:53:28 Europe/Berlin] [2025-05-07 18:53:28] [INFO] Successfully generated QR code using API
+[07-May-2025 18:53:28 Europe/Berlin] [2025-05-07 18:53:28] [INFO] Replaced QR code placeholder for guest: John Hanssen N. Eya
+[07-May-2025 18:53:28 Europe/Berlin] [2025-05-07 18:53:28] [INFO] Saved debug email HTML to: C:\xampp\htdocs\event\email/logs/debug_email_1746636808_0974720dc5f0310da8a09a91126755e2.html
+[07-May-2025 18:53:30 Europe/Berlin] [2025-05-07 18:53:30] [ERROR] Error (2): mail(): Failed to connect to mailserver at &quot;localhost&quot; port 25, verify your &quot;SMTP&quot; and &quot;smtp_port&quot; setting in php.ini or use ini_set() in C:\xampp\htdocs\event\email\send-invitations.php on line 186
+[07-May-2025 18:53:30 Europe/Berlin] [2025-05-07 18:53:30] [WARNING] PHP mail() failed for eddiemagtanggol@gmail.com, trying PHPMailer
+[07-May-2025 18:53:34 Europe/Berlin] [2025-05-07 18:53:34] [INFO] Successfully sent invitation to eddiemagtanggol@gmail.com using PHPMailer
+[07-May-2025 18:53:34 Europe/Berlin] [2025-05-07 18:53:34] [INFO] Successfully stored QR code URL in database for guest ID: 5
+[07-May-2025 18:53:49 Europe/Berlin] [2025-05-07 18:53:49] [INFO] Starting to send invitations for booking ID: 64 with 1 guests
+[07-May-2025 18:53:49 Europe/Berlin] [2025-05-07 18:53:49] [INFO] Processing invitation for: John Hanssen N. Eya <eddiemagtanggol@gmail.com>
+[07-May-2025 18:53:51 Europe/Berlin] [2025-05-07 18:53:51] [ERROR] Error (2): mail(): Failed to connect to mailserver at &quot;localhost&quot; port 25, verify your &quot;SMTP&quot; and &quot;smtp_port&quot; setting in php.ini or use ini_set() in C:\xampp\htdocs\event\email\send-invitations.php on line 163
+[07-May-2025 18:53:51 Europe/Berlin] [2025-05-07 18:53:51] [WARNING] PHP mail() failed for eddiemagtanggol@gmail.com, trying PHPMailer
+[07-May-2025 18:53:55 Europe/Berlin] [2025-05-07 18:53:55] [INFO] Successfully sent invitation to eddiemagtanggol@gmail.com using PHPMailer
+[07-May-2025 18:58:17 Europe/Berlin] [2025-05-07 18:58:17] [INFO] Starting to send invitations for booking ID: 64 with 1 guests
+[07-May-2025 18:58:17 Europe/Berlin] [2025-05-07 18:58:17] [INFO] Processing invitation for: John Hanssen N. Eya <eddiemagtanggol@gmail.com>
+[07-May-2025 18:58:19 Europe/Berlin] [2025-05-07 18:58:19] [ERROR] Error (2): mail(): Failed to connect to mailserver at &quot;localhost&quot; port 25, verify your &quot;SMTP&quot; and &quot;smtp_port&quot; setting in php.ini or use ini_set() in C:\xampp\htdocs\event\email\send-invitations.php on line 166
+[07-May-2025 18:58:19 Europe/Berlin] [2025-05-07 18:58:19] [WARNING] PHP mail() failed for eddiemagtanggol@gmail.com, trying PHPMailer
+[07-May-2025 18:58:23 Europe/Berlin] [2025-05-07 18:58:23] [INFO] Successfully sent invitation to eddiemagtanggol@gmail.com using PHPMailer
+[07-May-2025 19:01:42 Europe/Berlin] [2025-05-07 19:01:42] [INFO] Starting to send invitations for booking ID: 64 with 1 guests
+[07-May-2025 19:01:42 Europe/Berlin] [2025-05-07 19:01:42] [INFO] Processing invitation for: John Hanssen N. Eya <eddiemagtanggol@gmail.com>
+[07-May-2025 19:01:44 Europe/Berlin] [2025-05-07 19:01:44] [ERROR] Error (2): mail(): Failed to connect to mailserver at &quot;localhost&quot; port 25, verify your &quot;SMTP&quot; and &quot;smtp_port&quot; setting in php.ini or use ini_set() in C:\xampp\htdocs\event\email\send-invitations.php on line 165
+[07-May-2025 19:01:44 Europe/Berlin] [2025-05-07 19:01:44] [WARNING] PHP mail() failed for eddiemagtanggol@gmail.com, trying PHPMailer
+[07-May-2025 19:01:49 Europe/Berlin] [2025-05-07 19:01:49] [INFO] Successfully sent invitation to eddiemagtanggol@gmail.com using PHPMailer
+[07-May-2025 19:04:42 Europe/Berlin] [2025-05-07 19:04:42] [INFO] Starting to send invitations for booking ID: 64 with 1 guests
+[07-May-2025 19:04:42 Europe/Berlin] [2025-05-07 19:04:42] [INFO] Processing invitation for: John Hanssen N. Eya <eddiemagtanggol@gmail.com>
+[07-May-2025 19:04:44 Europe/Berlin] [2025-05-07 19:04:44] [ERROR] Error (2): mail(): Failed to connect to mailserver at &quot;localhost&quot; port 25, verify your &quot;SMTP&quot; and &quot;smtp_port&quot; setting in php.ini or use ini_set() in C:\xampp\htdocs\event\email\send-invitations.php on line 165
+[07-May-2025 19:04:44 Europe/Berlin] [2025-05-07 19:04:44] [WARNING] PHP mail() failed for eddiemagtanggol@gmail.com, trying PHPMailer
+[07-May-2025 19:04:48 Europe/Berlin] [2025-05-07 19:04:48] [INFO] Successfully sent invitation to eddiemagtanggol@gmail.com using PHPMailer
+[07-May-2025 19:07:50 Europe/Berlin] [2025-05-07 19:07:50] [INFO] Starting to send invitations for booking ID: 64 with 1 guests
+[07-May-2025 19:07:50 Europe/Berlin] [2025-05-07 19:07:50] [INFO] Processing invitation for: John Hanssen N. Eya <eddiemagtanggol@gmail.com>
+[07-May-2025 19:07:52 Europe/Berlin] [2025-05-07 19:07:52] [ERROR] Error (2): mail(): Failed to connect to mailserver at &quot;localhost&quot; port 25, verify your &quot;SMTP&quot; and &quot;smtp_port&quot; setting in php.ini or use ini_set() in C:\xampp\htdocs\event\email\send-invitations.php on line 165
+[07-May-2025 19:07:52 Europe/Berlin] [2025-05-07 19:07:52] [WARNING] PHP mail() failed for eddiemagtanggol@gmail.com, trying PHPMailer
+[07-May-2025 19:07:56 Europe/Berlin] [2025-05-07 19:07:56] [INFO] Successfully sent invitation to eddiemagtanggol@gmail.com using PHPMailer
+[07-May-2025 19:11:43 Europe/Berlin] [2025-05-07 19:11:43] [INFO] Starting to send invitations for booking ID: 64 with 1 guests
+[07-May-2025 19:11:43 Europe/Berlin] [2025-05-07 19:11:43] [INFO] Processing invitation for: John Hanssen N. Eya <eddiemagtanggol@gmail.com>
+[07-May-2025 19:11:45 Europe/Berlin] [2025-05-07 19:11:45] [ERROR] Error (2): mail(): Failed to connect to mailserver at &quot;localhost&quot; port 25, verify your &quot;SMTP&quot; and &quot;smtp_port&quot; setting in php.ini or use ini_set() in C:\xampp\htdocs\event\email\send-invitations.php on line 165
+[07-May-2025 19:11:45 Europe/Berlin] [2025-05-07 19:11:45] [WARNING] PHP mail() failed for eddiemagtanggol@gmail.com, trying PHPMailer
+[07-May-2025 19:11:48 Europe/Berlin] [2025-05-07 19:11:48] [INFO] Successfully sent invitation to eddiemagtanggol@gmail.com using PHPMailer
+[07-May-2025 19:14:10 Europe/Berlin] [2025-05-07 19:14:10] [INFO] Starting to send invitations for booking ID: 64 with 1 guests
+[07-May-2025 19:14:10 Europe/Berlin] [2025-05-07 19:14:10] [INFO] Processing invitation for: John Hanssen N. Eya <eddiemagtanggol@gmail.com>
+[07-May-2025 19:14:12 Europe/Berlin] [2025-05-07 19:14:12] [ERROR] Error (2): mail(): Failed to connect to mailserver at &quot;localhost&quot; port 25, verify your &quot;SMTP&quot; and &quot;smtp_port&quot; setting in php.ini or use ini_set() in C:\xampp\htdocs\event\email\send-invitations.php on line 166
+[07-May-2025 19:14:12 Europe/Berlin] [2025-05-07 19:14:12] [WARNING] PHP mail() failed for eddiemagtanggol@gmail.com, trying PHPMailer
+[07-May-2025 19:14:16 Europe/Berlin] [2025-05-07 19:14:16] [INFO] Successfully sent invitation to eddiemagtanggol@gmail.com using PHPMailer
+[07-May-2025 19:16:10 Europe/Berlin] [2025-05-07 19:16:10] [INFO] Starting to send invitations for booking ID: 64 with 1 guests
+[07-May-2025 19:16:10 Europe/Berlin] [2025-05-07 19:16:10] [INFO] Processing invitation for: John Hanssen N. Eya <eddiemagtanggol@gmail.com>
+[07-May-2025 19:16:12 Europe/Berlin] [2025-05-07 19:16:12] [ERROR] Error (2): mail(): Failed to connect to mailserver at &quot;localhost&quot; port 25, verify your &quot;SMTP&quot; and &quot;smtp_port&quot; setting in php.ini or use ini_set() in C:\xampp\htdocs\event\email\send-invitations.php on line 166
+[07-May-2025 19:16:12 Europe/Berlin] [2025-05-07 19:16:12] [WARNING] PHP mail() failed for eddiemagtanggol@gmail.com, trying PHPMailer
+[07-May-2025 19:16:16 Europe/Berlin] [2025-05-07 19:16:16] [INFO] Successfully sent invitation to eddiemagtanggol@gmail.com using PHPMailer
+[07-May-2025 19:20:28 Europe/Berlin] [2025-05-07 19:20:28] [INFO] Starting to send invitations for booking ID: 64 with 1 guests
+[07-May-2025 19:20:28 Europe/Berlin] [2025-05-07 19:20:28] [INFO] Processing invitation for: John Hanssen N. Eya <eddiemagtanggol@gmail.com>
+[07-May-2025 19:20:28 Europe/Berlin] [2025-05-07 19:20:28] [ERROR] Error (2): file_get_contents(https://chart.googleapis.com/chart?chs=300x300&amp;cht=qr&amp;chl=%7B%22event%22%3A%22BK20250507133833676%22%2C%22guest%22%3A%22John+Hanssen+N.+Eya%22%2C%22id%22%3A5%7D): Failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+ in C:\xampp\htdocs\event\email\send-invitations.php on line 182
+[07-May-2025 19:20:28 Europe/Berlin] [2025-05-07 19:20:28] [INFO] Generated fallback QR image: C:\xampp\htdocs\event\email/temp_qrcodes/BK20250507133833676_bc2e22e04025a8284ccbd34012146084.png
+[07-May-2025 19:20:28 Europe/Berlin] [2025-05-07 19:20:28] [INFO] Attached QR code to email: C:\xampp\htdocs\event\email/temp_qrcodes/BK20250507133833676_bc2e22e04025a8284ccbd34012146084.png
+[07-May-2025 19:20:33 Europe/Berlin] [2025-05-07 19:20:33] [INFO] Successfully sent invitation to eddiemagtanggol@gmail.com using PHPMailer
+[07-May-2025 19:22:49 Europe/Berlin] [2025-05-07 19:22:49] [INFO] Starting to send invitations for booking ID: 64 with 1 guests
+[07-May-2025 19:22:49 Europe/Berlin] [2025-05-07 19:22:49] [INFO] Processing invitation for: John Hanssen N. Eya <eddiemagtanggol@gmail.com>
+[07-May-2025 19:22:50 Europe/Berlin] [2025-05-07 19:22:50] [ERROR] Error (2): file_get_contents(https://chart.googleapis.com/chart?chs=500x500&amp;cht=qr&amp;chl=%7B%22event%22%3A%22BK20250507133833676%22%2C%22guest%22%3A%22John+Hanssen+N.+Eya%22%7D&amp;chld=H|0): Failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+ in C:\xampp\htdocs\event\email\send-invitations.php on line 183
+[07-May-2025 19:22:50 Europe/Berlin] [2025-05-07 19:22:50] [WARNING] Google Charts API didn't return a valid QR image
+[07-May-2025 19:22:50 Europe/Berlin] [2025-05-07 19:22:50] [INFO] Generated fallback QR image: C:\xampp\htdocs\event\email/temp_qrcodes/BK20250507133833676_bc2e22e04025a8284ccbd34012146084.png
+[07-May-2025 19:22:51 Europe/Berlin] [2025-05-07 19:22:51] [INFO] Attached QR code to email: C:\xampp\htdocs\event\email/temp_qrcodes/BK20250507133833676_bc2e22e04025a8284ccbd34012146084.png
+[07-May-2025 19:22:55 Europe/Berlin] [2025-05-07 19:22:55] [INFO] Successfully sent invitation to eddiemagtanggol@gmail.com using PHPMailer
+[07-May-2025 19:27:01 Europe/Berlin] [2025-05-07 19:27:01] [INFO] Starting to send invitations for booking ID: 64 with 1 guests
+[07-May-2025 19:27:01 Europe/Berlin] [2025-05-07 19:27:01] [INFO] Processing invitation for: John Hanssen N. Eya <eddiemagtanggol@gmail.com>
+[07-May-2025 19:27:01 Europe/Berlin] [2025-05-07 19:27:01] [ERROR] Error (2): file_get_contents(https://chart.googleapis.com/chart?chs=500x500&amp;cht=qr&amp;chl=%7B%22event%22%3A%22BK20250507133833676%22%2C%22guest%22%3A%22John+Hanssen+N.+Eya%22%7D&amp;chld=H|0): Failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+ in C:\xampp\htdocs\event\email\send-invitations.php on line 183
+[07-May-2025 19:27:01 Europe/Berlin] [2025-05-07 19:27:01] [WARNING] Google Charts API didn't return a valid QR image
+[07-May-2025 19:27:01 Europe/Berlin] [2025-05-07 19:27:01] [INFO] Generated simple text image: C:\xampp\htdocs\event\email/temp_qrcodes/BK20250507133833676_bc2e22e04025a8284ccbd34012146084.png
+[07-May-2025 19:27:01 Europe/Berlin] [2025-05-07 19:27:01] [INFO] Attached QR code to email: C:\xampp\htdocs\event\email/temp_qrcodes/BK20250507133833676_bc2e22e04025a8284ccbd34012146084.png
+[07-May-2025 19:27:05 Europe/Berlin] [2025-05-07 19:27:05] [INFO] Successfully sent invitation to eddiemagtanggol@gmail.com using PHPMailer
+[07-May-2025 19:29:20 Europe/Berlin] [2025-05-07 19:29:20] [INFO] Starting to send invitations for booking ID: 64 with 1 guests
+[07-May-2025 19:29:20 Europe/Berlin] [2025-05-07 19:29:20] [INFO] Processing invitation for: John Hanssen N. Eya <eddiemagtanggol@gmail.com>
+[07-May-2025 19:29:20 Europe/Berlin] [2025-05-07 19:29:20] [ERROR] Error (2): file_get_contents(https://chart.googleapis.com/chart?chs=300x300&amp;cht=qr&amp;chl=BK20250507133833676%0AJohn+Hanssen+N.+Eya&amp;chld=M|0): Failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+ in C:\xampp\htdocs\event\email\send-invitations.php on line 180
+[07-May-2025 19:29:20 Europe/Berlin] [2025-05-07 19:29:20] [WARNING] Google Charts API didn't return a valid QR image
+[07-May-2025 19:29:22 Europe/Berlin] [2025-05-07 19:29:22] [INFO] Generated QR code using alternative QR service
+[07-May-2025 19:29:22 Europe/Berlin] [2025-05-07 19:29:22] [INFO] Attached QR code to email: C:\xampp\htdocs\event\email/temp_qrcodes/BK20250507133833676_bc2e22e04025a8284ccbd34012146084.png
+[07-May-2025 19:29:26 Europe/Berlin] [2025-05-07 19:29:26] [INFO] Successfully sent invitation to eddiemagtanggol@gmail.com using PHPMailer
+[07-May-2025 20:39:52 Europe/Berlin] [2025-05-07 20:39:52] [INFO] Starting to send invitations for booking ID: 66 with 1 guests
+[07-May-2025 20:39:52 Europe/Berlin] [2025-05-07 20:39:52] [INFO] Processing invitation for: John Eya <amincuevas3@gmail.com>
+[07-May-2025 20:39:52 Europe/Berlin] [2025-05-07 20:39:52] [ERROR] Error (2): file_get_contents(https://chart.googleapis.com/chart?chs=300x300&amp;cht=qr&amp;chl=BK20250507203844890%0AJohn+Eya&amp;chld=M|0): Failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+ in C:\xampp\htdocs\event\email\send-invitations.php on line 180
+[07-May-2025 20:39:52 Europe/Berlin] [2025-05-07 20:39:52] [WARNING] Google Charts API didn't return a valid QR image
+[07-May-2025 20:39:54 Europe/Berlin] [2025-05-07 20:39:54] [INFO] Generated QR code using alternative QR service
+[07-May-2025 20:39:54 Europe/Berlin] [2025-05-07 20:39:54] [INFO] Attached QR code to email: C:\xampp\htdocs\event\email/temp_qrcodes/BK20250507203844890_0320b0e2821a2d1dd011e907f3e95c03.png
+[07-May-2025 20:39:56 Europe/Berlin] [2025-05-07 20:39:56] [ERROR] PHPMailer exception: SMTP Error: Could not connect to SMTP host. Connection failed. stream_socket_enable_crypto(): SSL operation failed with code 1. OpenSSL Error messages:
+error:0A000086:SSL routines::certificate verify failed
+[07-May-2025 20:40:13 Europe/Berlin] [2025-05-07 20:40:13] [INFO] Starting to send invitations for booking ID: 66 with 1 guests
+[07-May-2025 20:40:13 Europe/Berlin] [2025-05-07 20:40:13] [INFO] Processing invitation for: John Eya <amincuevas3@gmail.com>
+[07-May-2025 20:40:14 Europe/Berlin] [2025-05-07 20:40:14] [ERROR] Error (2): file_get_contents(https://chart.googleapis.com/chart?chs=300x300&amp;cht=qr&amp;chl=BK20250507203844890%0AJohn+Eya&amp;chld=M|0): Failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+ in C:\xampp\htdocs\event\email\send-invitations.php on line 180
+[07-May-2025 20:40:14 Europe/Berlin] [2025-05-07 20:40:14] [WARNING] Google Charts API didn't return a valid QR image
+[07-May-2025 20:40:15 Europe/Berlin] [2025-05-07 20:40:15] [INFO] Generated QR code using alternative QR service
+[07-May-2025 20:40:15 Europe/Berlin] [2025-05-07 20:40:15] [INFO] Attached QR code to email: C:\xampp\htdocs\event\email/temp_qrcodes/BK20250507203844890_0320b0e2821a2d1dd011e907f3e95c03.png
+[07-May-2025 20:40:17 Europe/Berlin] [2025-05-07 20:40:17] [ERROR] PHPMailer exception: SMTP Error: Could not connect to SMTP host. Connection failed. stream_socket_enable_crypto(): SSL operation failed with code 1. OpenSSL Error messages:
+error:0A000086:SSL routines::certificate verify failed
+[07-May-2025 20:47:02 Europe/Berlin] [2025-05-07 20:47:02] [INFO] Starting to send invitations for booking ID: 66 with 2 guests
+[07-May-2025 20:47:02 Europe/Berlin] [2025-05-07 20:47:02] [INFO] Processing invitation for: John Hanssen N. Eya <eddiemagtanggol@gmail.com>
+[07-May-2025 20:47:03 Europe/Berlin] [2025-05-07 20:47:03] [ERROR] Error (2): file_get_contents(https://chart.googleapis.com/chart?chs=300x300&amp;cht=qr&amp;chl=BK20250507204559533%0AJohn+Hanssen+N.+Eya&amp;chld=M|0): Failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+ in C:\xampp\htdocs\event\email\send-invitations.php on line 180
+[07-May-2025 20:47:03 Europe/Berlin] [2025-05-07 20:47:03] [WARNING] Google Charts API didn't return a valid QR image
+[07-May-2025 20:47:04 Europe/Berlin] [2025-05-07 20:47:04] [INFO] Generated QR code using alternative QR service
+[07-May-2025 20:47:04 Europe/Berlin] [2025-05-07 20:47:04] [INFO] Attached QR code to email: C:\xampp\htdocs\event\email/temp_qrcodes/BK20250507204559533_3a0e9922a5aa54e8d7ad7f56dfec32c2.png
+[07-May-2025 20:47:08 Europe/Berlin] [2025-05-07 20:47:08] [INFO] Successfully sent invitation to eddiemagtanggol@gmail.com using PHPMailer
+[07-May-2025 20:47:08 Europe/Berlin] [2025-05-07 20:47:08] [INFO] Processing invitation for: Mike Acenas <mikeacenas2715@gmail.com>
+[07-May-2025 20:47:09 Europe/Berlin] [2025-05-07 20:47:09] [ERROR] Error (2): file_get_contents(https://chart.googleapis.com/chart?chs=300x300&amp;cht=qr&amp;chl=BK20250507204559533%0AMike+Acenas&amp;chld=M|0): Failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+ in C:\xampp\htdocs\event\email\send-invitations.php on line 180
+[07-May-2025 20:47:09 Europe/Berlin] [2025-05-07 20:47:09] [WARNING] Google Charts API didn't return a valid QR image
+[07-May-2025 20:47:10 Europe/Berlin] [2025-05-07 20:47:10] [INFO] Generated QR code using alternative QR service
+[07-May-2025 20:47:10 Europe/Berlin] [2025-05-07 20:47:10] [INFO] Attached QR code to email: C:\xampp\htdocs\event\email/temp_qrcodes/BK20250507204559533_b9b2eafb592af84487f0112d5ec1b320.png
+[07-May-2025 20:47:14 Europe/Berlin] [2025-05-07 20:47:14] [INFO] Successfully sent invitation to mikeacenas2715@gmail.com using PHPMailer

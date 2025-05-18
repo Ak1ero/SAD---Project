@@ -1,0 +1,254 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="69465DE1-9875-D5A3-73C4-933174761738" name="BOOKINGS">
+<createdBy>mikea</createdBy>
+<createdTime>2025-05-04 08:00:28 UTC</createdTime>
+<commentInRDBMS><![CDATA[Main bookings table with event details]]></commentInRDBMS>
+<generatorID>D37A7197-CE53-A090-B01A-32580AC54615</generatorID>
+<ownerDesignName>event</ownerDesignName>
+<engineerTo>
+<item key="FD95F36E-90EF-CE47-21E2-5B50F7DBDC36" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="bookings_id" id="8E9E4CE7-525A-667C-F335-C81A4DA52540">
+<createdBy>mikea</createdBy>
+<createdTime>2025-05-04 08:00:28 UTC</createdTime>
+<generatorID>0F26F79A-1B91-E6A6-3D21-1F19643E55BA</generatorID>
+<ownerDesignName>event</ownerDesignName>
+<engineerTo>
+<item key="FD95F36E-90EF-CE47-21E2-5B50F7DBDC36" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>B16A44A4-0F04-BCE5-7686-9BA729020D49</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="users_id" id="6C12E5BA-1D8C-C26D-FC86-DE3F7FDB28F9">
+<createdBy>mikea</createdBy>
+<createdTime>2025-05-04 08:00:28 UTC</createdTime>
+<generatorID>3B0699C2-1A24-6A0D-207B-C64EEB745B80</generatorID>
+<ownerDesignName>event</ownerDesignName>
+<engineerTo>
+<item key="FD95F36E-90EF-CE47-21E2-5B50F7DBDC36" value="true"/>
+</engineerTo>
+<referedAttribute>5DDA4F38-9F46-EAE3-9EE5-8223FE847098</referedAttribute>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>B16A44A4-0F04-BCE5-7686-9BA729020D49</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="booking reference" id="1527937E-F18F-6B9F-5DAF-AA1CB9EBDF9E">
+<createdBy>mikea</createdBy>
+<createdTime>2025-05-04 08:00:28 UTC</createdTime>
+<generatorID>84DCD2D7-FE6C-D20A-E276-17DB14AEF027</generatorID>
+<ownerDesignName>event</ownerDesignName>
+<engineerTo>
+<item key="FD95F36E-90EF-CE47-21E2-5B50F7DBDC36" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>B6265BD9-3950-EE1D-1A53-A39829806183</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="event date" id="31DA6AFC-D4A6-4AEA-00BD-86C431B368AE">
+<createdBy>mikea</createdBy>
+<createdTime>2025-05-04 08:00:28 UTC</createdTime>
+<generatorID>88FE326B-608C-E97E-3E1F-13B9C0AE1F03</generatorID>
+<ownerDesignName>event</ownerDesignName>
+<engineerTo>
+<item key="FD95F36E-90EF-CE47-21E2-5B50F7DBDC36" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<domain>3463B648-7673-A98A-5008-0256BBA53326</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="event start time" id="792F27D2-3EBD-2DAB-F34D-4CA3333AFD71">
+<createdBy>mikea</createdBy>
+<createdTime>2025-05-04 08:00:28 UTC</createdTime>
+<generatorID>FFED8483-AD46-C0DA-5B45-1D228AA06FB4</generatorID>
+<ownerDesignName>event</ownerDesignName>
+<engineerTo>
+<item key="FD95F36E-90EF-CE47-21E2-5B50F7DBDC36" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT015</logicalDatatype>
+<domain>0D915F14-7077-E21D-4D71-CCB0B32320F7</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="event end time" id="C57246F7-9C02-7CE0-D976-3049C4B92661">
+<createdBy>mikea</createdBy>
+<createdTime>2025-05-04 08:00:28 UTC</createdTime>
+<generatorID>962F3438-72A0-3A4B-CF47-1AD20D6C453D</generatorID>
+<ownerDesignName>event</ownerDesignName>
+<engineerTo>
+<item key="FD95F36E-90EF-CE47-21E2-5B50F7DBDC36" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT015</logicalDatatype>
+<domain>0D915F14-7077-E21D-4D71-CCB0B32320F7</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="package name" id="B69FFF89-0A7E-BB7B-BC10-BDF3928CDF7C">
+<createdBy>mikea</createdBy>
+<createdTime>2025-05-04 08:00:28 UTC</createdTime>
+<generatorID>6DF15840-D85C-C4D0-E464-C0F3770FD16C</generatorID>
+<ownerDesignName>event</ownerDesignName>
+<engineerTo>
+<item key="FD95F36E-90EF-CE47-21E2-5B50F7DBDC36" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>0BDD9D6D-B67E-E702-E8F6-2C4A84AFEFC1</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="theme name" id="42797ED0-8F15-E1CD-15BA-A1FBD72A5B39">
+<createdBy>mikea</createdBy>
+<createdTime>2025-05-04 08:00:28 UTC</createdTime>
+<generatorID>F2099174-4A06-93A7-45C4-E1466F963FCA</generatorID>
+<ownerDesignName>event</ownerDesignName>
+<engineerTo>
+<item key="FD95F36E-90EF-CE47-21E2-5B50F7DBDC36" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>0BDD9D6D-B67E-E702-E8F6-2C4A84AFEFC1</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="total amount" id="25AF2A2F-7C93-A257-141A-97E9016426A4">
+<createdBy>mikea</createdBy>
+<createdTime>2025-05-04 08:00:28 UTC</createdTime>
+<generatorID>79EC0B8A-3502-682F-92E0-A17937359D85</generatorID>
+<ownerDesignName>event</ownerDesignName>
+<engineerTo>
+<item key="FD95F36E-90EF-CE47-21E2-5B50F7DBDC36" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>4DE4F3F1-7C8B-365D-64F5-530AA29E516C</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="special requests" id="9AD995A2-2108-72F8-C8AF-43EADCD7DAFB">
+<createdBy>mikea</createdBy>
+<createdTime>2025-05-04 08:00:28 UTC</createdTime>
+<generatorID>40179BBF-E69F-4F43-A531-FF436FA6C08D</generatorID>
+<ownerDesignName>event</ownerDesignName>
+<engineerTo>
+<item key="FD95F36E-90EF-CE47-21E2-5B50F7DBDC36" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT028</logicalDatatype>
+<domain>4D1428AC-0B2F-C105-4CC3-436CCF77E982</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="status" id="0D02D446-4186-829E-AE1C-96E6EDA05778">
+<createdBy>mikea</createdBy>
+<createdTime>2025-05-04 08:00:28 UTC</createdTime>
+<generatorID>27396F11-4076-C138-83C1-4D2BF2B3B899</generatorID>
+<ownerDesignName>event</ownerDesignName>
+<engineerTo>
+<item key="FD95F36E-90EF-CE47-21E2-5B50F7DBDC36" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>14094D22-A136-42DB-C4A0-AF4DB20A5DAE</domain>
+<defaultValue>&apos;pending&apos;</defaultValue>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="payment status" id="7AF7F906-25A6-8D91-4CCA-51D120373B1F">
+<createdBy>mikea</createdBy>
+<createdTime>2025-05-04 08:00:28 UTC</createdTime>
+<generatorID>721B6913-D837-C952-8F3B-6288560BA093</generatorID>
+<ownerDesignName>event</ownerDesignName>
+<engineerTo>
+<item key="FD95F36E-90EF-CE47-21E2-5B50F7DBDC36" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>98CC071B-7151-775D-C1D9-19FF8D34D05E</domain>
+<defaultValue>&apos;unpaid&apos;</defaultValue>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="created at" id="CCEAB4D1-5834-7A25-ED20-9D8698AFB85C">
+<createdBy>mikea</createdBy>
+<createdTime>2025-05-04 08:00:28 UTC</createdTime>
+<generatorID>E3EF8B9D-4C2B-9EF5-B9D4-FE92335E7989</generatorID>
+<ownerDesignName>event</ownerDesignName>
+<engineerTo>
+<item key="FD95F36E-90EF-CE47-21E2-5B50F7DBDC36" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT015</logicalDatatype>
+<domain>0D915F14-7077-E21D-4D71-CCB0B32320F7</domain>
+<defaultValue>SYSTIMESTAMP</defaultValue>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="updated at" id="6BA9F400-37BD-029F-55B4-06AFA0579099">
+<createdBy>mikea</createdBy>
+<createdTime>2025-05-04 08:00:28 UTC</createdTime>
+<generatorID>AF224C86-16C8-DD97-17D9-1801B8519490</generatorID>
+<ownerDesignName>event</ownerDesignName>
+<engineerTo>
+<item key="FD95F36E-90EF-CE47-21E2-5B50F7DBDC36" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT015</logicalDatatype>
+<domain>0D915F14-7077-E21D-4D71-CCB0B32320F7</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="attendance_id" id="4D7D1B42-FA45-DC5D-67DD-7535A59738AF">
+<createdBy>mikea</createdBy>
+<createdTime>2025-05-13 14:24:33 UTC</createdTime>
+<generatorID>09D20C4A-5AB9-BA31-96AE-E6AA55F10C5D</generatorID>
+<ownerDesignName>event</ownerDesignName>
+<engineerTo>
+<item key="FD95F36E-90EF-CE47-21E2-5B50F7DBDC36" value="true"/>
+</engineerTo>
+<referedAttribute>8B7C8835-2611-4DDA-164C-B93A5FC86221</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="8D99CB06-66E6-766A-6859-B1242A62DEED" name="bookings pk">
+<createdBy>mikea</createdBy>
+<createdTime>2025-05-04 08:00:28 UTC</createdTime>
+<generatorID>BEE4CCC4-B5EB-F1B2-71AC-6083A5166621</generatorID>
+<ownerDesignName>event</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="FD95F36E-90EF-CE47-21E2-5B50F7DBDC36" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>8E9E4CE7-525A-667C-F335-C81A4DA52540</attributeRef>
+</usedAttributes>
+</identifier>
+<identifier id="EBFEDA78-0938-4437-BC24-CCF3CA86D4A7" name="bookings booking reference uk">
+<createdBy>mikea</createdBy>
+<createdTime>2025-05-04 08:00:28 UTC</createdTime>
+<generatorID>F449920F-E16A-18D8-F841-C6F0DF0FF0FD</generatorID>
+<ownerDesignName>event</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="FD95F36E-90EF-CE47-21E2-5B50F7DBDC36" value="false"/>
+</engineerTo>
+<usedAttributes>
+<attributeRef>1527937E-F18F-6B9F-5DAF-AA1CB9EBDF9E</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

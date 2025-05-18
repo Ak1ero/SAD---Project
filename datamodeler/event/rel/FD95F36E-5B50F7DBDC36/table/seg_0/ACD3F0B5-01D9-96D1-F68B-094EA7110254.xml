@@ -1,0 +1,184 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="ACD3F0B5-01D9-96D1-F68B-094EA7110254" name="GUESTS">
+<sourceDDLFile>event_oracle.sql</sourceDDLFile>
+<createdBy>mikea</createdBy>
+<createdTime>2025-05-04 08:00:25 UTC</createdTime>
+<commentInRDBMS><![CDATA[Guests attending each booking event]]></commentInRDBMS>
+<ownerDesignName>event</ownerDesignName>
+<importedID>3150EF40-105E-2478-7713-7635D4238BCB</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="guests_id" id="61D5E6EC-C2DB-71DD-444D-CE58F4AC03E0">
+<sourceDDLFile>event_oracle.sql</sourceDDLFile>
+<createdBy>mikea</createdBy>
+<createdTime>2025-05-04 08:00:25 UTC</createdTime>
+<ownerDesignName>event</ownerDesignName>
+<importedID>0C931E3F-5C5C-F313-4E84-2698626144B2</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>B16A44A4-0F04-BCE5-7686-9BA729020D49</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="BOOKINGS_id" id="3F4D5923-EFBD-8427-4990-8D6FFF70CD09">
+<sourceDDLFile>event_oracle.sql</sourceDDLFile>
+<createdBy>mikea</createdBy>
+<createdTime>2025-05-04 08:00:25 UTC</createdTime>
+<ownerDesignName>event</ownerDesignName>
+<importedID>7866CA4B-9630-D7C1-7C06-30DE3EB7C7E7</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>B16A44A4-0F04-BCE5-7686-9BA729020D49</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="7BF77514-AAF2-E23C-EF8C-D46AFC7F6292" referredColumn="0F26F79A-1B91-E6A6-3D21-1F19643E55BA"/>
+</associations>
+</Column>
+<Column name="name" id="D8A30B03-A7F6-4DB0-0496-8B5BA6B6CCB8">
+<sourceDDLFile>event_oracle.sql</sourceDDLFile>
+<createdBy>mikea</createdBy>
+<createdTime>2025-05-04 08:00:25 UTC</createdTime>
+<ownerDesignName>event</ownerDesignName>
+<importedID>8ECF7FC8-1CBD-00D2-4C56-1CE3C596648A</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>0BDD9D6D-B67E-E702-E8F6-2C4A84AFEFC1</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="email" id="8985EC80-A70D-88C2-09D1-BE02374333FC">
+<sourceDDLFile>event_oracle.sql</sourceDDLFile>
+<createdBy>mikea</createdBy>
+<createdTime>2025-05-04 08:00:25 UTC</createdTime>
+<ownerDesignName>event</ownerDesignName>
+<importedID>E18F5F70-B7A6-4E6F-B9BB-992520C0CBF5</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>0BDD9D6D-B67E-E702-E8F6-2C4A84AFEFC1</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="phone" id="0FF6B426-586F-4AA7-2444-2FD586F7AE15">
+<sourceDDLFile>event_oracle.sql</sourceDDLFile>
+<createdBy>mikea</createdBy>
+<createdTime>2025-05-04 08:00:25 UTC</createdTime>
+<ownerDesignName>event</ownerDesignName>
+<importedID>045010F1-889C-F1EB-D0F4-6B81A25AC7EB</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>B6265BD9-3950-EE1D-1A53-A39829806183</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="unique_code" id="C01743DF-850E-B35A-02B5-E109F29FF21D">
+<createdBy>mikea</createdBy>
+<createdTime>2025-05-13 14:31:18 UTC</createdTime>
+<generatorID>085765FC-AA50-FB2B-9223-6C961C82934D</generatorID>
+<ownerDesignName>event</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<ownDataTypeParameters>255,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="invitation_sent" id="EDD8C80B-87CB-93B8-C72A-91B1AC348191">
+<createdBy>mikea</createdBy>
+<createdTime>2025-05-13 14:31:18 UTC</createdTime>
+<generatorID>F1B82F02-C3CC-7FFB-E3B7-44448AA41E4C</generatorID>
+<ownerDesignName>event</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT042</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="invitation_sent_at" id="874013F4-57F0-B329-9DF2-BB4F18DB811B">
+<createdBy>mikea</createdBy>
+<createdTime>2025-05-13 14:31:18 UTC</createdTime>
+<generatorID>117327E3-D591-1BFC-22DA-90855F852385</generatorID>
+<ownerDesignName>event</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT042</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="created_at" id="6E3FB6E7-6B6F-FE03-FF50-259BE75F4BA0">
+<createdBy>mikea</createdBy>
+<createdTime>2025-05-13 14:31:18 UTC</createdTime>
+<generatorID>C6C5A58F-A159-2FAB-9720-260F424CA8E0</generatorID>
+<ownerDesignName>event</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT015</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="updated_at" id="81D985E2-F7FB-19E0-37AE-DA9E1042E62C">
+<createdBy>mikea</createdBy>
+<createdTime>2025-05-13 14:31:18 UTC</createdTime>
+<generatorID>4CF8DC98-8D7A-FE9E-2ACA-B8A72620E631</generatorID>
+<ownerDesignName>event</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT015</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="GUEST_ATTENDANCE_attendance_id" id="BE23B5DC-E4CB-540C-8CC0-549D2DFFC363">
+<createdBy>mikea</createdBy>
+<createdTime>2025-05-13 14:31:18 UTC</createdTime>
+<generatorID>1989ADB7-FA52-D3AE-257B-EBBFA2E46FF3</generatorID>
+<ownerDesignName>event</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="3F5AF9B3-182B-2044-7371-4EC561FC1A43" referredColumn="6F72F359-02C0-440D-0F4F-5646C782B084"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="06700A00-5BB0-4E18-C437-8AF3B091096C" name="BOOKING_GUESTS_PK">
+<sourceDDLFile>event_oracle.sql</sourceDDLFile>
+<createdBy>mikea</createdBy>
+<createdTime>2025-05-04 08:00:25 UTC</createdTime>
+<ownerDesignName>event</ownerDesignName>
+<importedID>30642412-9042-4861-65EC-93E25750B817</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="61D5E6EC-C2DB-71DD-444D-CE58F4AC03E0"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="1439CCCE-6607-DBE9-3743-536D182DCD7F" name="BOOKING_GUESTS_BOOKINGS_FK">
+<createdBy>mikea</createdBy>
+<createdTime>2025-05-04 08:00:25 UTC</createdTime>
+<ownerDesignName>event</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3F4D5923-EFBD-8427-4990-8D6FFF70CD09"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="31F26C12-A9D7-C57C-C262-CDD3C039BBFB" name="GUESTS_GUEST_ATTENDANCE_FK">
+<createdBy>mikea</createdBy>
+<createdTime>2025-05-13 14:31:18 UTC</createdTime>
+<generatorID>FE7119C6-DF8E-D6B2-C602-65556BFAEF34</generatorID>
+<ownerDesignName>event</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="BE23B5DC-E4CB-540C-8CC0-549D2DFFC363"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

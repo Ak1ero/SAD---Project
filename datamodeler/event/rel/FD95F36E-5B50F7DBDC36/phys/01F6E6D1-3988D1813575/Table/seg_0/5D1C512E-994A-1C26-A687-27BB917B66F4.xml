@@ -1,0 +1,77 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev20c class="oracle.dbtools.crest.model.design.storage.oracle.v20c.TableProxyOraclev20c" name="USERS" directorySegmentName="seg_0" id="5D1C512E-994A-1C26-A687-27BB917B66F4">
+<createdBy>mikea</createdBy>
+<createdTime>2025-05-04 08:00:25 UTC</createdTime>
+<ownerDesignName>event</ownerDesignName>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="password" id="2E3CD3E5-B7FA-C632-8282-ACC15E13B2E3">
+<createdBy>mikea</createdBy>
+<createdTime>2025-05-04 08:00:25 UTC</createdTime>
+<ownerDesignName>event</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="birthday" id="3038F9EA-F2D3-4A4F-1FC8-60F9B6002C22">
+<createdBy>mikea</createdBy>
+<createdTime>2025-05-04 08:00:25 UTC</createdTime>
+<ownerDesignName>event</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="name" id="3255DFF7-18E3-B4A6-2AF8-4DEBF0DC5CC0">
+<createdBy>mikea</createdBy>
+<createdTime>2025-05-04 08:00:25 UTC</createdTime>
+<ownerDesignName>event</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="id" id="396199DC-5FAE-B378-412F-A1F5B665DB0D">
+<createdBy>mikea</createdBy>
+<createdTime>2025-05-04 08:00:25 UTC</createdTime>
+<ownerDesignName>event</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="email" id="5140D1C5-01BE-3090-B76E-FDA28F3DFBD8">
+<createdBy>mikea</createdBy>
+<createdTime>2025-05-04 08:00:25 UTC</createdTime>
+<ownerDesignName>event</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="created_at" id="A192649A-E12A-9852-35F1-B6DABE7A80BB">
+<createdBy>mikea</createdBy>
+<createdTime>2025-05-04 08:00:25 UTC</createdTime>
+<ownerDesignName>event</ownerDesignName>
+<defaultValue>SYSTIMESTAMP</defaultValue>
+</ColumnProxy>
+<ColumnProxy name="phone" id="A74B118F-785A-679B-38CB-475812E66D67">
+<createdBy>mikea</createdBy>
+<createdTime>2025-05-04 08:00:25 UTC</createdTime>
+<ownerDesignName>event</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="ADMIN_id" id="F4E9DFD2-5E2C-D706-A363-E1F96DF8AF81">
+<createdBy>mikea</createdBy>
+<createdTime>2025-05-04 08:03:21 UTC</createdTime>
+<ownerDesignName>event</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<foreignKeys>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="USERS_ADMIN_FK" id="035E0FC9-296A-9219-DE1F-3C87DBAA8710">
+<createdBy>mikea</createdBy>
+<createdTime>2025-05-04 08:03:21 UTC</createdTime>
+<ownerDesignName>event</ownerDesignName>
+</ForeignKey>
+</foreignKeys>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="USERS_PK" id="C3A9A852-E208-E2E4-FE9A-3C5A916C9053">
+<createdBy>mikea</createdBy>
+<createdTime>2025-05-04 08:00:25 UTC</createdTime>
+<ownerDesignName>event</ownerDesignName>
+<indexSort>SORTED</indexSort>
+</PrimaryKey>
+</primaryKeys>
+<uniqueKeys>
+<UniqueKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.UniqueOraclev10g" name="USERS_email_UN" id="D84B4793-C6CD-360E-5E8E-CA9AF4A3B468">
+<createdBy>mikea</createdBy>
+<createdTime>2025-05-04 08:00:25 UTC</createdTime>
+<ownerDesignName>event</ownerDesignName>
+<indexSort>SORTED</indexSort>
+</UniqueKey>
+</uniqueKeys>
+</TableProxyOraclev20c>

@@ -1,0 +1,9 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<SequenceOraclev10g class="oracle.dbtools.crest.model.design.storage.oracle.v10g.SequenceOraclev10g" name="system_settings_seq" directorySegmentName="seg_0" id="D6C08E17-C66F-9017-38FD-4211A49AE484">
+<sourceDDLFile>event_oracle.sql</sourceDDLFile>
+<createdBy>mikea</createdBy>
+<createdTime>2025-05-04 08:00:20 UTC</createdTime>
+<ownerDesignName>event</ownerDesignName>
+<incrementBy>1</incrementBy>
+<startWith>1</startWith>
+</SequenceOraclev10g>

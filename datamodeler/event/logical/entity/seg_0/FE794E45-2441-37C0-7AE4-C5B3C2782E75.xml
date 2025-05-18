@@ -1,0 +1,81 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="FE794E45-2441-37C0-7AE4-C5B3C2782E75" name="GUEST_ATTENDANCE">
+<createdBy>mikea</createdBy>
+<createdTime>2025-05-13 14:20:34 UTC</createdTime>
+<ownerDesignName>event</ownerDesignName>
+<engineerTo>
+<item key="FD95F36E-90EF-CE47-21E2-5B50F7DBDC36" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="attendance_id" id="8B7C8835-2611-4DDA-164C-B93A5FC86221">
+<createdBy>mikea</createdBy>
+<createdTime>2025-05-13 14:20:48 UTC</createdTime>
+<ownerDesignName>event</ownerDesignName>
+<engineerTo>
+<item key="FD95F36E-90EF-CE47-21E2-5B50F7DBDC36" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="check_in_time" id="F5BBA63C-99C2-1001-8223-605912CB9CD5">
+<createdBy>mikea</createdBy>
+<createdTime>2025-05-13 14:21:18 UTC</createdTime>
+<ownerDesignName>event</ownerDesignName>
+<engineerTo>
+<item key="FD95F36E-90EF-CE47-21E2-5B50F7DBDC36" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT015</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="checked_in_by" id="AA42EF7C-1874-20F8-6CBB-D6C26CF1A7E3">
+<createdBy>mikea</createdBy>
+<createdTime>2025-05-13 14:21:27 UTC</createdTime>
+<ownerDesignName>event</ownerDesignName>
+<engineerTo>
+<item key="FD95F36E-90EF-CE47-21E2-5B50F7DBDC36" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="notes" id="CC116261-B529-332C-6FEA-4FCAA7426184">
+<createdBy>mikea</createdBy>
+<createdTime>2025-05-13 14:21:38 UTC</createdTime>
+<ownerDesignName>event</ownerDesignName>
+<engineerTo>
+<item key="FD95F36E-90EF-CE47-21E2-5B50F7DBDC36" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT040</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="303E3A92-8FF1-009B-FF11-287484607FB4" name="GUEST_ATTENDANCE PK">
+<createdBy>mikea</createdBy>
+<createdTime>2025-05-13 14:21:00 UTC</createdTime>
+<ownerDesignName>event</ownerDesignName>
+<engineerTo>
+<item key="FD95F36E-90EF-CE47-21E2-5B50F7DBDC36" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>8B7C8835-2611-4DDA-164C-B93A5FC86221</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

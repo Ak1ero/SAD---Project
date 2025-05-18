@@ -1,0 +1,152 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="5D1C512E-994A-1C26-A687-27BB917B66F4" name="USERS">
+<sourceDDLFile>event_oracle.sql</sourceDDLFile>
+<createdBy>mikea</createdBy>
+<createdTime>2025-05-04 08:00:25 UTC</createdTime>
+<commentInRDBMS><![CDATA[Stores user information for event booking system]]></commentInRDBMS>
+<ownerDesignName>event</ownerDesignName>
+<importedID>6B9E4D3A-6C7D-EAD7-8505-4830B6DDE809</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="users_id" id="396199DC-5FAE-B378-412F-A1F5B665DB0D">
+<sourceDDLFile>event_oracle.sql</sourceDDLFile>
+<createdBy>mikea</createdBy>
+<createdTime>2025-05-04 08:00:25 UTC</createdTime>
+<ownerDesignName>event</ownerDesignName>
+<importedID>1191E293-96E5-D734-DA0F-E8BFE4914FED</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>B16A44A4-0F04-BCE5-7686-9BA729020D49</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="name" id="3255DFF7-18E3-B4A6-2AF8-4DEBF0DC5CC0">
+<sourceDDLFile>event_oracle.sql</sourceDDLFile>
+<createdBy>mikea</createdBy>
+<createdTime>2025-05-04 08:00:25 UTC</createdTime>
+<ownerDesignName>event</ownerDesignName>
+<importedID>7814AB35-5259-5D6C-EA9D-92619D537E98</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>0BDD9D6D-B67E-E702-E8F6-2C4A84AFEFC1</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="email" id="5140D1C5-01BE-3090-B76E-FDA28F3DFBD8">
+<sourceDDLFile>event_oracle.sql</sourceDDLFile>
+<createdBy>mikea</createdBy>
+<createdTime>2025-05-04 08:00:25 UTC</createdTime>
+<ownerDesignName>event</ownerDesignName>
+<importedID>3ABE00E8-20F2-1AF9-4782-DBBA22711C3A</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>0BDD9D6D-B67E-E702-E8F6-2C4A84AFEFC1</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="phone" id="A74B118F-785A-679B-38CB-475812E66D67">
+<sourceDDLFile>event_oracle.sql</sourceDDLFile>
+<createdBy>mikea</createdBy>
+<createdTime>2025-05-04 08:00:25 UTC</createdTime>
+<ownerDesignName>event</ownerDesignName>
+<importedID>F5E2E420-E52A-F039-D67C-00F8DAD898AF</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>1D32556A-4810-3FBC-0933-781DECB0DC71</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="birthday" id="3038F9EA-F2D3-4A4F-1FC8-60F9B6002C22">
+<sourceDDLFile>event_oracle.sql</sourceDDLFile>
+<createdBy>mikea</createdBy>
+<createdTime>2025-05-04 08:00:25 UTC</createdTime>
+<ownerDesignName>event</ownerDesignName>
+<importedID>DEC9A6B8-A54D-66A1-47E0-96B0021A5F09</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<domain>3463B648-7673-A98A-5008-0256BBA53326</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="password" id="2E3CD3E5-B7FA-C632-8282-ACC15E13B2E3">
+<sourceDDLFile>event_oracle.sql</sourceDDLFile>
+<createdBy>mikea</createdBy>
+<createdTime>2025-05-04 08:00:25 UTC</createdTime>
+<ownerDesignName>event</ownerDesignName>
+<importedID>3EF99182-5DD5-2D35-AD85-B196006DA0B2</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>5ADBCC8C-D7D1-7094-837B-BE41D1B05F7A</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="created_at" id="A192649A-E12A-9852-35F1-B6DABE7A80BB">
+<sourceDDLFile>event_oracle.sql</sourceDDLFile>
+<createdBy>mikea</createdBy>
+<createdTime>2025-05-04 08:00:25 UTC</createdTime>
+<ownerDesignName>event</ownerDesignName>
+<importedID>684E958D-9CD0-ECF3-22DE-02BC56A38FE2</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT015</logicalDatatype>
+<domain>0D915F14-7077-E21D-4D71-CCB0B32320F7</domain>
+<defaultValue>SYSTIMESTAMP</defaultValue>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ADMIN_id" id="F4E9DFD2-5E2C-D706-A363-E1F96DF8AF81">
+<createdBy>mikea</createdBy>
+<createdTime>2025-05-04 08:03:21 UTC</createdTime>
+<generatorID>AD2085CE-AB56-7DE8-6045-8BFA828755DF</generatorID>
+<ownerDesignName>event</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>B16A44A4-0F04-BCE5-7686-9BA729020D49</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="044601FE-EB5C-590D-0D3E-4116EC2846F0" referredColumn="434C0880-DFCB-EED4-E8DB-629D900216B1"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="C3A9A852-E208-E2E4-FE9A-3C5A916C9053" name="USERS_PK">
+<sourceDDLFile>event_oracle.sql</sourceDDLFile>
+<createdBy>mikea</createdBy>
+<createdTime>2025-05-04 08:00:25 UTC</createdTime>
+<ownerDesignName>event</ownerDesignName>
+<importedID>EB2D7147-24D6-1EB9-2470-3F36085C1E4B</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="396199DC-5FAE-B378-412F-A1F5B665DB0D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="D84B4793-C6CD-360E-5E8E-CA9AF4A3B468" name="USERS_email_UN">
+<sourceDDLFile>event_oracle.sql</sourceDDLFile>
+<createdBy>mikea</createdBy>
+<createdTime>2025-05-04 08:00:25 UTC</createdTime>
+<ownerDesignName>event</ownerDesignName>
+<importedID>E542A996-FEF3-0955-969C-775A7B7CFA9A</importedID>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5140D1C5-01BE-3090-B76E-FDA28F3DFBD8"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="035E0FC9-296A-9219-DE1F-3C87DBAA8710" name="USERS_ADMIN_FK">
+<createdBy>mikea</createdBy>
+<createdTime>2025-05-04 08:03:21 UTC</createdTime>
+<generatorID>861F1D90-6D86-EFAA-22BF-71C39154C9A4</generatorID>
+<ownerDesignName>event</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F4E9DFD2-5E2C-D706-A363-E1F96DF8AF81"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="service_items_service_fk" directorySegmentName="seg_0" id="B49FC7C2-7D86-6337-7657-BFAC2F85E920">
+<createdBy>mikea</createdBy>
+<createdTime>2025-05-04 08:00:28 UTC</createdTime>
+<generatorID>7393162C-D722-AF03-6AB5-A25CA87FABF1</generatorID>
+<ownerDesignName>event</ownerDesignName>
+<engineerTo>
+<item key="FD95F36E-90EF-CE47-21E2-5B50F7DBDC36" value="true"/>
+</engineerTo>
+<sourcePk>0AAFC9A6-8148-EBDD-0679-EF3162335FFF</sourcePk>
+<identifying>false</identifying>
+<optionalSource>false</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>2DB3DB61-08EA-7065-930F-431005E63A4E</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>DCEE7038-109B-2D2C-BDDA-CFD92D9AEADA</targetEntity>
+<transferable>true</transferable>
+<deleteRule>SET NULL</deleteRule>
+</Relation>

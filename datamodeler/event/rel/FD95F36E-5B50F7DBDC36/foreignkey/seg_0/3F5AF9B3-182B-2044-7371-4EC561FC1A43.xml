@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="3F5AF9B3-182B-2044-7371-4EC561FC1A43" containerWithKeyObject="ACD3F0B5-01D9-96D1-F68B-094EA7110254" localFKIndex="31F26C12-A9D7-C57C-C262-CDD3C039BBFB" name="GUESTS_GUEST_ATTENDANCE_FK">
+<createdBy>mikea</createdBy>
+<createdTime>2025-05-13 14:31:18 UTC</createdTime>
+<generatorID>FE7119C6-DF8E-D6B2-C602-65556BFAEF34</generatorID>
+<ownerDesignName>event</ownerDesignName>
+<referredTableLongName>GUEST_ATTENDANCE</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>DF43B984-675C-C3CE-6323-790C502B3183</referredTableID>
+<keyObject>9217922D-3749-D8A4-F5CE-3AEA7DCE0FD0</keyObject>
+<referredKeyID>9217922D-3749-D8A4-F5CE-3AEA7DCE0FD0</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>attendance_id</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

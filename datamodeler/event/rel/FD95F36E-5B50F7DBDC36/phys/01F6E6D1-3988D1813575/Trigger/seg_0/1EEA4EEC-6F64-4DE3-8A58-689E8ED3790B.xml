@@ -1,0 +1,15 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TriggerOraclev10g class="oracle.dbtools.crest.model.design.storage.oracle.v10g.TriggerOraclev10g" name="users_bir" directorySegmentName="seg_0" id="1EEA4EEC-6F64-4DE3-8A58-689E8ED3790B">
+<sourceDDLFile>event_oracle.sql</sourceDDLFile>
+<createdBy>mikea</createdBy>
+<createdTime>2025-05-04 08:00:20 UTC</createdTime>
+<ownerDesignName>event</ownerDesignName>
+<actions>INSERT</actions>
+<body><![CDATA[BEGIN
+  SELECT users_seq.NEXTVAL
+  INTO   :new.id
+  FROM   dual;
+END;]]></body>
+<triggerTime>BEFORE</triggerTime>
+<table>5D1C512E-994A-1C26-A687-27BB917B66F4</table>
+</TriggerOraclev10g>

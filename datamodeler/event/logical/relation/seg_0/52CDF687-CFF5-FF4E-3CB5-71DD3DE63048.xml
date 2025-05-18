@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Relation_16" directorySegmentName="seg_0" id="52CDF687-CFF5-FF4E-3CB5-71DD3DE63048">
+<createdBy>mikea</createdBy>
+<createdTime>2025-05-04 14:11:40 UTC</createdTime>
+<ownerDesignName>event</ownerDesignName>
+<engineerTo>
+<item key="FD95F36E-90EF-CE47-21E2-5B50F7DBDC36" value="true"/>
+</engineerTo>
+<sourcePk>8D99CB06-66E6-766A-6859-B1242A62DEED</sourcePk>
+<identifying>false</identifying>
+<optionalSource>false</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>69465DE1-9875-D5A3-73C4-933174761738</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>DDA851BA-DC8F-E3D7-2E8D-94C389A700A1</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

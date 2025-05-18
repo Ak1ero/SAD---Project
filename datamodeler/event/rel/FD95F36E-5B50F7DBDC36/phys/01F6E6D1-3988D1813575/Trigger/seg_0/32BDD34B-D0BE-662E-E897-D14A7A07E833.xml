@@ -1,0 +1,15 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TriggerOraclev10g class="oracle.dbtools.crest.model.design.storage.oracle.v10g.TriggerOraclev10g" name="booking_service_items_bir" directorySegmentName="seg_0" id="32BDD34B-D0BE-662E-E897-D14A7A07E833">
+<sourceDDLFile>event_oracle.sql</sourceDDLFile>
+<createdBy>mikea</createdBy>
+<createdTime>2025-05-04 08:00:20 UTC</createdTime>
+<ownerDesignName>event</ownerDesignName>
+<actions>INSERT</actions>
+<body><![CDATA[BEGIN
+  SELECT booking_service_items_seq.NEXTVAL
+  INTO   :new.id
+  FROM   dual;
+END;]]></body>
+<triggerTime>BEFORE</triggerTime>
+<table>E7406430-2CEF-95F5-C35D-9F960D2A84F3</table>
+</TriggerOraclev10g>

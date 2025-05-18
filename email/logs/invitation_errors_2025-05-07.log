@@ -1,0 +1,256 @@
+[07-May-2025 11:05:36 Europe/Berlin] [2025-05-07 11:05:36] [INFO] Invitation process started
+[07-May-2025 11:05:36 Europe/Berlin] Error (2): Undefined array key "guest_name" in C:\xampp\htdocs\event\email\send-invitations.php on line 116
+[07-May-2025 11:05:36 Europe/Berlin] PHP Warning:  Undefined array key "guest_name" in C:\xampp\htdocs\event\email\send-invitations.php on line 116
+[07-May-2025 11:05:36 Europe/Berlin] Error (2): Undefined array key "guest_email" in C:\xampp\htdocs\event\email\send-invitations.php on line 117
+[07-May-2025 11:05:36 Europe/Berlin] PHP Warning:  Undefined array key "guest_email" in C:\xampp\htdocs\event\email\send-invitations.php on line 117
+[07-May-2025 11:05:36 Europe/Berlin] Error (2): Undefined array key "guest_name" in C:\xampp\htdocs\event\email\send-invitations.php on line 116
+[07-May-2025 11:05:36 Europe/Berlin] PHP Warning:  Undefined array key "guest_name" in C:\xampp\htdocs\event\email\send-invitations.php on line 116
+[07-May-2025 11:05:36 Europe/Berlin] Error (2): Undefined array key "guest_email" in C:\xampp\htdocs\event\email\send-invitations.php on line 117
+[07-May-2025 11:05:36 Europe/Berlin] PHP Warning:  Undefined array key "guest_email" in C:\xampp\htdocs\event\email\send-invitations.php on line 117
+[07-May-2025 11:05:36 Europe/Berlin] Error (2): Undefined array key "guest_name" in C:\xampp\htdocs\event\email\send-invitations.php on line 116
+[07-May-2025 11:05:36 Europe/Berlin] PHP Warning:  Undefined array key "guest_name" in C:\xampp\htdocs\event\email\send-invitations.php on line 116
+[07-May-2025 11:05:36 Europe/Berlin] Error (2): Undefined array key "guest_email" in C:\xampp\htdocs\event\email\send-invitations.php on line 117
+[07-May-2025 11:05:36 Europe/Berlin] PHP Warning:  Undefined array key "guest_email" in C:\xampp\htdocs\event\email\send-invitations.php on line 117
+[07-May-2025 11:05:36 Europe/Berlin] Generating QR code for booking: BK20250505031339343, guest: 
+[07-May-2025 11:05:36 Europe/Berlin] Error (8192): md5(): Passing null to parameter #1 ($string) of type string is deprecated in C:\xampp\htdocs\event\email\Mailer.php on line 266
+[07-May-2025 11:05:36 Europe/Berlin] PHP Deprecated:  md5(): Passing null to parameter #1 ($string) of type string is deprecated in C:\xampp\htdocs\event\email\Mailer.php on line 266
+[07-May-2025 11:05:36 Europe/Berlin] Using chillerlan/php-qrcode library
+[07-May-2025 11:05:36 Europe/Berlin] Error (8192): str_replace(): Passing null to parameter #2 ($replace) of type array|string is deprecated in C:\xampp\htdocs\event\email\Mailer.php on line 200
+[07-May-2025 11:05:36 Europe/Berlin] PHP Deprecated:  str_replace(): Passing null to parameter #2 ($replace) of type array|string is deprecated in C:\xampp\htdocs\event\email\Mailer.php on line 200
+[07-May-2025 11:05:36 Europe/Berlin] Email sending error: Invalid address:  (to): 
+[07-May-2025 11:05:36 Europe/Berlin] Generating QR code for booking: BK20250505031339343, guest: 
+[07-May-2025 11:05:36 Europe/Berlin] Error (8192): md5(): Passing null to parameter #1 ($string) of type string is deprecated in C:\xampp\htdocs\event\email\Mailer.php on line 266
+[07-May-2025 11:05:36 Europe/Berlin] PHP Deprecated:  md5(): Passing null to parameter #1 ($string) of type string is deprecated in C:\xampp\htdocs\event\email\Mailer.php on line 266
+[07-May-2025 11:05:36 Europe/Berlin] QR code already exists, reusing: C:\xampp\htdocs\event\email/../uploads/qrcodes/BK20250505031339343_d41d8cd98f00b204e9800998ecf8427e.png
+[07-May-2025 11:05:36 Europe/Berlin] Error (8192): str_replace(): Passing null to parameter #2 ($replace) of type array|string is deprecated in C:\xampp\htdocs\event\email\Mailer.php on line 200
+[07-May-2025 11:05:36 Europe/Berlin] PHP Deprecated:  str_replace(): Passing null to parameter #2 ($replace) of type array|string is deprecated in C:\xampp\htdocs\event\email\Mailer.php on line 200
+[07-May-2025 11:05:36 Europe/Berlin] Email sending error: Invalid address:  (to): 
+[07-May-2025 11:05:36 Europe/Berlin] Generating QR code for booking: BK20250505031339343, guest: 
+[07-May-2025 11:05:36 Europe/Berlin] Error (8192): md5(): Passing null to parameter #1 ($string) of type string is deprecated in C:\xampp\htdocs\event\email\Mailer.php on line 266
+[07-May-2025 11:05:36 Europe/Berlin] PHP Deprecated:  md5(): Passing null to parameter #1 ($string) of type string is deprecated in C:\xampp\htdocs\event\email\Mailer.php on line 266
+[07-May-2025 11:05:36 Europe/Berlin] QR code already exists, reusing: C:\xampp\htdocs\event\email/../uploads/qrcodes/BK20250505031339343_d41d8cd98f00b204e9800998ecf8427e.png
+[07-May-2025 11:05:36 Europe/Berlin] Error (8192): str_replace(): Passing null to parameter #2 ($replace) of type array|string is deprecated in C:\xampp\htdocs\event\email\Mailer.php on line 200
+[07-May-2025 11:05:36 Europe/Berlin] PHP Deprecated:  str_replace(): Passing null to parameter #2 ($replace) of type array|string is deprecated in C:\xampp\htdocs\event\email\Mailer.php on line 200
+[07-May-2025 11:05:36 Europe/Berlin] Email sending error: Invalid address:  (to): 
+[07-May-2025 11:17:27 Europe/Berlin] [2025-05-07 11:17:27] [INFO] Invitation process started
+[07-May-2025 11:17:27 Europe/Berlin] Error (2): Undefined array key "guest_name" in C:\xampp\htdocs\event\email\send-invitations.php on line 116
+[07-May-2025 11:17:27 Europe/Berlin] PHP Warning:  Undefined array key "guest_name" in C:\xampp\htdocs\event\email\send-invitations.php on line 116
+[07-May-2025 11:17:27 Europe/Berlin] Error (2): Undefined array key "guest_email" in C:\xampp\htdocs\event\email\send-invitations.php on line 117
+[07-May-2025 11:17:27 Europe/Berlin] PHP Warning:  Undefined array key "guest_email" in C:\xampp\htdocs\event\email\send-invitations.php on line 117
+[07-May-2025 11:17:27 Europe/Berlin] Error (2): Undefined array key "guest_name" in C:\xampp\htdocs\event\email\send-invitations.php on line 116
+[07-May-2025 11:17:27 Europe/Berlin] PHP Warning:  Undefined array key "guest_name" in C:\xampp\htdocs\event\email\send-invitations.php on line 116
+[07-May-2025 11:17:27 Europe/Berlin] Error (2): Undefined array key "guest_email" in C:\xampp\htdocs\event\email\send-invitations.php on line 117
+[07-May-2025 11:17:27 Europe/Berlin] PHP Warning:  Undefined array key "guest_email" in C:\xampp\htdocs\event\email\send-invitations.php on line 117
+[07-May-2025 11:17:27 Europe/Berlin] Error (2): Undefined array key "guest_name" in C:\xampp\htdocs\event\email\send-invitations.php on line 116
+[07-May-2025 11:17:27 Europe/Berlin] PHP Warning:  Undefined array key "guest_name" in C:\xampp\htdocs\event\email\send-invitations.php on line 116
+[07-May-2025 11:17:27 Europe/Berlin] Error (2): Undefined array key "guest_email" in C:\xampp\htdocs\event\email\send-invitations.php on line 117
+[07-May-2025 11:17:27 Europe/Berlin] PHP Warning:  Undefined array key "guest_email" in C:\xampp\htdocs\event\email\send-invitations.php on line 117
+[07-May-2025 11:17:27 Europe/Berlin] Generating QR code for booking: BK20250505031339343, guest: 
+[07-May-2025 11:17:27 Europe/Berlin] Error (8192): md5(): Passing null to parameter #1 ($string) of type string is deprecated in C:\xampp\htdocs\event\email\Mailer.php on line 266
+[07-May-2025 11:17:27 Europe/Berlin] PHP Deprecated:  md5(): Passing null to parameter #1 ($string) of type string is deprecated in C:\xampp\htdocs\event\email\Mailer.php on line 266
+[07-May-2025 11:17:27 Europe/Berlin] QR code already exists, reusing: C:\xampp\htdocs\event\email/../uploads/qrcodes/BK20250505031339343_d41d8cd98f00b204e9800998ecf8427e.png
+[07-May-2025 11:17:27 Europe/Berlin] Error (8192): str_replace(): Passing null to parameter #2 ($replace) of type array|string is deprecated in C:\xampp\htdocs\event\email\Mailer.php on line 200
+[07-May-2025 11:17:27 Europe/Berlin] PHP Deprecated:  str_replace(): Passing null to parameter #2 ($replace) of type array|string is deprecated in C:\xampp\htdocs\event\email\Mailer.php on line 200
+[07-May-2025 11:17:27 Europe/Berlin] Email sending error: Invalid address:  (to): 
+[07-May-2025 11:17:27 Europe/Berlin] Generating QR code for booking: BK20250505031339343, guest: 
+[07-May-2025 11:17:27 Europe/Berlin] Error (8192): md5(): Passing null to parameter #1 ($string) of type string is deprecated in C:\xampp\htdocs\event\email\Mailer.php on line 266
+[07-May-2025 11:17:27 Europe/Berlin] PHP Deprecated:  md5(): Passing null to parameter #1 ($string) of type string is deprecated in C:\xampp\htdocs\event\email\Mailer.php on line 266
+[07-May-2025 11:17:27 Europe/Berlin] QR code already exists, reusing: C:\xampp\htdocs\event\email/../uploads/qrcodes/BK20250505031339343_d41d8cd98f00b204e9800998ecf8427e.png
+[07-May-2025 11:17:27 Europe/Berlin] Error (8192): str_replace(): Passing null to parameter #2 ($replace) of type array|string is deprecated in C:\xampp\htdocs\event\email\Mailer.php on line 200
+[07-May-2025 11:17:27 Europe/Berlin] PHP Deprecated:  str_replace(): Passing null to parameter #2 ($replace) of type array|string is deprecated in C:\xampp\htdocs\event\email\Mailer.php on line 200
+[07-May-2025 11:17:27 Europe/Berlin] Email sending error: Invalid address:  (to): 
+[07-May-2025 11:17:27 Europe/Berlin] Generating QR code for booking: BK20250505031339343, guest: 
+[07-May-2025 11:17:27 Europe/Berlin] Error (8192): md5(): Passing null to parameter #1 ($string) of type string is deprecated in C:\xampp\htdocs\event\email\Mailer.php on line 266
+[07-May-2025 11:17:27 Europe/Berlin] PHP Deprecated:  md5(): Passing null to parameter #1 ($string) of type string is deprecated in C:\xampp\htdocs\event\email\Mailer.php on line 266
+[07-May-2025 11:17:27 Europe/Berlin] QR code already exists, reusing: C:\xampp\htdocs\event\email/../uploads/qrcodes/BK20250505031339343_d41d8cd98f00b204e9800998ecf8427e.png
+[07-May-2025 11:17:27 Europe/Berlin] Error (8192): str_replace(): Passing null to parameter #2 ($replace) of type array|string is deprecated in C:\xampp\htdocs\event\email\Mailer.php on line 200
+[07-May-2025 11:17:27 Europe/Berlin] PHP Deprecated:  str_replace(): Passing null to parameter #2 ($replace) of type array|string is deprecated in C:\xampp\htdocs\event\email\Mailer.php on line 200
+[07-May-2025 11:17:27 Europe/Berlin] Email sending error: Invalid address:  (to): 
+[07-May-2025 11:34:15 Europe/Berlin] [2025-05-07 11:34:15] [INFO] Invitation process started
+[07-May-2025 11:34:15 Europe/Berlin] Error (2): Undefined array key "guest_name" in C:\xampp\htdocs\event\email\send-invitations.php on line 116
+[07-May-2025 11:34:15 Europe/Berlin] PHP Warning:  Undefined array key "guest_name" in C:\xampp\htdocs\event\email\send-invitations.php on line 116
+[07-May-2025 11:34:15 Europe/Berlin] Error (2): Undefined array key "guest_email" in C:\xampp\htdocs\event\email\send-invitations.php on line 117
+[07-May-2025 11:34:15 Europe/Berlin] PHP Warning:  Undefined array key "guest_email" in C:\xampp\htdocs\event\email\send-invitations.php on line 117
+[07-May-2025 11:34:15 Europe/Berlin] Error (2): Undefined array key "guest_name" in C:\xampp\htdocs\event\email\send-invitations.php on line 116
+[07-May-2025 11:34:15 Europe/Berlin] PHP Warning:  Undefined array key "guest_name" in C:\xampp\htdocs\event\email\send-invitations.php on line 116
+[07-May-2025 11:34:15 Europe/Berlin] Error (2): Undefined array key "guest_email" in C:\xampp\htdocs\event\email\send-invitations.php on line 117
+[07-May-2025 11:34:15 Europe/Berlin] PHP Warning:  Undefined array key "guest_email" in C:\xampp\htdocs\event\email\send-invitations.php on line 117
+[07-May-2025 11:34:15 Europe/Berlin] Error (2): Undefined array key "guest_name" in C:\xampp\htdocs\event\email\send-invitations.php on line 116
+[07-May-2025 11:34:15 Europe/Berlin] PHP Warning:  Undefined array key "guest_name" in C:\xampp\htdocs\event\email\send-invitations.php on line 116
+[07-May-2025 11:34:15 Europe/Berlin] Error (2): Undefined array key "guest_email" in C:\xampp\htdocs\event\email\send-invitations.php on line 117
+[07-May-2025 11:34:15 Europe/Berlin] PHP Warning:  Undefined array key "guest_email" in C:\xampp\htdocs\event\email\send-invitations.php on line 117
+[07-May-2025 11:34:15 Europe/Berlin] Generating QR code for booking: BK20250505031339343, guest: 
+[07-May-2025 11:34:15 Europe/Berlin] Error (8192): md5(): Passing null to parameter #1 ($string) of type string is deprecated in C:\xampp\htdocs\event\email\Mailer.php on line 266
+[07-May-2025 11:34:15 Europe/Berlin] PHP Deprecated:  md5(): Passing null to parameter #1 ($string) of type string is deprecated in C:\xampp\htdocs\event\email\Mailer.php on line 266
+[07-May-2025 11:34:15 Europe/Berlin] QR code already exists, reusing: C:\xampp\htdocs\event\email/../uploads/qrcodes/BK20250505031339343_d41d8cd98f00b204e9800998ecf8427e.png
+[07-May-2025 11:34:15 Europe/Berlin] Error (8192): str_replace(): Passing null to parameter #2 ($replace) of type array|string is deprecated in C:\xampp\htdocs\event\email\Mailer.php on line 200
+[07-May-2025 11:34:15 Europe/Berlin] PHP Deprecated:  str_replace(): Passing null to parameter #2 ($replace) of type array|string is deprecated in C:\xampp\htdocs\event\email\Mailer.php on line 200
+[07-May-2025 11:34:15 Europe/Berlin] Email sending error: Invalid address:  (to): 
+[07-May-2025 11:34:15 Europe/Berlin] Generating QR code for booking: BK20250505031339343, guest: 
+[07-May-2025 11:34:15 Europe/Berlin] Error (8192): md5(): Passing null to parameter #1 ($string) of type string is deprecated in C:\xampp\htdocs\event\email\Mailer.php on line 266
+[07-May-2025 11:34:15 Europe/Berlin] PHP Deprecated:  md5(): Passing null to parameter #1 ($string) of type string is deprecated in C:\xampp\htdocs\event\email\Mailer.php on line 266
+[07-May-2025 11:34:15 Europe/Berlin] QR code already exists, reusing: C:\xampp\htdocs\event\email/../uploads/qrcodes/BK20250505031339343_d41d8cd98f00b204e9800998ecf8427e.png
+[07-May-2025 11:34:15 Europe/Berlin] Error (8192): str_replace(): Passing null to parameter #2 ($replace) of type array|string is deprecated in C:\xampp\htdocs\event\email\Mailer.php on line 200
+[07-May-2025 11:34:15 Europe/Berlin] PHP Deprecated:  str_replace(): Passing null to parameter #2 ($replace) of type array|string is deprecated in C:\xampp\htdocs\event\email\Mailer.php on line 200
+[07-May-2025 11:34:15 Europe/Berlin] Email sending error: Invalid address:  (to): 
+[07-May-2025 11:34:15 Europe/Berlin] Generating QR code for booking: BK20250505031339343, guest: 
+[07-May-2025 11:34:15 Europe/Berlin] Error (8192): md5(): Passing null to parameter #1 ($string) of type string is deprecated in C:\xampp\htdocs\event\email\Mailer.php on line 266
+[07-May-2025 11:34:15 Europe/Berlin] PHP Deprecated:  md5(): Passing null to parameter #1 ($string) of type string is deprecated in C:\xampp\htdocs\event\email\Mailer.php on line 266
+[07-May-2025 11:34:15 Europe/Berlin] QR code already exists, reusing: C:\xampp\htdocs\event\email/../uploads/qrcodes/BK20250505031339343_d41d8cd98f00b204e9800998ecf8427e.png
+[07-May-2025 11:34:15 Europe/Berlin] Error (8192): str_replace(): Passing null to parameter #2 ($replace) of type array|string is deprecated in C:\xampp\htdocs\event\email\Mailer.php on line 200
+[07-May-2025 11:34:15 Europe/Berlin] PHP Deprecated:  str_replace(): Passing null to parameter #2 ($replace) of type array|string is deprecated in C:\xampp\htdocs\event\email\Mailer.php on line 200
+[07-May-2025 11:34:15 Europe/Berlin] Email sending error: Invalid address:  (to): 
+[07-May-2025 11:38:50 Europe/Berlin] [2025-05-07 11:38:50] [INFO] Invitation process started
+[07-May-2025 11:38:50 Europe/Berlin] Error (2): Undefined array key "guest_name" in C:\xampp\htdocs\event\email\send-invitations.php on line 121
+[07-May-2025 11:38:50 Europe/Berlin] PHP Warning:  Undefined array key "guest_name" in C:\xampp\htdocs\event\email\send-invitations.php on line 121
+[07-May-2025 11:38:50 Europe/Berlin] Error (2): Undefined array key "guest_email" in C:\xampp\htdocs\event\email\send-invitations.php on line 122
+[07-May-2025 11:38:50 Europe/Berlin] PHP Warning:  Undefined array key "guest_email" in C:\xampp\htdocs\event\email\send-invitations.php on line 122
+[07-May-2025 11:38:50 Europe/Berlin] Error (2): Undefined array key "guest_name" in C:\xampp\htdocs\event\email\send-invitations.php on line 121
+[07-May-2025 11:38:50 Europe/Berlin] PHP Warning:  Undefined array key "guest_name" in C:\xampp\htdocs\event\email\send-invitations.php on line 121
+[07-May-2025 11:38:50 Europe/Berlin] Error (2): Undefined array key "guest_email" in C:\xampp\htdocs\event\email\send-invitations.php on line 122
+[07-May-2025 11:38:50 Europe/Berlin] PHP Warning:  Undefined array key "guest_email" in C:\xampp\htdocs\event\email\send-invitations.php on line 122
+[07-May-2025 11:38:50 Europe/Berlin] Error (2): Undefined array key "guest_name" in C:\xampp\htdocs\event\email\send-invitations.php on line 121
+[07-May-2025 11:38:50 Europe/Berlin] PHP Warning:  Undefined array key "guest_name" in C:\xampp\htdocs\event\email\send-invitations.php on line 121
+[07-May-2025 11:38:50 Europe/Berlin] Error (2): Undefined array key "guest_email" in C:\xampp\htdocs\event\email\send-invitations.php on line 122
+[07-May-2025 11:38:50 Europe/Berlin] PHP Warning:  Undefined array key "guest_email" in C:\xampp\htdocs\event\email\send-invitations.php on line 122
+[07-May-2025 11:38:50 Europe/Berlin] Generating QR code for booking: BK20250505031339343, guest: 
+[07-May-2025 11:38:50 Europe/Berlin] Error (8192): md5(): Passing null to parameter #1 ($string) of type string is deprecated in C:\xampp\htdocs\event\email\Mailer.php on line 409
+[07-May-2025 11:38:50 Europe/Berlin] PHP Deprecated:  md5(): Passing null to parameter #1 ($string) of type string is deprecated in C:\xampp\htdocs\event\email\Mailer.php on line 409
+[07-May-2025 11:38:50 Europe/Berlin] QR code already exists, reusing: C:\xampp\htdocs\event\email/../uploads/qrcodes/BK20250505031339343_d41d8cd98f00b204e9800998ecf8427e.png
+[07-May-2025 11:38:50 Europe/Berlin] Error (8192): str_replace(): Passing null to parameter #2 ($replace) of type array|string is deprecated in C:\xampp\htdocs\event\email\Mailer.php on line 283
+[07-May-2025 11:38:50 Europe/Berlin] PHP Deprecated:  str_replace(): Passing null to parameter #2 ($replace) of type array|string is deprecated in C:\xampp\htdocs\event\email\Mailer.php on line 283
+[07-May-2025 11:38:50 Europe/Berlin] Attaching QR image: C:\xampp\htdocs\event\email/../uploads/qrcodes/BK20250505031339343_d41d8cd98f00b204e9800998ecf8427e.png
+[07-May-2025 11:38:50 Europe/Berlin] Email sending error: Invalid address:  (to): 
+[07-May-2025 11:38:50 Europe/Berlin] Fallback email method doesn't support attachments - 1 attachment(s) skipped
+[07-May-2025 11:38:50 Europe/Berlin] Error (8192): md5(): Passing null to parameter #1 ($string) of type string is deprecated in C:\xampp\htdocs\event\email\Mailer.php on line 243
+[07-May-2025 11:38:50 Europe/Berlin] PHP Deprecated:  md5(): Passing null to parameter #1 ($string) of type string is deprecated in C:\xampp\htdocs\event\email\Mailer.php on line 243
+[07-May-2025 11:38:50 Europe/Berlin] Saved email content to C:\xampp\htdocs\event\email/logs/email_1746610730_d41d8cd98f00b204e9800998ecf8427e.html
+[07-May-2025 11:38:50 Europe/Berlin] Error (8192): mail(): Passing null to parameter #1 ($to) of type string is deprecated in C:\xampp\htdocs\event\email\Mailer.php on line 248
+[07-May-2025 11:38:50 Europe/Berlin] PHP Deprecated:  mail(): Passing null to parameter #1 ($to) of type string is deprecated in C:\xampp\htdocs\event\email\Mailer.php on line 248
+[07-May-2025 11:38:52 Europe/Berlin] Error (2): mail(): Failed to connect to mailserver at &quot;localhost&quot; port 25, verify your &quot;SMTP&quot; and &quot;smtp_port&quot; setting in php.ini or use ini_set() in C:\xampp\htdocs\event\email\Mailer.php on line 248
+[07-May-2025 11:38:52 Europe/Berlin] PHP Warning:  mail(): Failed to connect to mailserver at &quot;localhost&quot; port 25, verify your &quot;SMTP&quot; and &quot;smtp_port&quot; setting in php.ini or use ini_set() in C:\xampp\htdocs\event\email\Mailer.php on line 248
+[07-May-2025 11:38:52 Europe/Berlin] Failed to send fallback email to 
+[07-May-2025 11:38:52 Europe/Berlin] Generating QR code for booking: BK20250505031339343, guest: 
+[07-May-2025 11:38:52 Europe/Berlin] Error (8192): md5(): Passing null to parameter #1 ($string) of type string is deprecated in C:\xampp\htdocs\event\email\Mailer.php on line 409
+[07-May-2025 11:38:52 Europe/Berlin] PHP Deprecated:  md5(): Passing null to parameter #1 ($string) of type string is deprecated in C:\xampp\htdocs\event\email\Mailer.php on line 409
+[07-May-2025 11:38:52 Europe/Berlin] QR code already exists, reusing: C:\xampp\htdocs\event\email/../uploads/qrcodes/BK20250505031339343_d41d8cd98f00b204e9800998ecf8427e.png
+[07-May-2025 11:38:52 Europe/Berlin] Error (8192): str_replace(): Passing null to parameter #2 ($replace) of type array|string is deprecated in C:\xampp\htdocs\event\email\Mailer.php on line 283
+[07-May-2025 11:38:52 Europe/Berlin] PHP Deprecated:  str_replace(): Passing null to parameter #2 ($replace) of type array|string is deprecated in C:\xampp\htdocs\event\email\Mailer.php on line 283
+[07-May-2025 11:38:52 Europe/Berlin] Attaching QR image: C:\xampp\htdocs\event\email/../uploads/qrcodes/BK20250505031339343_d41d8cd98f00b204e9800998ecf8427e.png
+[07-May-2025 11:38:52 Europe/Berlin] Email sending error: Invalid address:  (to): 
+[07-May-2025 11:38:52 Europe/Berlin] Fallback email method doesn't support attachments - 1 attachment(s) skipped
+[07-May-2025 11:38:52 Europe/Berlin] Error (8192): md5(): Passing null to parameter #1 ($string) of type string is deprecated in C:\xampp\htdocs\event\email\Mailer.php on line 243
+[07-May-2025 11:38:52 Europe/Berlin] PHP Deprecated:  md5(): Passing null to parameter #1 ($string) of type string is deprecated in C:\xampp\htdocs\event\email\Mailer.php on line 243
+[07-May-2025 11:38:52 Europe/Berlin] Saved email content to C:\xampp\htdocs\event\email/logs/email_1746610732_d41d8cd98f00b204e9800998ecf8427e.html
+[07-May-2025 11:38:52 Europe/Berlin] Error (8192): mail(): Passing null to parameter #1 ($to) of type string is deprecated in C:\xampp\htdocs\event\email\Mailer.php on line 248
+[07-May-2025 11:38:52 Europe/Berlin] PHP Deprecated:  mail(): Passing null to parameter #1 ($to) of type string is deprecated in C:\xampp\htdocs\event\email\Mailer.php on line 248
+[07-May-2025 11:38:54 Europe/Berlin] Error (2): mail(): Failed to connect to mailserver at &quot;localhost&quot; port 25, verify your &quot;SMTP&quot; and &quot;smtp_port&quot; setting in php.ini or use ini_set() in C:\xampp\htdocs\event\email\Mailer.php on line 248
+[07-May-2025 11:38:54 Europe/Berlin] PHP Warning:  mail(): Failed to connect to mailserver at &quot;localhost&quot; port 25, verify your &quot;SMTP&quot; and &quot;smtp_port&quot; setting in php.ini or use ini_set() in C:\xampp\htdocs\event\email\Mailer.php on line 248
+[07-May-2025 11:38:54 Europe/Berlin] Failed to send fallback email to 
+[07-May-2025 11:38:54 Europe/Berlin] Generating QR code for booking: BK20250505031339343, guest: 
+[07-May-2025 11:38:54 Europe/Berlin] Error (8192): md5(): Passing null to parameter #1 ($string) of type string is deprecated in C:\xampp\htdocs\event\email\Mailer.php on line 409
+[07-May-2025 11:38:54 Europe/Berlin] PHP Deprecated:  md5(): Passing null to parameter #1 ($string) of type string is deprecated in C:\xampp\htdocs\event\email\Mailer.php on line 409
+[07-May-2025 11:38:54 Europe/Berlin] QR code already exists, reusing: C:\xampp\htdocs\event\email/../uploads/qrcodes/BK20250505031339343_d41d8cd98f00b204e9800998ecf8427e.png
+[07-May-2025 11:38:54 Europe/Berlin] Error (8192): str_replace(): Passing null to parameter #2 ($replace) of type array|string is deprecated in C:\xampp\htdocs\event\email\Mailer.php on line 283
+[07-May-2025 11:38:54 Europe/Berlin] PHP Deprecated:  str_replace(): Passing null to parameter #2 ($replace) of type array|string is deprecated in C:\xampp\htdocs\event\email\Mailer.php on line 283
+[07-May-2025 11:38:54 Europe/Berlin] Attaching QR image: C:\xampp\htdocs\event\email/../uploads/qrcodes/BK20250505031339343_d41d8cd98f00b204e9800998ecf8427e.png
+[07-May-2025 11:38:54 Europe/Berlin] Email sending error: Invalid address:  (to): 
+[07-May-2025 11:38:54 Europe/Berlin] Fallback email method doesn't support attachments - 1 attachment(s) skipped
+[07-May-2025 11:38:54 Europe/Berlin] Error (8192): md5(): Passing null to parameter #1 ($string) of type string is deprecated in C:\xampp\htdocs\event\email\Mailer.php on line 243
+[07-May-2025 11:38:54 Europe/Berlin] PHP Deprecated:  md5(): Passing null to parameter #1 ($string) of type string is deprecated in C:\xampp\htdocs\event\email\Mailer.php on line 243
+[07-May-2025 11:38:54 Europe/Berlin] Saved email content to C:\xampp\htdocs\event\email/logs/email_1746610734_d41d8cd98f00b204e9800998ecf8427e.html
+[07-May-2025 11:38:54 Europe/Berlin] Error (8192): mail(): Passing null to parameter #1 ($to) of type string is deprecated in C:\xampp\htdocs\event\email\Mailer.php on line 248
+[07-May-2025 11:38:54 Europe/Berlin] PHP Deprecated:  mail(): Passing null to parameter #1 ($to) of type string is deprecated in C:\xampp\htdocs\event\email\Mailer.php on line 248
+[07-May-2025 11:38:56 Europe/Berlin] Error (2): mail(): Failed to connect to mailserver at &quot;localhost&quot; port 25, verify your &quot;SMTP&quot; and &quot;smtp_port&quot; setting in php.ini or use ini_set() in C:\xampp\htdocs\event\email\Mailer.php on line 248
+[07-May-2025 11:38:56 Europe/Berlin] PHP Warning:  mail(): Failed to connect to mailserver at &quot;localhost&quot; port 25, verify your &quot;SMTP&quot; and &quot;smtp_port&quot; setting in php.ini or use ini_set() in C:\xampp\htdocs\event\email\Mailer.php on line 248
+[07-May-2025 11:38:56 Europe/Berlin] Failed to send fallback email to 
+[07-May-2025 13:15:10 Europe/Berlin] [2025-05-07 13:15:10] [INFO] Invitation process started
+[07-May-2025 13:15:10 Europe/Berlin] Error (2): Undefined array key "guest_name" in C:\xampp\htdocs\event\email\send-invitations.php on line 121
+[07-May-2025 13:15:10 Europe/Berlin] PHP Warning:  Undefined array key "guest_name" in C:\xampp\htdocs\event\email\send-invitations.php on line 121
+[07-May-2025 13:15:10 Europe/Berlin] Error (2): Undefined array key "guest_email" in C:\xampp\htdocs\event\email\send-invitations.php on line 122
+[07-May-2025 13:15:10 Europe/Berlin] PHP Warning:  Undefined array key "guest_email" in C:\xampp\htdocs\event\email\send-invitations.php on line 122
+[07-May-2025 13:15:10 Europe/Berlin] Generating QR code for booking: BK20250507130800801, guest: 
+[07-May-2025 13:15:10 Europe/Berlin] Error (8192): md5(): Passing null to parameter #1 ($string) of type string is deprecated in C:\xampp\htdocs\event\email\Mailer.php on line 409
+[07-May-2025 13:15:10 Europe/Berlin] PHP Deprecated:  md5(): Passing null to parameter #1 ($string) of type string is deprecated in C:\xampp\htdocs\event\email\Mailer.php on line 409
+[07-May-2025 13:15:10 Europe/Berlin] Creating placeholder QR code with GD
+[07-May-2025 13:15:10 Europe/Berlin] Error (8192): str_replace(): Passing null to parameter #2 ($replace) of type array|string is deprecated in C:\xampp\htdocs\event\email\Mailer.php on line 283
+[07-May-2025 13:15:10 Europe/Berlin] PHP Deprecated:  str_replace(): Passing null to parameter #2 ($replace) of type array|string is deprecated in C:\xampp\htdocs\event\email\Mailer.php on line 283
+[07-May-2025 13:15:10 Europe/Berlin] Attaching QR image: C:\xampp\htdocs\event\email/../uploads/qrcodes/BK20250507130800801_d41d8cd98f00b204e9800998ecf8427e.png
+[07-May-2025 13:15:10 Europe/Berlin] Email sending error: Invalid address:  (to): 
+[07-May-2025 13:15:10 Europe/Berlin] Fallback email method doesn't support attachments - 1 attachment(s) skipped
+[07-May-2025 13:15:10 Europe/Berlin] Error (8192): md5(): Passing null to parameter #1 ($string) of type string is deprecated in C:\xampp\htdocs\event\email\Mailer.php on line 243
+[07-May-2025 13:15:10 Europe/Berlin] PHP Deprecated:  md5(): Passing null to parameter #1 ($string) of type string is deprecated in C:\xampp\htdocs\event\email\Mailer.php on line 243
+[07-May-2025 13:15:10 Europe/Berlin] Saved email content to C:\xampp\htdocs\event\email/logs/email_1746616510_d41d8cd98f00b204e9800998ecf8427e.html
+[07-May-2025 13:15:10 Europe/Berlin] Error (8192): mail(): Passing null to parameter #1 ($to) of type string is deprecated in C:\xampp\htdocs\event\email\Mailer.php on line 248
+[07-May-2025 13:15:10 Europe/Berlin] PHP Deprecated:  mail(): Passing null to parameter #1 ($to) of type string is deprecated in C:\xampp\htdocs\event\email\Mailer.php on line 248
+[07-May-2025 13:15:12 Europe/Berlin] Error (2): mail(): Failed to connect to mailserver at &quot;localhost&quot; port 25, verify your &quot;SMTP&quot; and &quot;smtp_port&quot; setting in php.ini or use ini_set() in C:\xampp\htdocs\event\email\Mailer.php on line 248
+[07-May-2025 13:15:12 Europe/Berlin] PHP Warning:  mail(): Failed to connect to mailserver at &quot;localhost&quot; port 25, verify your &quot;SMTP&quot; and &quot;smtp_port&quot; setting in php.ini or use ini_set() in C:\xampp\htdocs\event\email\Mailer.php on line 248
+[07-May-2025 13:15:12 Europe/Berlin] Failed to send fallback email to 
+[07-May-2025 13:42:20 Europe/Berlin] [2025-05-07 13:42:20] [INFO] Invitation process started
+[07-May-2025 13:43:08 Europe/Berlin] [2025-05-07 13:43:08] [INFO] Invitation process started
+[07-May-2025 13:43:08 Europe/Berlin] Error (2): Undefined array key "guest_name" in C:\xampp\htdocs\event\email\send-invitations.php on line 121
+[07-May-2025 13:43:08 Europe/Berlin] PHP Warning:  Undefined array key "guest_name" in C:\xampp\htdocs\event\email\send-invitations.php on line 121
+[07-May-2025 13:43:08 Europe/Berlin] Error (2): Undefined array key "guest_email" in C:\xampp\htdocs\event\email\send-invitations.php on line 122
+[07-May-2025 13:43:08 Europe/Berlin] PHP Warning:  Undefined array key "guest_email" in C:\xampp\htdocs\event\email\send-invitations.php on line 122
+[07-May-2025 13:43:08 Europe/Berlin] Error (2): Undefined array key "guest_name" in C:\xampp\htdocs\event\email\send-invitations.php on line 121
+[07-May-2025 13:43:08 Europe/Berlin] PHP Warning:  Undefined array key "guest_name" in C:\xampp\htdocs\event\email\send-invitations.php on line 121
+[07-May-2025 13:43:08 Europe/Berlin] Error (2): Undefined array key "guest_email" in C:\xampp\htdocs\event\email\send-invitations.php on line 122
+[07-May-2025 13:43:08 Europe/Berlin] PHP Warning:  Undefined array key "guest_email" in C:\xampp\htdocs\event\email\send-invitations.php on line 122
+[07-May-2025 13:43:08 Europe/Berlin] Error (2): Undefined array key "guest_name" in C:\xampp\htdocs\event\email\send-invitations.php on line 121
+[07-May-2025 13:43:08 Europe/Berlin] PHP Warning:  Undefined array key "guest_name" in C:\xampp\htdocs\event\email\send-invitations.php on line 121
+[07-May-2025 13:43:08 Europe/Berlin] Error (2): Undefined array key "guest_email" in C:\xampp\htdocs\event\email\send-invitations.php on line 122
+[07-May-2025 13:43:08 Europe/Berlin] PHP Warning:  Undefined array key "guest_email" in C:\xampp\htdocs\event\email\send-invitations.php on line 122
+[07-May-2025 13:43:08 Europe/Berlin] Generating QR code for booking: BK20250505031339343, guest: 
+[07-May-2025 13:43:08 Europe/Berlin] Error (8192): md5(): Passing null to parameter #1 ($string) of type string is deprecated in C:\xampp\htdocs\event\email\Mailer.php on line 409
+[07-May-2025 13:43:08 Europe/Berlin] PHP Deprecated:  md5(): Passing null to parameter #1 ($string) of type string is deprecated in C:\xampp\htdocs\event\email\Mailer.php on line 409
+[07-May-2025 13:43:08 Europe/Berlin] QR code already exists, reusing: C:\xampp\htdocs\event\email/../uploads/qrcodes/BK20250505031339343_d41d8cd98f00b204e9800998ecf8427e.png
+[07-May-2025 13:43:08 Europe/Berlin] Error (8192): str_replace(): Passing null to parameter #2 ($replace) of type array|string is deprecated in C:\xampp\htdocs\event\email\Mailer.php on line 283
+[07-May-2025 13:43:08 Europe/Berlin] PHP Deprecated:  str_replace(): Passing null to parameter #2 ($replace) of type array|string is deprecated in C:\xampp\htdocs\event\email\Mailer.php on line 283
+[07-May-2025 13:43:08 Europe/Berlin] Attaching QR image: C:\xampp\htdocs\event\email/../uploads/qrcodes/BK20250505031339343_d41d8cd98f00b204e9800998ecf8427e.png
+[07-May-2025 13:43:08 Europe/Berlin] Email sending error: Invalid address:  (to): 
+[07-May-2025 13:43:08 Europe/Berlin] Fallback email method doesn't support attachments - 1 attachment(s) skipped
+[07-May-2025 13:43:08 Europe/Berlin] Error (8192): md5(): Passing null to parameter #1 ($string) of type string is deprecated in C:\xampp\htdocs\event\email\Mailer.php on line 243
+[07-May-2025 13:43:08 Europe/Berlin] PHP Deprecated:  md5(): Passing null to parameter #1 ($string) of type string is deprecated in C:\xampp\htdocs\event\email\Mailer.php on line 243
+[07-May-2025 13:43:08 Europe/Berlin] Saved email content to C:\xampp\htdocs\event\email/logs/email_1746618188_d41d8cd98f00b204e9800998ecf8427e.html
+[07-May-2025 13:43:08 Europe/Berlin] Error (8192): mail(): Passing null to parameter #1 ($to) of type string is deprecated in C:\xampp\htdocs\event\email\Mailer.php on line 248
+[07-May-2025 13:43:08 Europe/Berlin] PHP Deprecated:  mail(): Passing null to parameter #1 ($to) of type string is deprecated in C:\xampp\htdocs\event\email\Mailer.php on line 248
+[07-May-2025 13:43:10 Europe/Berlin] Error (2): mail(): Failed to connect to mailserver at &quot;localhost&quot; port 25, verify your &quot;SMTP&quot; and &quot;smtp_port&quot; setting in php.ini or use ini_set() in C:\xampp\htdocs\event\email\Mailer.php on line 248
+[07-May-2025 13:43:10 Europe/Berlin] PHP Warning:  mail(): Failed to connect to mailserver at &quot;localhost&quot; port 25, verify your &quot;SMTP&quot; and &quot;smtp_port&quot; setting in php.ini or use ini_set() in C:\xampp\htdocs\event\email\Mailer.php on line 248
+[07-May-2025 13:43:10 Europe/Berlin] Failed to send fallback email to 
+[07-May-2025 13:43:10 Europe/Berlin] Generating QR code for booking: BK20250505031339343, guest: 
+[07-May-2025 13:43:10 Europe/Berlin] Error (8192): md5(): Passing null to parameter #1 ($string) of type string is deprecated in C:\xampp\htdocs\event\email\Mailer.php on line 409
+[07-May-2025 13:43:10 Europe/Berlin] PHP Deprecated:  md5(): Passing null to parameter #1 ($string) of type string is deprecated in C:\xampp\htdocs\event\email\Mailer.php on line 409
+[07-May-2025 13:43:10 Europe/Berlin] QR code already exists, reusing: C:\xampp\htdocs\event\email/../uploads/qrcodes/BK20250505031339343_d41d8cd98f00b204e9800998ecf8427e.png
+[07-May-2025 13:43:10 Europe/Berlin] Error (8192): str_replace(): Passing null to parameter #2 ($replace) of type array|string is deprecated in C:\xampp\htdocs\event\email\Mailer.php on line 283
+[07-May-2025 13:43:10 Europe/Berlin] PHP Deprecated:  str_replace(): Passing null to parameter #2 ($replace) of type array|string is deprecated in C:\xampp\htdocs\event\email\Mailer.php on line 283
+[07-May-2025 13:43:10 Europe/Berlin] Attaching QR image: C:\xampp\htdocs\event\email/../uploads/qrcodes/BK20250505031339343_d41d8cd98f00b204e9800998ecf8427e.png
+[07-May-2025 13:43:10 Europe/Berlin] Email sending error: Invalid address:  (to): 
+[07-May-2025 13:43:10 Europe/Berlin] Fallback email method doesn't support attachments - 1 attachment(s) skipped
+[07-May-2025 13:43:10 Europe/Berlin] Error (8192): md5(): Passing null to parameter #1 ($string) of type string is deprecated in C:\xampp\htdocs\event\email\Mailer.php on line 243
+[07-May-2025 13:43:10 Europe/Berlin] PHP Deprecated:  md5(): Passing null to parameter #1 ($string) of type string is deprecated in C:\xampp\htdocs\event\email\Mailer.php on line 243
+[07-May-2025 13:43:10 Europe/Berlin] Saved email content to C:\xampp\htdocs\event\email/logs/email_1746618190_d41d8cd98f00b204e9800998ecf8427e.html
+[07-May-2025 13:43:10 Europe/Berlin] Error (8192): mail(): Passing null to parameter #1 ($to) of type string is deprecated in C:\xampp\htdocs\event\email\Mailer.php on line 248
+[07-May-2025 13:43:10 Europe/Berlin] PHP Deprecated:  mail(): Passing null to parameter #1 ($to) of type string is deprecated in C:\xampp\htdocs\event\email\Mailer.php on line 248
+[07-May-2025 13:43:12 Europe/Berlin] Error (2): mail(): Failed to connect to mailserver at &quot;localhost&quot; port 25, verify your &quot;SMTP&quot; and &quot;smtp_port&quot; setting in php.ini or use ini_set() in C:\xampp\htdocs\event\email\Mailer.php on line 248
+[07-May-2025 13:43:12 Europe/Berlin] PHP Warning:  mail(): Failed to connect to mailserver at &quot;localhost&quot; port 25, verify your &quot;SMTP&quot; and &quot;smtp_port&quot; setting in php.ini or use ini_set() in C:\xampp\htdocs\event\email\Mailer.php on line 248
+[07-May-2025 13:43:12 Europe/Berlin] Failed to send fallback email to 
+[07-May-2025 13:43:12 Europe/Berlin] Generating QR code for booking: BK20250505031339343, guest: 
+[07-May-2025 13:43:12 Europe/Berlin] Error (8192): md5(): Passing null to parameter #1 ($string) of type string is deprecated in C:\xampp\htdocs\event\email\Mailer.php on line 409
+[07-May-2025 13:43:12 Europe/Berlin] PHP Deprecated:  md5(): Passing null to parameter #1 ($string) of type string is deprecated in C:\xampp\htdocs\event\email\Mailer.php on line 409
+[07-May-2025 13:43:12 Europe/Berlin] QR code already exists, reusing: C:\xampp\htdocs\event\email/../uploads/qrcodes/BK20250505031339343_d41d8cd98f00b204e9800998ecf8427e.png
+[07-May-2025 13:43:12 Europe/Berlin] Error (8192): str_replace(): Passing null to parameter #2 ($replace) of type array|string is deprecated in C:\xampp\htdocs\event\email\Mailer.php on line 283
+[07-May-2025 13:43:12 Europe/Berlin] PHP Deprecated:  str_replace(): Passing null to parameter #2 ($replace) of type array|string is deprecated in C:\xampp\htdocs\event\email\Mailer.php on line 283
+[07-May-2025 13:43:12 Europe/Berlin] Attaching QR image: C:\xampp\htdocs\event\email/../uploads/qrcodes/BK20250505031339343_d41d8cd98f00b204e9800998ecf8427e.png
+[07-May-2025 13:43:12 Europe/Berlin] Email sending error: Invalid address:  (to): 
+[07-May-2025 13:43:12 Europe/Berlin] Fallback email method doesn't support attachments - 1 attachment(s) skipped
+[07-May-2025 13:43:12 Europe/Berlin] Error (8192): md5(): Passing null to parameter #1 ($string) of type string is deprecated in C:\xampp\htdocs\event\email\Mailer.php on line 243
+[07-May-2025 13:43:12 Europe/Berlin] PHP Deprecated:  md5(): Passing null to parameter #1 ($string) of type string is deprecated in C:\xampp\htdocs\event\email\Mailer.php on line 243
+[07-May-2025 13:43:12 Europe/Berlin] Saved email content to C:\xampp\htdocs\event\email/logs/email_1746618192_d41d8cd98f00b204e9800998ecf8427e.html
+[07-May-2025 13:43:12 Europe/Berlin] Error (8192): mail(): Passing null to parameter #1 ($to) of type string is deprecated in C:\xampp\htdocs\event\email\Mailer.php on line 248
+[07-May-2025 13:43:12 Europe/Berlin] PHP Deprecated:  mail(): Passing null to parameter #1 ($to) of type string is deprecated in C:\xampp\htdocs\event\email\Mailer.php on line 248
+[07-May-2025 13:43:14 Europe/Berlin] Error (2): mail(): Failed to connect to mailserver at &quot;localhost&quot; port 25, verify your &quot;SMTP&quot; and &quot;smtp_port&quot; setting in php.ini or use ini_set() in C:\xampp\htdocs\event\email\Mailer.php on line 248
+[07-May-2025 13:43:14 Europe/Berlin] PHP Warning:  mail(): Failed to connect to mailserver at &quot;localhost&quot; port 25, verify your &quot;SMTP&quot; and &quot;smtp_port&quot; setting in php.ini or use ini_set() in C:\xampp\htdocs\event\email\Mailer.php on line 248
+[07-May-2025 13:43:14 Europe/Berlin] Failed to send fallback email to 
+[07-May-2025 13:48:17 Europe/Berlin] [2025-05-07 13:48:17] [INFO] Invitation process started
+[07-May-2025 13:48:19 Europe/Berlin] Error (2): mail(): Failed to connect to mailserver at &quot;localhost&quot; port 25, verify your &quot;SMTP&quot; and &quot;smtp_port&quot; setting in php.ini or use ini_set() in C:\xampp\htdocs\event\email\send-invitations.php on line 256
+[07-May-2025 13:48:19 Europe/Berlin] PHP Warning:  mail(): Failed to connect to mailserver at &quot;localhost&quot; port 25, verify your &quot;SMTP&quot; and &quot;smtp_port&quot; setting in php.ini or use ini_set() in C:\xampp\htdocs\event\email\send-invitations.php on line 256

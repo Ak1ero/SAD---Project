@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="booking_guests_booking_fk" directorySegmentName="seg_0" id="EF309AA5-A07E-7DD5-A46D-61FBB001E566">
+<createdBy>mikea</createdBy>
+<createdTime>2025-05-04 08:00:28 UTC</createdTime>
+<generatorID>7BF77514-AAF2-E23C-EF8C-D46AFC7F6292</generatorID>
+<ownerDesignName>event</ownerDesignName>
+<engineerTo>
+<item key="FD95F36E-90EF-CE47-21E2-5B50F7DBDC36" value="true"/>
+</engineerTo>
+<sourcePk>8D99CB06-66E6-766A-6859-B1242A62DEED</sourcePk>
+<identifying>false</identifying>
+<optionalSource>false</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>69465DE1-9875-D5A3-73C4-933174761738</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>C3E692DF-B620-3852-C9A9-816633AEC030</targetEntity>
+<transferable>true</transferable>
+<deleteRule>CASCADE</deleteRule>
+</Relation>

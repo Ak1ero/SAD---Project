@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="68A2526E-EF57-523D-29AF-55D65062E615" containerWithKeyObject="C5DE46BF-73FC-1409-5970-D9750E711374" localFKIndex="8E3A1E3F-F7A1-77E7-6A19-ADF9BF492C44" name="REVIEWS_USERS_FK">
+<sourceDDLFile>event_oracle.sql</sourceDDLFile>
+<createdBy>mikea</createdBy>
+<createdTime>2025-05-04 08:00:25 UTC</createdTime>
+<ownerDesignName>event</ownerDesignName>
+<importedID>45FBB904-F5FC-0C45-257B-B8E26AB0E5BA</importedID>
+<referredTableLongName>USERS</referredTableLongName>
+<deleteRule>CASCADE</deleteRule>
+<referredTableID>5D1C512E-994A-1C26-A687-27BB917B66F4</referredTableID>
+<keyObject>C3A9A852-E208-E2E4-FE9A-3C5A916C9053</keyObject>
+<referredKeyID>C3A9A852-E208-E2E4-FE9A-3C5A916C9053</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

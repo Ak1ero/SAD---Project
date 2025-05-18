@@ -1,0 +1,123 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev20c class="oracle.dbtools.crest.model.design.storage.oracle.v20c.TableProxyOraclev20c" name="BOOKINGS" directorySegmentName="seg_0" id="D37A7197-CE53-A090-B01A-32580AC54615">
+<createdBy>mikea</createdBy>
+<createdTime>2025-05-04 08:00:25 UTC</createdTime>
+<ownerDesignName>event</ownerDesignName>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="USERS_id" id="08A29B5F-1C5E-5F75-744E-8590921B6577">
+<createdBy>mikea</createdBy>
+<createdTime>2025-05-04 08:00:25 UTC</createdTime>
+<ownerDesignName>event</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="id" id="0F26F79A-1B91-E6A6-3D21-1F19643E55BA">
+<createdBy>mikea</createdBy>
+<createdTime>2025-05-04 08:00:25 UTC</createdTime>
+<ownerDesignName>event</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="status" id="27396F11-4076-C138-83C1-4D2BF2B3B899">
+<createdBy>mikea</createdBy>
+<createdTime>2025-05-04 08:00:25 UTC</createdTime>
+<ownerDesignName>event</ownerDesignName>
+<defaultValue>&apos;pending&apos;</defaultValue>
+</ColumnProxy>
+<ColumnProxy name="special_requests" id="40179BBF-E69F-4F43-A531-FF436FA6C08D">
+<createdBy>mikea</createdBy>
+<createdTime>2025-05-04 08:00:25 UTC</createdTime>
+<ownerDesignName>event</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="package_name" id="6DF15840-D85C-C4D0-E464-C0F3770FD16C">
+<createdBy>mikea</createdBy>
+<createdTime>2025-05-04 08:00:25 UTC</createdTime>
+<ownerDesignName>event</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="payment_status" id="721B6913-D837-C952-8F3B-6288560BA093">
+<createdBy>mikea</createdBy>
+<createdTime>2025-05-04 08:00:25 UTC</createdTime>
+<ownerDesignName>event</ownerDesignName>
+<defaultValue>&apos;unpaid&apos;</defaultValue>
+</ColumnProxy>
+<ColumnProxy name="total_amount" id="79EC0B8A-3502-682F-92E0-A17937359D85">
+<createdBy>mikea</createdBy>
+<createdTime>2025-05-04 08:00:25 UTC</createdTime>
+<ownerDesignName>event</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="booking_reference" id="84DCD2D7-FE6C-D20A-E276-17DB14AEF027">
+<createdBy>mikea</createdBy>
+<createdTime>2025-05-04 08:00:25 UTC</createdTime>
+<ownerDesignName>event</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="event_date" id="88FE326B-608C-E97E-3E1F-13B9C0AE1F03">
+<createdBy>mikea</createdBy>
+<createdTime>2025-05-04 08:00:25 UTC</createdTime>
+<ownerDesignName>event</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="event_end_time" id="962F3438-72A0-3A4B-CF47-1AD20D6C453D">
+<createdBy>mikea</createdBy>
+<createdTime>2025-05-04 08:00:25 UTC</createdTime>
+<ownerDesignName>event</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="updated_at" id="AF224C86-16C8-DD97-17D9-1801B8519490">
+<createdBy>mikea</createdBy>
+<createdTime>2025-05-04 08:00:25 UTC</createdTime>
+<ownerDesignName>event</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="created_at" id="E3EF8B9D-4C2B-9EF5-B9D4-FE92335E7989">
+<createdBy>mikea</createdBy>
+<createdTime>2025-05-04 08:00:25 UTC</createdTime>
+<ownerDesignName>event</ownerDesignName>
+<defaultValue>SYSTIMESTAMP</defaultValue>
+</ColumnProxy>
+<ColumnProxy name="theme_name" id="F2099174-4A06-93A7-45C4-E1466F963FCA">
+<createdBy>mikea</createdBy>
+<createdTime>2025-05-04 08:00:25 UTC</createdTime>
+<ownerDesignName>event</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="event_start_time" id="FFED8483-AD46-C0DA-5B45-1D228AA06FB4">
+<createdBy>mikea</createdBy>
+<createdTime>2025-05-04 08:00:25 UTC</createdTime>
+<ownerDesignName>event</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<foreignKeys>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="BOOKINGS_USERS_FK" id="3596F086-BF2D-2350-FAAD-BC7832AF513C">
+<createdBy>mikea</createdBy>
+<createdTime>2025-05-04 08:00:25 UTC</createdTime>
+<ownerDesignName>event</ownerDesignName>
+</ForeignKey>
+</foreignKeys>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="BOOKINGS_PK" id="BEE4CCC4-B5EB-F1B2-71AC-6083A5166621">
+<createdBy>mikea</createdBy>
+<createdTime>2025-05-04 08:00:25 UTC</createdTime>
+<ownerDesignName>event</ownerDesignName>
+<indexSort>SORTED</indexSort>
+</PrimaryKey>
+</primaryKeys>
+<tableCheckConstraints itemClass="oracle.dbtools.crest.model.design.storage.oracle.TableCheckConstraintOracle">
+<TableCheckConstraint name="bookings_status_chk" id="9CF934B1-036E-A7BC-9FBC-E443BE25688D">
+<createdBy>mikea</createdBy>
+<createdTime>2025-05-04 08:00:25 UTC</createdTime>
+<ownerDesignName>event</ownerDesignName>
+<nameChanged>true</nameChanged>
+</TableCheckConstraint>
+<TableCheckConstraint name="bookings_payment_status_chk" id="F679668F-88BE-C5C4-8ACB-E40A6D96379D">
+<createdBy>mikea</createdBy>
+<createdTime>2025-05-04 08:00:25 UTC</createdTime>
+<ownerDesignName>event</ownerDesignName>
+<nameChanged>true</nameChanged>
+</TableCheckConstraint>
+</tableCheckConstraints>
+<uniqueKeys>
+<UniqueKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.UniqueOraclev10g" name="BOOKINGS_booking_reference_UN" id="F449920F-E16A-18D8-F841-C6F0DF0FF0FD">
+<createdBy>mikea</createdBy>
+<createdTime>2025-05-04 08:00:25 UTC</createdTime>
+<ownerDesignName>event</ownerDesignName>
+<indexSort>SORTED</indexSort>
+</UniqueKey>
+</uniqueKeys>
+</TableProxyOraclev20c>

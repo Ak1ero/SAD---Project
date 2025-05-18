@@ -1,0 +1,97 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev20c class="oracle.dbtools.crest.model.design.storage.oracle.v20c.TableProxyOraclev20c" name="EVENT_PACKAGES" directorySegmentName="seg_0" id="745BEFC6-3C75-5A13-1D94-B64D017765E9">
+<createdBy>mikea</createdBy>
+<createdTime>2025-05-04 08:00:25 UTC</createdTime>
+<ownerDesignName>event</ownerDesignName>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="created_at" id="021CFE22-08BF-89E4-F033-6AC85D4A6F1B">
+<createdBy>mikea</createdBy>
+<createdTime>2025-05-04 08:00:25 UTC</createdTime>
+<ownerDesignName>event</ownerDesignName>
+<defaultValue>SYSTIMESTAMP</defaultValue>
+</ColumnProxy>
+<ColumnProxy name="name" id="12397EAB-14F9-780F-DCC9-EAE98F95039A">
+<createdBy>mikea</createdBy>
+<createdTime>2025-05-04 08:00:25 UTC</createdTime>
+<ownerDesignName>event</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="inclusions" id="1374D04F-81DA-29D8-82BF-C3704C37DB02">
+<createdBy>mikea</createdBy>
+<createdTime>2025-05-04 08:00:25 UTC</createdTime>
+<ownerDesignName>event</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="description" id="1F1668C8-20A2-642F-55F4-7012D8504CED">
+<createdBy>mikea</createdBy>
+<createdTime>2025-05-04 08:00:25 UTC</createdTime>
+<ownerDesignName>event</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="exclusions" id="2B535939-14DA-7A93-5017-E8ADD46DA40C">
+<createdBy>mikea</createdBy>
+<createdTime>2025-05-04 08:00:25 UTC</createdTime>
+<ownerDesignName>event</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="duration" id="30A04614-972C-0F95-45BB-11F0067807ED">
+<createdBy>mikea</createdBy>
+<createdTime>2025-05-04 08:00:25 UTC</createdTime>
+<ownerDesignName>event</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="id" id="37C64E6A-0270-E67C-D14B-D6CE2331AE87">
+<createdBy>mikea</createdBy>
+<createdTime>2025-05-04 08:00:25 UTC</createdTime>
+<ownerDesignName>event</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="guest_capacity" id="3F95BBC9-755D-05B2-98A6-8152A55C4054">
+<createdBy>mikea</createdBy>
+<createdTime>2025-05-04 08:00:25 UTC</createdTime>
+<ownerDesignName>event</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="price" id="47AFA6D5-B246-45B8-A364-38BB35763101">
+<createdBy>mikea</createdBy>
+<createdTime>2025-05-04 08:00:25 UTC</createdTime>
+<ownerDesignName>event</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="terms" id="526D3469-4B29-91B5-9771-D6890533D1E2">
+<createdBy>mikea</createdBy>
+<createdTime>2025-05-04 08:00:25 UTC</createdTime>
+<ownerDesignName>event</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="status" id="8BA71D9D-D801-D11C-2349-3FD6E0B62A08">
+<createdBy>mikea</createdBy>
+<createdTime>2025-05-04 08:00:25 UTC</createdTime>
+<ownerDesignName>event</ownerDesignName>
+<defaultValue>&apos;active&apos;</defaultValue>
+</ColumnProxy>
+<ColumnProxy name="updated_at" id="8DEAFD2C-99DE-CB2E-D1FC-F07E52EEF656">
+<createdBy>mikea</createdBy>
+<createdTime>2025-05-04 08:00:25 UTC</createdTime>
+<ownerDesignName>event</ownerDesignName>
+<defaultValue>SYSTIMESTAMP</defaultValue>
+</ColumnProxy>
+<ColumnProxy name="image_path" id="98E52136-23FC-ADCE-6E98-B0C3DC039E46">
+<createdBy>mikea</createdBy>
+<createdTime>2025-05-04 08:00:25 UTC</createdTime>
+<ownerDesignName>event</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="EVENT_PACKAGES_PK" id="40E464E4-BBE5-52BC-1F33-0B10371C3CE8">
+<createdBy>mikea</createdBy>
+<createdTime>2025-05-04 08:00:25 UTC</createdTime>
+<ownerDesignName>event</ownerDesignName>
+<indexSort>SORTED</indexSort>
+</PrimaryKey>
+</primaryKeys>
+<tableCheckConstraints itemClass="oracle.dbtools.crest.model.design.storage.oracle.TableCheckConstraintOracle">
+<TableCheckConstraint name="event_packages_status_chk" id="035E47F1-AABD-B2BB-FFAC-F1E751BC0BD2">
+<createdBy>mikea</createdBy>
+<createdTime>2025-05-04 08:00:25 UTC</createdTime>
+<ownerDesignName>event</ownerDesignName>
+<nameChanged>true</nameChanged>
+</TableCheckConstraint>
+</tableCheckConstraints>
+</TableProxyOraclev20c>

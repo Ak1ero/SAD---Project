@@ -1,0 +1,15 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<relationalModel class="oracle.dbtools.crest.model.design.relational.RelationalDesign" name="Relational_1" id="FD95F36E-90EF-CE47-21E2-5B50F7DBDC36" mainViewID="3CF345FA-F2E2-1567-429E-FB209A9AD65C">
+<createdBy>mikea</createdBy>
+<createdTime>2025-05-04 08:00:02 UTC</createdTime>
+<ownerDesignName>event</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+<selectedRDBMSSite>01F6E6D1-21D0-CFBD-ABDD-3988D1813575</selectedRDBMSSite>
+<importDDLFileStamps>
+<importDDLFileStamp class="oracle.dbtools.crest.imports.DDLFileStamp">
+<fileName>event_oracle.sql</fileName>
+<pathName>C:\xampp\htdocs\event\database</pathName>
+<dbType>17</dbType>
+</importDDLFileStamp>
+</importDDLFileStamps>
+</relationalModel>

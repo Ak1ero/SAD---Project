@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="reviews_user_fk" directorySegmentName="seg_0" id="56972B05-8832-4DA2-E696-DCA75411B28F">
+<createdBy>mikea</createdBy>
+<createdTime>2025-05-04 08:00:28 UTC</createdTime>
+<generatorID>68A2526E-EF57-523D-29AF-55D65062E615</generatorID>
+<ownerDesignName>event</ownerDesignName>
+<engineerTo>
+<item key="FD95F36E-90EF-CE47-21E2-5B50F7DBDC36" value="true"/>
+</engineerTo>
+<sourcePk>F0A1BF28-93FA-3448-E734-14071D8EFB22</sourcePk>
+<identifying>false</identifying>
+<optionalSource>false</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>767DFCCC-14D9-D82E-8ACB-4C05D3A7092D</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>03085061-ECCF-0A29-D0C0-CDF31D26F232</targetEntity>
+<transferable>true</transferable>
+<deleteRule>CASCADE</deleteRule>
+</Relation>

@@ -1,0 +1,15 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TriggerOraclev10g class="oracle.dbtools.crest.model.design.storage.oracle.v10g.TriggerOraclev10g" name="payment_transactions_bir" directorySegmentName="seg_0" id="CC798AD3-EC90-0108-3078-9BA1812C5857">
+<sourceDDLFile>event_oracle.sql</sourceDDLFile>
+<createdBy>mikea</createdBy>
+<createdTime>2025-05-04 08:00:20 UTC</createdTime>
+<ownerDesignName>event</ownerDesignName>
+<actions>INSERT</actions>
+<body><![CDATA[BEGIN
+  SELECT payment_transactions_seq.NEXTVAL
+  INTO   :new.id
+  FROM   dual;
+END;]]></body>
+<triggerTime>BEFORE</triggerTime>
+<table>2AB6DB15-9BD9-F622-DBEF-FECBB06EE6FC</table>
+</TriggerOraclev10g>

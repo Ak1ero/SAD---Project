@@ -1,0 +1,15 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TriggerOraclev10g class="oracle.dbtools.crest.model.design.storage.oracle.v10g.TriggerOraclev10g" name="themes_bir" directorySegmentName="seg_0" id="EC9F75B2-D608-26AA-70FE-048586B9A022">
+<sourceDDLFile>event_oracle.sql</sourceDDLFile>
+<createdBy>mikea</createdBy>
+<createdTime>2025-05-04 08:00:20 UTC</createdTime>
+<ownerDesignName>event</ownerDesignName>
+<actions>INSERT</actions>
+<body><![CDATA[BEGIN
+  SELECT themes_seq.NEXTVAL
+  INTO   :new.id
+  FROM   dual;
+END;]]></body>
+<triggerTime>BEFORE</triggerTime>
+<table>85D8AD78-46AD-93EF-7D8D-5D30CB38CE9B</table>
+</TriggerOraclev10g>

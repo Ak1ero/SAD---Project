@@ -1,0 +1,70 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="DF43B984-675C-C3CE-6323-790C502B3183" name="GUEST_ATTENDANCE">
+<createdBy>mikea</createdBy>
+<createdTime>2025-05-13 14:31:18 UTC</createdTime>
+<generatorID>FE794E45-2441-37C0-7AE4-C5B3C2782E75</generatorID>
+<ownerDesignName>event</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="attendance_id" id="6F72F359-02C0-440D-0F4F-5646C782B084">
+<createdBy>mikea</createdBy>
+<createdTime>2025-05-13 14:31:18 UTC</createdTime>
+<generatorID>8B7C8835-2611-4DDA-164C-B93A5FC86221</generatorID>
+<ownerDesignName>event</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="check_in_time" id="382CF8C9-A990-9CE7-2452-38E202E157C5">
+<createdBy>mikea</createdBy>
+<createdTime>2025-05-13 14:31:18 UTC</createdTime>
+<generatorID>F5BBA63C-99C2-1001-8223-605912CB9CD5</generatorID>
+<ownerDesignName>event</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT015</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="checked_in_by" id="B7CDE7A0-6E07-BB1E-CCF1-9610A536C810">
+<createdBy>mikea</createdBy>
+<createdTime>2025-05-13 14:31:18 UTC</createdTime>
+<generatorID>AA42EF7C-1874-20F8-6CBB-D6C26CF1A7E3</generatorID>
+<ownerDesignName>event</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="notes" id="FE2699A7-0CB8-62D4-A920-B60B60AEDE7E">
+<createdBy>mikea</createdBy>
+<createdTime>2025-05-13 14:31:18 UTC</createdTime>
+<generatorID>CC116261-B529-332C-6FEA-4FCAA7426184</generatorID>
+<ownerDesignName>event</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT040</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="9217922D-3749-D8A4-F5CE-3AEA7DCE0FD0" name="GUEST_ATTENDANCE_PK">
+<createdBy>mikea</createdBy>
+<createdTime>2025-05-13 14:31:18 UTC</createdTime>
+<generatorID>303E3A92-8FF1-009B-FF11-287484607FB4</generatorID>
+<ownerDesignName>event</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6F72F359-02C0-440D-0F4F-5646C782B084"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,128 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="C5DE46BF-73FC-1409-5970-D9750E711374" name="REVIEWS">
+<sourceDDLFile>event_oracle.sql</sourceDDLFile>
+<createdBy>mikea</createdBy>
+<createdTime>2025-05-04 08:00:25 UTC</createdTime>
+<commentInRDBMS><![CDATA[User reviews for packages]]></commentInRDBMS>
+<ownerDesignName>event</ownerDesignName>
+<importedID>1A91D3A8-F384-EB4D-0D6A-F5A0CBFB8F95</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="reviews_id" id="1F27882A-6E40-39C6-6CCD-25A28138B1A7">
+<sourceDDLFile>event_oracle.sql</sourceDDLFile>
+<createdBy>mikea</createdBy>
+<createdTime>2025-05-04 08:00:25 UTC</createdTime>
+<ownerDesignName>event</ownerDesignName>
+<importedID>DC82F134-4ECD-6EAC-845F-353C17A85592</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>B16A44A4-0F04-BCE5-7686-9BA729020D49</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="USERS_id" id="7A735AEC-6014-9BF4-A707-CFC782CB2DB7">
+<sourceDDLFile>event_oracle.sql</sourceDDLFile>
+<createdBy>mikea</createdBy>
+<createdTime>2025-05-04 08:00:25 UTC</createdTime>
+<ownerDesignName>event</ownerDesignName>
+<importedID>01582704-6F81-BADD-4389-D28089711EE4</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>B16A44A4-0F04-BCE5-7686-9BA729020D49</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="68A2526E-EF57-523D-29AF-55D65062E615" referredColumn="396199DC-5FAE-B378-412F-A1F5B665DB0D"/>
+</associations>
+</Column>
+<Column name="EVENT_PACKAGES_id" id="70E427DF-444F-2EA9-B21D-D975E9BFFBAC">
+<sourceDDLFile>event_oracle.sql</sourceDDLFile>
+<createdBy>mikea</createdBy>
+<createdTime>2025-05-04 08:00:25 UTC</createdTime>
+<ownerDesignName>event</ownerDesignName>
+<importedID>180EBDC6-0564-1E23-1CF9-95850276A921</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>B16A44A4-0F04-BCE5-7686-9BA729020D49</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="6EB83023-DF3E-FCA3-C353-1E8A688E2463" referredColumn="37C64E6A-0270-E67C-D14B-D6CE2331AE87"/>
+</associations>
+</Column>
+<Column name="rating" id="B428CCA3-0C24-C6FE-70DE-1766DD14FD99">
+<sourceDDLFile>event_oracle.sql</sourceDDLFile>
+<createdBy>mikea</createdBy>
+<createdTime>2025-05-04 08:00:25 UTC</createdTime>
+<ownerDesignName>event</ownerDesignName>
+<importedID>557119E9-4555-EC96-281A-D8D5004534B8</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>1C8F90D5-D4EC-3FCF-E5C9-B29B1B0C496A</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="review_text" id="18C4D5E7-1058-BF0E-D0FF-371A279845EA">
+<sourceDDLFile>event_oracle.sql</sourceDDLFile>
+<createdBy>mikea</createdBy>
+<createdTime>2025-05-04 08:00:25 UTC</createdTime>
+<ownerDesignName>event</ownerDesignName>
+<importedID>430B6B47-B671-2613-06F9-55F8FA5C996D</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT028</logicalDatatype>
+<domain>4D1428AC-0B2F-C105-4CC3-436CCF77E982</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="created_at" id="B21E21BA-79E8-898A-D5DD-BDF7D810883E">
+<sourceDDLFile>event_oracle.sql</sourceDDLFile>
+<createdBy>mikea</createdBy>
+<createdTime>2025-05-04 08:00:25 UTC</createdTime>
+<ownerDesignName>event</ownerDesignName>
+<importedID>43A56102-EE48-7DE3-1CB8-97532BFCD102</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT015</logicalDatatype>
+<domain>0D915F14-7077-E21D-4D71-CCB0B32320F7</domain>
+<defaultValue>SYSTIMESTAMP</defaultValue>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="66195186-3B13-1555-A39B-3DBF37F8E6F7" name="REVIEWS_PK">
+<sourceDDLFile>event_oracle.sql</sourceDDLFile>
+<createdBy>mikea</createdBy>
+<createdTime>2025-05-04 08:00:25 UTC</createdTime>
+<ownerDesignName>event</ownerDesignName>
+<importedID>D10F3176-14E8-C6CE-7204-D3BCF6739836</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1F27882A-6E40-39C6-6CCD-25A28138B1A7"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="EEFC8400-758B-A006-CCB5-BEF1505E66F7" name="REVIEWS_EVENT_PACKAGES_FK">
+<createdBy>mikea</createdBy>
+<createdTime>2025-05-04 08:00:25 UTC</createdTime>
+<ownerDesignName>event</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="70E427DF-444F-2EA9-B21D-D975E9BFFBAC"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="8E3A1E3F-F7A1-77E7-6A19-ADF9BF492C44" name="REVIEWS_USERS_FK">
+<createdBy>mikea</createdBy>
+<createdTime>2025-05-04 08:00:25 UTC</createdTime>
+<ownerDesignName>event</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7A735AEC-6014-9BF4-A707-CFC782CB2DB7"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

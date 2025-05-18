@@ -1,0 +1,48 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev20c class="oracle.dbtools.crest.model.design.storage.oracle.v20c.TableProxyOraclev20c" name="ADMIN" directorySegmentName="seg_0" id="BB453C62-74D7-A15E-8B53-8EE2BF5439DF">
+<createdBy>mikea</createdBy>
+<createdTime>2025-05-04 08:00:25 UTC</createdTime>
+<ownerDesignName>event</ownerDesignName>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="password" id="374D442B-D617-A7D9-7E9C-B56337EFF686">
+<createdBy>mikea</createdBy>
+<createdTime>2025-05-04 08:00:25 UTC</createdTime>
+<ownerDesignName>event</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="id" id="434C0880-DFCB-EED4-E8DB-629D900216B1">
+<createdBy>mikea</createdBy>
+<createdTime>2025-05-04 08:00:25 UTC</createdTime>
+<ownerDesignName>event</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="SYSTEM_SETTINGS_id" id="BFA6D86B-D154-7889-7125-B49FDB897F12">
+<createdBy>mikea</createdBy>
+<createdTime>2025-05-04 08:03:21 UTC</createdTime>
+<ownerDesignName>event</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="username" id="F5C5E7D8-0D6A-A519-450C-CD1AEF34B99F">
+<createdBy>mikea</createdBy>
+<createdTime>2025-05-04 08:00:25 UTC</createdTime>
+<ownerDesignName>event</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<indexProxies>
+<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="ADMIN__IDX" id="73932E68-4465-8FC9-5090-3B6B5F4D53F0">
+<createdBy>mikea</createdBy>
+<createdTime>2025-05-04 08:03:21 UTC</createdTime>
+<ownerDesignName>event</ownerDesignName>
+</IndexProxy>
+</indexProxies>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="ADMIN_PK" id="9B6DE2A9-06F2-8729-8F6D-FCB72A60CFD1">
+<createdBy>mikea</createdBy>
+<createdTime>2025-05-04 08:00:25 UTC</createdTime>
+<ownerDesignName>event</ownerDesignName>
+<indexSort>SORTED</indexSort>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev20c>

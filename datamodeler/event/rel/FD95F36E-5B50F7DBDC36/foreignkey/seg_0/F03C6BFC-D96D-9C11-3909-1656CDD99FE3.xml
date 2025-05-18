@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="F03C6BFC-D96D-9C11-3909-1656CDD99FE3" containerWithKeyObject="85D8AD78-46AD-93EF-7D8D-5D30CB38CE9B" localFKIndex="1B586F13-58DE-B50F-FEC9-71391179E0E2" name="THEMES_BOOKINGS_FK">
+<createdBy>mikea</createdBy>
+<createdTime>2025-05-04 08:03:21 UTC</createdTime>
+<generatorID>6170263B-5AD1-DA63-D729-DD7F8E726FC4</generatorID>
+<ownerDesignName>event</ownerDesignName>
+<referredTableLongName>BOOKINGS</referredTableLongName>
+<deleteRule>CASCADE</deleteRule>
+<referredTableID>D37A7197-CE53-A090-B01A-32580AC54615</referredTableID>
+<keyObject>BEE4CCC4-B5EB-F1B2-71AC-6083A5166621</keyObject>
+<referredKeyID>BEE4CCC4-B5EB-F1B2-71AC-6083A5166621</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

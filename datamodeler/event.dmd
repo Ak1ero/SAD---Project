@@ -1,0 +1,13 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="event" id="BB7A59AA-8052-B7BD-00DB-C1A8470B1E7C" version="3.5">
+<createdBy>mikea</createdBy>
+<createdTime>2025-05-04 08:00:01 UTC</createdTime>
+<ownerDesignName>event</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>BB7A59AA-8052-B7BD-00DB-C1A8470B1E7C</designId>
+<usedDesignStorageDescriptors>
+<designDescr class="oracle.dbtools.crest.model.design.Design$DesignStorageDesc" id="0FB56038-56BF-C025-F53F-163FC3ADD6BF">
+<designStoragePath>C:\event_oracle</designStoragePath>
+</designDescr>
+</usedDesignStorageDescriptors>
+</OSDM_Design>

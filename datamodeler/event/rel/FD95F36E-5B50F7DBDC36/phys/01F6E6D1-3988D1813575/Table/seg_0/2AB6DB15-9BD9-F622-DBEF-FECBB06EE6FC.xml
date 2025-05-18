@@ -1,0 +1,93 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev20c class="oracle.dbtools.crest.model.design.storage.oracle.v20c.TableProxyOraclev20c" name="PAYMENT_TRANSACTIONS" directorySegmentName="seg_0" id="2AB6DB15-9BD9-F622-DBEF-FECBB06EE6FC">
+<createdBy>mikea</createdBy>
+<createdTime>2025-05-04 08:00:25 UTC</createdTime>
+<ownerDesignName>event</ownerDesignName>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="amount" id="42654963-B849-A157-D594-857DF69E8ED4">
+<createdBy>mikea</createdBy>
+<createdTime>2025-05-04 08:00:25 UTC</createdTime>
+<ownerDesignName>event</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="phone_number" id="4EEBBB5C-1E91-C654-5B11-E18261F9B81C">
+<createdBy>mikea</createdBy>
+<createdTime>2025-05-04 08:00:25 UTC</createdTime>
+<ownerDesignName>event</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="receipt_path" id="ABCE7720-A4F0-B36C-6DAC-1FCCE281CD85">
+<createdBy>mikea</createdBy>
+<createdTime>2025-05-04 08:00:25 UTC</createdTime>
+<ownerDesignName>event</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="id" id="AD6A22FA-6272-3BF7-E6AA-42ABE8F8B9B4">
+<createdBy>mikea</createdBy>
+<createdTime>2025-05-04 08:00:25 UTC</createdTime>
+<ownerDesignName>event</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="status" id="C0437E3F-6236-1815-F71A-088CC9000E93">
+<createdBy>mikea</createdBy>
+<createdTime>2025-05-04 08:00:25 UTC</createdTime>
+<ownerDesignName>event</ownerDesignName>
+<defaultValue>&apos;pending&apos;</defaultValue>
+</ColumnProxy>
+<ColumnProxy name="account_name" id="C342728D-677C-FE0B-0C40-8DE9D5F57560">
+<createdBy>mikea</createdBy>
+<createdTime>2025-05-04 08:00:25 UTC</createdTime>
+<ownerDesignName>event</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="BOOKINGS_id" id="DCBC5CB3-22A6-C28E-E2C3-B3171A70A96D">
+<createdBy>mikea</createdBy>
+<createdTime>2025-05-04 08:00:25 UTC</createdTime>
+<ownerDesignName>event</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="updated_at" id="DFBD7A89-86E8-65C2-0FAD-25E5C6C065FF">
+<createdBy>mikea</createdBy>
+<createdTime>2025-05-04 08:00:25 UTC</createdTime>
+<ownerDesignName>event</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="payment_method" id="E5166642-8E13-2A71-738A-FD24C944F237">
+<createdBy>mikea</createdBy>
+<createdTime>2025-05-04 08:00:25 UTC</createdTime>
+<ownerDesignName>event</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="reference_number" id="F72FBF2D-3666-A801-73A7-B0571CE1E325">
+<createdBy>mikea</createdBy>
+<createdTime>2025-05-04 08:00:25 UTC</createdTime>
+<ownerDesignName>event</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="created_at" id="FB96C403-375C-96B0-6ABC-7C68FE1329BB">
+<createdBy>mikea</createdBy>
+<createdTime>2025-05-04 08:00:25 UTC</createdTime>
+<ownerDesignName>event</ownerDesignName>
+<defaultValue>SYSTIMESTAMP</defaultValue>
+</ColumnProxy>
+</columnProxies>
+<foreignKeys>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="PAYMENT_TRANSACTIONS_BOOKINGS_FK" id="EA6B832E-8952-2CD9-1E43-2E7F8F69A8CE">
+<createdBy>mikea</createdBy>
+<createdTime>2025-05-04 08:00:25 UTC</createdTime>
+<ownerDesignName>event</ownerDesignName>
+</ForeignKey>
+</foreignKeys>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="PAYMENT_TRANSACTIONS_PK" id="53A3ED04-CABC-6285-5AB6-B7D755F88738">
+<createdBy>mikea</createdBy>
+<createdTime>2025-05-04 08:00:25 UTC</createdTime>
+<ownerDesignName>event</ownerDesignName>
+<indexSort>SORTED</indexSort>
+</PrimaryKey>
+</primaryKeys>
+<tableCheckConstraints itemClass="oracle.dbtools.crest.model.design.storage.oracle.TableCheckConstraintOracle">
+<TableCheckConstraint name="payment_transactions_status_chk" id="D7F083D2-4FC2-E5A5-B932-91252B92B2AE">
+<createdBy>mikea</createdBy>
+<createdTime>2025-05-04 08:00:25 UTC</createdTime>
+<ownerDesignName>event</ownerDesignName>
+<nameChanged>true</nameChanged>
+</TableCheckConstraint>
+</tableCheckConstraints>
+</TableProxyOraclev20c>

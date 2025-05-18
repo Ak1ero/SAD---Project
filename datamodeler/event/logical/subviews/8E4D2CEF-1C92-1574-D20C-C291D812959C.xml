@@ -1,0 +1,454 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Diagram class="oracle.dbtools.crest.swingui.logical.DPVLogical" name="Logical" id="8E4D2CEF-1C92-1574-D20C-C291D812959C">
+<createdBy>mikea</createdBy>
+<modifiedBy>mikea</modifiedBy>
+<createdTime>2025-05-04 08:00:28 UTC</createdTime>
+<autoRoute>false</autoRoute>
+<boxInbox>true</boxInbox>
+<showLegend>false</showLegend>
+<showLabels>false</showLabels>
+<showRelAttributes>false</showRelAttributes>
+<gridEnabled>false</gridEnabled>
+<showGrid>false</showGrid>
+<diagramColor>-1</diagramColor>
+<display>false</display>
+<notation>1</notation>
+<objectViews>
+<OView class="oracle.dbtools.crest.swingui.logical.TVEntity" oid="03085061-ECCF-0A29-D0C0-CDF31D26F232" otype="Entity" vid="C3DEF014-885D-CD1E-7EB2-EEAA3341C5D9">
+<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
+<bounds x="1192" y="719" width="192" height="168"/>
+</OView>
+<OView class="oracle.dbtools.crest.swingui.TVNote" oid="0852EFC0-4BE8-A660-8E5E-C57FF2150BDD" otype="Note" vid="9D73E821-454C-1AEC-9721-88AB5E84E628">
+<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
+<bounds x="1895" y="1525" width="99" height="70"/>
+<useDefaultColor>false</useDefaultColor>
+<backgroundColor>-1</backgroundColor>
+<foregroundColor>-1</foregroundColor>
+<comment>service items define details for booking service items</comment>
+</OView>
+<OView class="oracle.dbtools.crest.swingui.TVNote" oid="0B344AB2-E4AA-3DC8-87E6-14082D69584B" otype="Note" vid="825C74D5-5976-28AD-79B8-988DE7C7EE50">
+<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
+<bounds x="1085" y="1283" width="98" height="43"/>
+<useDefaultColor>false</useDefaultColor>
+<backgroundColor>-1</backgroundColor>
+<foregroundColor>-1</foregroundColor>
+<comment>bookings invite booking guests</comment>
+</OView>
+<OView class="oracle.dbtools.crest.swingui.TVNote" oid="1CE1236C-D530-4797-8D50-C4CF4B0EAEE2" otype="Note" vid="84919BC5-4559-7E6E-FEA2-988781CB00F8">
+<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
+<bounds x="397" y="867" width="73" height="63"/>
+<useDefaultColor>false</useDefaultColor>
+<backgroundColor>-1</backgroundColor>
+<foregroundColor>-1</foregroundColor>
+<comment>admin configures system settings</comment>
+</OView>
+<OView class="oracle.dbtools.crest.swingui.logical.TVEntity" oid="1D5175B1-AF65-4624-1EA9-895792378621" otype="Entity" vid="02D163AE-4208-D04E-77A0-1D16B65DE0BF">
+<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
+<bounds x="384" y="766" width="181" height="92"/>
+</OView>
+<OView class="oracle.dbtools.crest.swingui.TVNote" oid="26AB5CC6-D7BC-6F6A-FA61-0BD6012BDBC9" otype="Note" vid="C0CE43BA-3DE0-ADCE-E8D6-F6A27B286504">
+<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
+<bounds x="1036" y="1203" width="98" height="43"/>
+<useDefaultColor>false</useDefaultColor>
+<backgroundColor>-1</backgroundColor>
+<foregroundColor>-1</foregroundColor>
+<comment>bookings track attendance</comment>
+</OView>
+<OView class="oracle.dbtools.crest.swingui.TVNote" oid="2D00898F-EF91-4E34-8D83-02DD91F3886F" otype="Note" vid="7645F2B7-4943-F7EC-7800-50F4EDDB1B39">
+<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
+<bounds x="1692" y="1431" width="99" height="70"/>
+<useDefaultColor>false</useDefaultColor>
+<backgroundColor>-1</backgroundColor>
+<foregroundColor>-1</foregroundColor>
+<comment>booking service items refer to services</comment>
+</OView>
+<OView class="oracle.dbtools.crest.swingui.logical.TVEntity" oid="2DB3DB61-08EA-7065-930F-431005E63A4E" otype="Entity" vid="672A1205-4495-D6D5-BEEE-BF0698CEC9F7">
+<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
+<bounds x="1517" y="1712" width="192" height="89"/>
+</OView>
+<OView class="oracle.dbtools.crest.swingui.TVNote" oid="3F53C67D-9BC2-9427-9B76-5B52A11B8E66" otype="Note" vid="C7C2C388-A3B0-C9E1-89A3-098A06ED3F42">
+<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
+<bounds x="1721" y="881" width="90" height="40"/>
+<useDefaultColor>false</useDefaultColor>
+<backgroundColor>-1</backgroundColor>
+<foregroundColor>-1</foregroundColor>
+<comment>event packages part of bookings</comment>
+</OView>
+<OView class="oracle.dbtools.crest.swingui.TVNote" oid="47B62E20-634F-232F-26DC-ADF61BC100DA" otype="Note" vid="10849DD9-979B-94DD-0738-7D071EA0D183">
+<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
+<bounds x="495" y="1294" width="98" height="48"/>
+<useDefaultColor>false</useDefaultColor>
+<backgroundColor>-1</backgroundColor>
+<foregroundColor>-1</foregroundColor>
+<comment>booking services used in bookings
+</comment>
+</OView>
+<OView class="oracle.dbtools.crest.swingui.TVNote" oid="4C3C261E-EF0B-28B1-A7C8-A49F33E11071" otype="Note" vid="8D7C2444-BCFC-F9C5-44E4-CB07DDE3C1C6">
+<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
+<bounds x="1509" y="809" width="87" height="57"/>
+<useDefaultColor>false</useDefaultColor>
+<backgroundColor>-1</backgroundColor>
+<foregroundColor>-1</foregroundColor>
+<comment>event packages are reviewd in reviews</comment>
+</OView>
+<OView class="oracle.dbtools.crest.swingui.TVNote" oid="54A1C868-6251-A077-1CE4-50614FC1080D" otype="Note" vid="1CAAD213-1E9A-8BB8-001F-F9181350AC39">
+<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
+<bounds x="1097" y="838" width="80" height="44"/>
+<useDefaultColor>false</useDefaultColor>
+<backgroundColor>-1</backgroundColor>
+<foregroundColor>-1</foregroundColor>
+<comment>reviews written by users</comment>
+</OView>
+<OView class="oracle.dbtools.crest.swingui.TVNote" oid="60FEAC00-DCFE-B552-7B04-2024035E0015" otype="Note" vid="C4DD547C-6386-BA0E-70EE-1E70B86F27D3">
+<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
+<bounds x="1400" y="1329" width="99" height="56"/>
+<useDefaultColor>false</useDefaultColor>
+<backgroundColor>-1</backgroundColor>
+<foregroundColor>-1</foregroundColor>
+<comment>payment transactions for bookings
+</comment>
+</OView>
+<OView class="oracle.dbtools.crest.swingui.TVNote" oid="67B6E593-1822-7503-EE10-8CABA41CE074" otype="Note" vid="973701C4-3CE8-3C2C-4CA6-7A7E70B76A96">
+<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
+<bounds x="599" y="1420" width="98" height="43"/>
+<useDefaultColor>false</useDefaultColor>
+<backgroundColor>-1</backgroundColor>
+<foregroundColor>-1</foregroundColor>
+<comment>attendance for booking</comment>
+</OView>
+<OView class="oracle.dbtools.crest.swingui.logical.TVEntity" oid="69465DE1-9875-D5A3-73C4-933174761738" otype="Entity" vid="EF1501C0-75A3-FDAB-3972-8C81B7D671D4">
+<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
+<bounds x="1149" y="979" width="283" height="232"/>
+</OView>
+<OView class="oracle.dbtools.crest.swingui.logical.TVEntity" oid="6B4F8DB1-36B6-38C8-676E-F313AB1395A5" otype="Entity" vid="7FA1F3AD-DBE9-1737-C289-7FDE82D0EBEF">
+<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
+<bounds x="1768" y="1027" width="193" height="131"/>
+</OView>
+<OView class="oracle.dbtools.crest.swingui.TVNote" oid="73A6F1E6-BCE2-43C9-993D-ADF1540C61F0" otype="Note" vid="C14599F8-7769-5094-0110-6AC1AA1EFCEF">
+<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
+<bounds x="1574" y="1635" width="87" height="67"/>
+<useDefaultColor>false</useDefaultColor>
+<backgroundColor>-1</backgroundColor>
+<foregroundColor>-1</foregroundColor>
+<comment>services included in booking service items</comment>
+</OView>
+<OView class="oracle.dbtools.crest.swingui.logical.TVEntity" oid="767DFCCC-14D9-D82E-8ACB-4C05D3A7092D" otype="Entity" vid="4FC798F6-8343-374A-B57F-D525C4AC2EFC">
+<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
+<bounds x="817" y="753" width="192" height="162"/>
+</OView>
+<OView class="oracle.dbtools.crest.swingui.TVNote" oid="81652FB0-4517-4390-BCC4-BCA64ED123A4" otype="Note" vid="8C86A24D-B728-AFB1-A79E-96947F9B4AA0">
+<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
+<bounds x="729" y="827" width="73" height="35"/>
+<useDefaultColor>false</useDefaultColor>
+<backgroundColor>-1</backgroundColor>
+<foregroundColor>-1</foregroundColor>
+<comment>Handle by</comment>
+</OView>
+<OView class="oracle.dbtools.crest.swingui.logical.TVEntity" oid="83D8E37E-A10B-794C-9575-5CCA2959E6CC" otype="Entity" vid="9E22CE07-509B-314C-1B78-21D9DE5A9591">
+<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
+<bounds x="1319" y="1414" width="255" height="221"/>
+</OView>
+<OView class="oracle.dbtools.crest.swingui.TVNote" oid="9EB3A657-51C7-908C-6C55-2FD45EA9ABC8" otype="Note" vid="A39EF5CC-0FB7-2FAC-90A3-D2CDE8B6AD0A">
+<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
+<bounds x="1786" y="1216" width="158" height="42"/>
+<useDefaultColor>false</useDefaultColor>
+<backgroundColor>-1</backgroundColor>
+<foregroundColor>-1</foregroundColor>
+<comment>bookings have booking service items</comment>
+</OView>
+<OView class="oracle.dbtools.crest.swingui.TVNote" oid="A7ACE7FD-D27D-15A7-FB0A-84D25764C6E5" otype="Note" vid="10176515-5552-4E40-9213-D6D283CC3919">
+<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
+<bounds x="1197" y="1417" width="99" height="44"/>
+<useDefaultColor>false</useDefaultColor>
+<backgroundColor>-1</backgroundColor>
+<foregroundColor>-1</foregroundColor>
+<comment> booking guests linked to bookings
+</comment>
+</OView>
+<OView class="oracle.dbtools.crest.swingui.TVNote" oid="AD0ED687-E0F1-F82E-2E45-A23739459A07" otype="Note" vid="AE1839B3-A34D-AD4D-ADC8-547F838B726D">
+<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
+<bounds x="861" y="927" width="80" height="44"/>
+<useDefaultColor>false</useDefaultColor>
+<backgroundColor>-1</backgroundColor>
+<foregroundColor>-1</foregroundColor>
+<comment>users makes bookings</comment>
+</OView>
+<OView class="oracle.dbtools.crest.swingui.TVNote" oid="B78380AB-18A3-89F5-6B51-C742B5B6AA00" otype="Note" vid="7B3141A7-91E2-A83F-40D3-D315449FBB1C">
+<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
+<bounds x="1268" y="1220" width="99" height="55"/>
+<useDefaultColor>false</useDefaultColor>
+<backgroundColor>-1</backgroundColor>
+<foregroundColor>-1</foregroundColor>
+<comment> bookings paid through payment transactions</comment>
+</OView>
+<OView class="oracle.dbtools.crest.swingui.TVNote" oid="BA4785C0-9EB0-A051-3CCB-8C8224F168B1" otype="Note" vid="7063BACA-28CD-7EC5-6939-D313D4AC4542">
+<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
+<bounds x="797" y="1539" width="98" height="43"/>
+<useDefaultColor>false</useDefaultColor>
+<backgroundColor>-1</backgroundColor>
+<foregroundColor>-1</foregroundColor>
+<comment>attendance belongs to guest</comment>
+</OView>
+<OView class="oracle.dbtools.crest.swingui.logical.TVEntity" oid="C3E692DF-B620-3852-C9A9-816633AEC030" otype="Entity" vid="780BA830-2D0D-EC3A-9E26-E90DC6879926">
+<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
+<bounds x="1018" y="1469" width="224" height="165"/>
+</OView>
+<OView class="oracle.dbtools.crest.swingui.logical.TVEntity" oid="C9E37CCD-537B-56D3-99F9-307F86ABDAC3" otype="Entity" vid="33F233C1-3E7A-5D2A-8DA8-7B85F77BCB45">
+<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
+<bounds x="390" y="999" width="229" height="120"/>
+</OView>
+<OView class="oracle.dbtools.crest.swingui.logical.TVEntity" oid="C9FCE9DF-7927-3BFA-4DAA-445982194F9D" otype="Entity" vid="F3F7D14A-D3C3-6B91-09D6-9DC254328AD3">
+<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
+<bounds x="344" y="1357" width="232" height="126"/>
+</OView>
+<OView class="oracle.dbtools.crest.swingui.TVNote" oid="CE5317D3-29A6-1EF6-1770-572338F54BDC" otype="Note" vid="849E5093-E5FF-F215-97DF-3AE531D22A0A">
+<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
+<bounds x="581" y="764" width="107" height="35"/>
+<useDefaultColor>false</useDefaultColor>
+<backgroundColor>-1</backgroundColor>
+<foregroundColor>-1</foregroundColor>
+<comment>Supervise by</comment>
+</OView>
+<OView class="oracle.dbtools.crest.swingui.logical.TVEntity" oid="CF5A6252-53E9-AD36-497F-369F920AFAB5" otype="Entity" vid="FA2452F3-2D97-78CB-50A8-1BA019E39CD7">
+<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
+<bounds x="1646" y="1267" width="300" height="151"/>
+</OView>
+<OView class="oracle.dbtools.crest.swingui.TVNote" oid="CFFC28C3-46C7-2024-3C53-83597D6E246B" otype="Note" vid="3668ADFF-AE53-679C-DCD3-7599CC089E34">
+<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
+<bounds x="1013" y="757" width="80" height="44"/>
+<useDefaultColor>false</useDefaultColor>
+<backgroundColor>-1</backgroundColor>
+<foregroundColor>-1</foregroundColor>
+<comment>users writes reviews</comment>
+</OView>
+<OView class="oracle.dbtools.crest.swingui.TVNote" oid="D8F1A7B2-4271-CFCB-DFCB-AD49345F511B" otype="Note" vid="9E2FF8A6-CFEE-7157-595D-758F42385C63">
+<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
+<bounds x="1068" y="1036" width="80" height="44"/>
+<useDefaultColor>false</useDefaultColor>
+<backgroundColor>-1</backgroundColor>
+<foregroundColor>-1</foregroundColor>
+<comment>bookings made by users</comment>
+</OView>
+<OView class="oracle.dbtools.crest.swingui.TVNote" oid="D9FD2F34-A07D-397A-6D8D-A754FF34DCF3" otype="Note" vid="C5A7CD19-9619-FD89-F537-DA34DEF1AD82">
+<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
+<bounds x="1597" y="1052" width="158" height="31"/>
+<useDefaultColor>false</useDefaultColor>
+<backgroundColor>-1</backgroundColor>
+<foregroundColor>-1</foregroundColor>
+<comment>themes applied to bookings</comment>
+</OView>
+<OView class="oracle.dbtools.crest.swingui.logical.TVEntity" oid="DCEE7038-109B-2D2C-BDDA-CFD92D9AEADA" otype="Entity" vid="C2880334-B03D-5BBF-5133-A81B2AFBEFBC">
+<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
+<bounds x="1824" y="1605" width="208" height="207"/>
+</OView>
+<OView class="oracle.dbtools.crest.swingui.logical.TVEntity" oid="DDA851BA-DC8F-E3D7-2E8D-94C389A700A1" otype="Entity" vid="5DC3CE25-40F0-9B02-C2EE-4D1F9AC00C1D">
+<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
+<bounds x="1610" y="640" width="213" height="229"/>
+</OView>
+<OView class="oracle.dbtools.crest.swingui.TVNote" oid="E0EF19A3-6794-F49F-6735-AF7BE20C17B0" otype="Note" vid="BB245ACC-60E8-4B3D-73DE-812B74A040EC">
+<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
+<bounds x="1016" y="1099" width="129" height="44"/>
+<useDefaultColor>false</useDefaultColor>
+<backgroundColor>-1</backgroundColor>
+<foregroundColor>-1</foregroundColor>
+<comment>bookings has booking services
+</comment>
+</OView>
+<OView class="oracle.dbtools.crest.swingui.TVNote" oid="E302A0DC-2D9D-0701-6CB6-A21F9947B3B2" otype="Note" vid="914005F8-45CD-1D02-8F5E-0F01265118A1">
+<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
+<bounds x="1393" y="726" width="87" height="44"/>
+<useDefaultColor>false</useDefaultColor>
+<backgroundColor>-1</backgroundColor>
+<foregroundColor>-1</foregroundColor>
+<comment>reviews are for event packages</comment>
+</OView>
+<OView class="oracle.dbtools.crest.swingui.TVNote" oid="E740BA67-1DC5-3BC4-3F74-D7654C1A706C" otype="Note" vid="0B57B006-8A02-6173-3FC4-9AFB99B5D690">
+<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
+<bounds x="1443" y="945" width="80" height="61"/>
+<useDefaultColor>false</useDefaultColor>
+<backgroundColor>-1</backgroundColor>
+<foregroundColor>-1</foregroundColor>
+<comment>bookings includes event packages
+</comment>
+</OView>
+<OView class="oracle.dbtools.crest.swingui.TVNote" oid="EEC0CAD5-9C0F-695E-4F2F-CE741D98993A" otype="Note" vid="996E25C8-86D2-6939-4DB9-CAEAEA4CBF76">
+<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
+<bounds x="1448" y="1194" width="158" height="45"/>
+<useDefaultColor>false</useDefaultColor>
+<backgroundColor>-1</backgroundColor>
+<foregroundColor>-1</foregroundColor>
+<comment>booking service items added in bookings</comment>
+</OView>
+<OView class="oracle.dbtools.crest.swingui.TVNote" oid="F0BC4CAD-0B94-5076-60C6-7BBBF04A4359" otype="Note" vid="E714F28B-1DC1-BE2C-199A-E59891890006">
+<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
+<bounds x="909" y="1475" width="98" height="43"/>
+<useDefaultColor>false</useDefaultColor>
+<backgroundColor>-1</backgroundColor>
+<foregroundColor>-1</foregroundColor>
+<comment>guests have attendance records</comment>
+</OView>
+<OView class="oracle.dbtools.crest.swingui.TVNote" oid="F0D1341D-2F6B-5129-0480-384F149882CE" otype="Note" vid="CD215BF9-3E21-17B2-81E1-30C1B1DAEFC0">
+<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
+<bounds x="1445" y="1106" width="158" height="22"/>
+<useDefaultColor>false</useDefaultColor>
+<backgroundColor>-1</backgroundColor>
+<foregroundColor>-1</foregroundColor>
+<comment>bookings use themes</comment>
+</OView>
+<OView class="oracle.dbtools.crest.swingui.logical.TVEntity" oid="FE794E45-2441-37C0-7AE4-C5B3C2782E75" otype="Entity" vid="7F97AD66-714F-60FD-1E31-0D93CE264DD9">
+<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
+<bounds x="613" y="1473" width="170" height="110"/>
+</OView>
+</objectViews>
+<connectors>
+<Connector class="oracle.dbtools.crest.swingui.logical.TVRelation" oid="09D20C4A-5AB9-BA31-96AE-E6AA55F10C5D" otype="Relation" vid_source="7F97AD66-714F-60FD-1E31-0D93CE264DD9" vid_target="EF1501C0-75A3-FDAB-3972-8C81B7D671D4">
+<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
+<backgroundColor>-16777216</backgroundColor>
+<lineWidth>1</lineWidth>
+<points>
+<point x="709" y="1473"/>
+<point x="709" y="1185"/>
+<point x="1149" y="1185"/>
+</points>
+</Connector>
+<Connector class="oracle.dbtools.crest.swingui.logical.TVRelation" oid="0FF01586-B5BC-F42B-BA5B-046378B046E6" otype="Relation" vid_source="EF1501C0-75A3-FDAB-3972-8C81B7D671D4" vid_target="FA2452F3-2D97-78CB-50A8-1BA019E39CD7">
+<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
+<backgroundColor>-16777216</backgroundColor>
+<lineWidth>1</lineWidth>
+<points>
+<point x="1432" y="1175"/>
+<point x="1767" y="1175"/>
+<point x="1767" y="1267"/>
+</points>
+</Connector>
+<Connector class="oracle.dbtools.crest.swingui.logical.TVRelation" oid="18A87EBB-67D4-C84F-8AD7-CB4D16D79B5B" otype="Relation" vid_source="5DC3CE25-40F0-9B02-C2EE-4D1F9AC00C1D" vid_target="C3DEF014-885D-CD1E-7EB2-EEAA3341C5D9">
+<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
+<backgroundColor>-16777216</backgroundColor>
+<lineWidth>1</lineWidth>
+<points>
+<point x="1610" y="794"/>
+<point x="1384" y="794"/>
+</points>
+</Connector>
+<Connector class="oracle.dbtools.crest.swingui.logical.TVRelation" oid="3199A7EC-FF9A-6D82-FDB6-ECF97273702A" otype="Relation" vid_source="EF1501C0-75A3-FDAB-3972-8C81B7D671D4" vid_target="F3F7D14A-D3C3-6B91-09D6-9DC254328AD3">
+<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
+<backgroundColor>-16777216</backgroundColor>
+<lineWidth>1</lineWidth>
+<points>
+<point x="1149" y="1152"/>
+<point x="480" y="1152"/>
+<point x="480" y="1357"/>
+</points>
+</Connector>
+<Connector class="oracle.dbtools.crest.swingui.logical.TVRelation" oid="3B0699C2-1A24-6A0D-207B-C64EEB745B80" otype="Relation" vid_source="4FC798F6-8343-374A-B57F-D525C4AC2EFC" vid_target="EF1501C0-75A3-FDAB-3972-8C81B7D671D4">
+<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
+<backgroundColor>-16777216</backgroundColor>
+<lineWidth>1</lineWidth>
+<points>
+<point x="952" y="915"/>
+<point x="952" y="1092"/>
+<point x="1149" y="1092"/>
+</points>
+</Connector>
+<Connector class="oracle.dbtools.crest.swingui.logical.TVRelation" oid="52CDF687-CFF5-FF4E-3CB5-71DD3DE63048" otype="Relation" vid_source="EF1501C0-75A3-FDAB-3972-8C81B7D671D4" vid_target="5DC3CE25-40F0-9B02-C2EE-4D1F9AC00C1D">
+<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
+<backgroundColor>-16777216</backgroundColor>
+<lineWidth>1</lineWidth>
+<points>
+<point x="1432" y="1018"/>
+<point x="1693" y="1018"/>
+<point x="1693" y="869"/>
+</points>
+</Connector>
+<Connector class="oracle.dbtools.crest.swingui.logical.TVRelation" oid="56972B05-8832-4DA2-E696-DCA75411B28F" otype="Relation" vid_source="4FC798F6-8343-374A-B57F-D525C4AC2EFC" vid_target="C3DEF014-885D-CD1E-7EB2-EEAA3341C5D9">
+<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
+<backgroundColor>-16777216</backgroundColor>
+<lineWidth>1</lineWidth>
+<points>
+<point x="1009" y="820"/>
+<point x="1192" y="820"/>
+</points>
+</Connector>
+<Connector class="oracle.dbtools.crest.swingui.logical.TVRelation" oid="598D9296-D83B-C402-5EA7-F99BF365AB0C" otype="Relation" vid_source="FA2452F3-2D97-78CB-50A8-1BA019E39CD7" vid_target="672A1205-4495-D6D5-BEEE-BF0698CEC9F7">
+<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
+<backgroundColor>-16777216</backgroundColor>
+<lineWidth>1</lineWidth>
+<points>
+<point x="1677" y="1418"/>
+<point x="1677" y="1712"/>
+</points>
+</Connector>
+<Connector class="oracle.dbtools.crest.swingui.logical.TVRelation" oid="6170263B-5AD1-DA63-D729-DD7F8E726FC4" otype="Relation" vid_source="EF1501C0-75A3-FDAB-3972-8C81B7D671D4" vid_target="7FA1F3AD-DBE9-1737-C289-7FDE82D0EBEF">
+<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
+<backgroundColor>-16777216</backgroundColor>
+<lineWidth>1</lineWidth>
+<points>
+<point x="1432" y="1092"/>
+<point x="1768" y="1092"/>
+</points>
+</Connector>
+<Connector class="oracle.dbtools.crest.swingui.logical.TVRelation" oid="6FE3DD23-58A3-91A5-13D2-D7468D22AC92" otype="Relation" vid_source="EF1501C0-75A3-FDAB-3972-8C81B7D671D4" vid_target="9E22CE07-509B-314C-1B78-21D9DE5A9591">
+<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
+<backgroundColor>-16777216</backgroundColor>
+<lineWidth>1</lineWidth>
+<points>
+<point x="1375" y="1211"/>
+<point x="1375" y="1414"/>
+</points>
+</Connector>
+<Connector class="oracle.dbtools.crest.swingui.logical.TVRelation" oid="861F1D90-6D86-EFAA-22BF-71C39154C9A4" otype="Relation" vid_source="02D163AE-4208-D04E-77A0-1D16B65DE0BF" vid_target="4FC798F6-8343-374A-B57F-D525C4AC2EFC">
+<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
+<backgroundColor>-16777216</backgroundColor>
+<lineWidth>1</lineWidth>
+<points>
+<point x="565" y="812"/>
+<point x="817" y="812"/>
+</points>
+</Connector>
+<Connector class="oracle.dbtools.crest.swingui.logical.TVRelation" oid="8AEEC350-E960-1774-3D49-7B3CE0F01D09" otype="Relation" vid_source="02D163AE-4208-D04E-77A0-1D16B65DE0BF" vid_target="33F233C1-3E7A-5D2A-8DA8-7B85F77BCB45">
+<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
+<backgroundColor>-16777216</backgroundColor>
+<lineWidth>1</lineWidth>
+<points>
+<point x="477" y="858"/>
+<point x="477" y="999"/>
+</points>
+</Connector>
+<Connector class="oracle.dbtools.crest.swingui.logical.TVRelation" oid="B49FC7C2-7D86-6337-7657-BFAC2F85E920" otype="Relation" vid_source="672A1205-4495-D6D5-BEEE-BF0698CEC9F7" vid_target="C2880334-B03D-5BBF-5133-A81B2AFBEFBC">
+<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
+<backgroundColor>-16777216</backgroundColor>
+<lineWidth>1</lineWidth>
+<points>
+<point x="1709" y="1756"/>
+<point x="1824" y="1756"/>
+</points>
+</Connector>
+<Connector class="oracle.dbtools.crest.swingui.logical.TVRelation" oid="EA1B5811-5C5C-3610-EC2E-B2FF3F165CC0" otype="Relation" vid_source="C2880334-B03D-5BBF-5133-A81B2AFBEFBC" vid_target="FA2452F3-2D97-78CB-50A8-1BA019E39CD7">
+<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
+<backgroundColor>-16777216</backgroundColor>
+<lineWidth>1</lineWidth>
+<points>
+<point x="1885" y="1605"/>
+<point x="1885" y="1418"/>
+</points>
+</Connector>
+<Connector class="oracle.dbtools.crest.swingui.logical.TVRelation" oid="EF309AA5-A07E-7DD5-A46D-61FBB001E566" otype="Relation" vid_source="EF1501C0-75A3-FDAB-3972-8C81B7D671D4" vid_target="780BA830-2D0D-EC3A-9E26-E90DC6879926">
+<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
+<backgroundColor>-16777216</backgroundColor>
+<lineWidth>1</lineWidth>
+<points>
+<point x="1195" y="1211"/>
+<point x="1195" y="1469"/>
+</points>
+</Connector>
+<Connector class="oracle.dbtools.crest.swingui.logical.TVRelation" oid="FE7119C6-DF8E-D6B2-C602-65556BFAEF34" otype="Relation" vid_source="7F97AD66-714F-60FD-1E31-0D93CE264DD9" vid_target="780BA830-2D0D-EC3A-9E26-E90DC6879926">
+<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
+<backgroundColor>-16777216</backgroundColor>
+<lineWidth>1</lineWidth>
+<points>
+<point x="783" y="1528"/>
+<point x="1018" y="1528"/>
+</points>
+</Connector>
+</connectors>
+</Diagram>

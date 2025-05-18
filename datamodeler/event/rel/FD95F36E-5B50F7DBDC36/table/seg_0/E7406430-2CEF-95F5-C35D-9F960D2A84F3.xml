@@ -1,0 +1,143 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="E7406430-2CEF-95F5-C35D-9F960D2A84F3" name="BOOKING_SERVICE_ITEMS">
+<sourceDDLFile>event_oracle.sql</sourceDDLFile>
+<createdBy>mikea</createdBy>
+<createdTime>2025-05-04 08:00:25 UTC</createdTime>
+<commentInRDBMS><![CDATA[Junction table for bookings and specific service items]]></commentInRDBMS>
+<ownerDesignName>event</ownerDesignName>
+<importedID>560D0F16-53C3-A2D7-FAAD-75A217FDAC06</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="items_id" id="4A5F9F6A-701C-BE0C-4E86-25B04BB7AB35">
+<sourceDDLFile>event_oracle.sql</sourceDDLFile>
+<createdBy>mikea</createdBy>
+<createdTime>2025-05-04 08:00:25 UTC</createdTime>
+<ownerDesignName>event</ownerDesignName>
+<importedID>AF79F793-C7B7-6AAC-38B2-853F5CCF64A6</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>B16A44A4-0F04-BCE5-7686-9BA729020D49</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="BOOKINGS_id" id="16BC427C-04FA-ADBC-CEFB-28775262EDF2">
+<sourceDDLFile>event_oracle.sql</sourceDDLFile>
+<createdBy>mikea</createdBy>
+<createdTime>2025-05-04 08:00:25 UTC</createdTime>
+<ownerDesignName>event</ownerDesignName>
+<importedID>71A7D460-9022-9366-3D70-EB39A0E44D4F</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>B16A44A4-0F04-BCE5-7686-9BA729020D49</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="952F9C7B-67C3-C3CF-CA95-D3D3731FF44C" referredColumn="0F26F79A-1B91-E6A6-3D21-1F19643E55BA"/>
+</associations>
+</Column>
+<Column name="SERVICE_ITEMS_id" id="CD3CADB7-D8AA-C6FC-0988-3C517BFB46D2">
+<sourceDDLFile>event_oracle.sql</sourceDDLFile>
+<createdBy>mikea</createdBy>
+<createdTime>2025-05-04 08:00:25 UTC</createdTime>
+<ownerDesignName>event</ownerDesignName>
+<importedID>2ADBDBC6-1AFA-A620-54CD-D9B3E196E160</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>B16A44A4-0F04-BCE5-7686-9BA729020D49</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="47F0F505-BB28-09DF-088C-28E483F863D3" referredColumn="6A9BE330-CC40-6949-8919-F4530D14427A"/>
+</associations>
+</Column>
+<Column name="created_at" id="BB9112C6-B736-15DA-FE6B-5C719F7A7DB7">
+<sourceDDLFile>event_oracle.sql</sourceDDLFile>
+<createdBy>mikea</createdBy>
+<createdTime>2025-05-04 08:00:25 UTC</createdTime>
+<ownerDesignName>event</ownerDesignName>
+<importedID>7F9A45AC-8BDA-E018-B6BE-3E55834A4AD3</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT015</logicalDatatype>
+<domain>0D915F14-7077-E21D-4D71-CCB0B32320F7</domain>
+<defaultValue>SYSTIMESTAMP</defaultValue>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="SERVICES_id" id="69DC9CF0-BA85-B531-F70D-36CEA1BE0252">
+<createdBy>mikea</createdBy>
+<createdTime>2025-05-04 14:48:37 UTC</createdTime>
+<generatorID>1B96E76B-AF0B-B812-C52E-09EDDB24BF11</generatorID>
+<ownerDesignName>event</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>B16A44A4-0F04-BCE5-7686-9BA729020D49</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="40693891-D452-7212-DB33-DF5F47F0C634" referredColumn="2A748D23-675F-608E-A2C5-F5D421FE5C01"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="E1937522-4CCC-59F9-1664-6B77C4D78AB2" name="BOOKING_SERVICE_ITEMS_PK">
+<sourceDDLFile>event_oracle.sql</sourceDDLFile>
+<createdBy>mikea</createdBy>
+<createdTime>2025-05-04 08:00:25 UTC</createdTime>
+<ownerDesignName>event</ownerDesignName>
+<importedID>786C4BFB-B9CA-DCC9-217A-0B5B3677B5D5</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4A5F9F6A-701C-BE0C-4E86-25B04BB7AB35"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="C4E4BD4A-D784-FA21-EB0D-E8BDBFF8C848" name="BOOKING_SERVICE_ITEMS_BOOKINGS_id_SERVICE_ITEMS_id_UN">
+<sourceDDLFile>event_oracle.sql</sourceDDLFile>
+<createdBy>mikea</createdBy>
+<createdTime>2025-05-04 08:00:25 UTC</createdTime>
+<ownerDesignName>event</ownerDesignName>
+<importedID>7BEC39C1-28BB-7C2A-0DF6-11A2B142B734</importedID>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="16BC427C-04FA-ADBC-CEFB-28775262EDF2"/>
+<colUsage columnID="CD3CADB7-D8AA-C6FC-0988-3C517BFB46D2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="96916048-D686-8C3B-DF5C-79481C9D5C65" name="BOOKING_SERVICE_ITEMS_BOOKINGS_FK">
+<createdBy>mikea</createdBy>
+<createdTime>2025-05-04 08:00:25 UTC</createdTime>
+<ownerDesignName>event</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="16BC427C-04FA-ADBC-CEFB-28775262EDF2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="142A037B-87A1-48A2-837D-0EC6E6B8C565" name="BOOKING_SERVICE_ITEMS_SERVICE_ITEMS_FK">
+<createdBy>mikea</createdBy>
+<createdTime>2025-05-04 08:00:25 UTC</createdTime>
+<ownerDesignName>event</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="CD3CADB7-D8AA-C6FC-0988-3C517BFB46D2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="61A6B894-4F72-AFB3-14C6-CA9C49254904" name="BOOKING_SERVICE_ITEMS_SERVICES_FK">
+<createdBy>mikea</createdBy>
+<createdTime>2025-05-04 14:48:37 UTC</createdTime>
+<generatorID>598D9296-D83B-C402-5EA7-F99BF365AB0C</generatorID>
+<ownerDesignName>event</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="69DC9CF0-BA85-B531-F70D-36CEA1BE0252"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

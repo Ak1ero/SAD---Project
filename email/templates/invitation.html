@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>You're Invited: Event at The Barn & Backyard</title>
+    <style>
+        body {
+            font-family: 'Helvetica Neue', Arial, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            margin: 0;
+            padding: 0;
+        }
+        .email-container {
+            max-width: 600px;
+            margin: 0 auto;
+            background-color: #fff;
+        }
+        .email-header {
+            background: linear-gradient(135deg, #5D5FEF, #4b4dcb);
+            color: white;
+            padding: 30px;
+            text-align: center;
+        }
+        .email-header h1 {
+            margin: 0;
+            font-size: 28px;
+            font-weight: 700;
+        }
+        .email-header p {
+            margin: 10px 0 0;
+            font-size: 16px;
+            opacity: 0.9;
+        }
+        .email-body {
+            padding: 30px;
+            background-color: #fafafa;
+        }
+        .greeting {
+            font-size: 20px;
+            font-weight: 600;
+            margin-bottom: 20px;
+        }
+        .message {
+            margin-bottom: 30px;
+            font-size: 16px;
+        }
+        .event-details {
+            background-color: white;
+            border-radius: 8px;
+            padding: 25px;
+            margin-bottom: 30px;
+            box-shadow: 0 3px 10px rgba(0,0,0,0.05);
+        }
+        .event-details h2 {
+            margin-top: 0;
+            margin-bottom: 20px;
+            font-size: 22px;
+            color: #5D5FEF;
+            border-bottom: 1px solid #eee;
+            padding-bottom: 10px;
+        }
+        .detail-row {
+            display: flex;
+            margin-bottom: 15px;
+        }
+        .detail-label {
+            width: 120px;
+            font-weight: 600;
+            color: #666;
+        }
+        .detail-value {
+            flex: 1;
+        }
+        .qr-note {
+            background-color: #f0f4ff;
+            border: 2px solid #dbe4ff;
+            border-radius: 12px;
+            padding: 30px;
+            margin: 35px 0;
+            text-align: center;
+            box-shadow: 0 6px 12px rgba(99, 102, 241, 0.1);
+            position: relative;
+        }
+        
+        .qr-note::before {
+            content: '';
+            position: absolute;
+            top: -2px;
+            left: 50%;
+            transform: translateX(-50%);
+            width: 60%;
+            height: 5px;
+            background: linear-gradient(90deg, #6366f1, #4f46e5);
+            border-radius: 0 0 4px 4px;
+        }
+        
+        .qr-note p {
+            margin: 10px 0;
+            font-size: 16px;
+            color: #4b5563;
+        }
+        .code-heading {
+            font-size: 20px;
+            font-weight: 700;
+            color: #4338ca;
+            margin-bottom: 15px;
+            text-transform: uppercase;
+            letter-spacing: 1.5px;
+        }
+        .unique-code-display {
+            font-family: 'Courier New', monospace;
+            font-size: 38px;
+            font-weight: bold;
+            letter-spacing: 5px;
+            color: #4f46e5;
+            background-color: #f8fafc;
+            border: 3px dashed #6366f1;
+            border-radius: 10px;
+            padding: 20px 30px;
+            margin: 20px auto;
+            display: inline-block;
+            box-shadow: 0 6px 12px rgba(99, 102, 241, 0.2);
+        }
+        .email-footer {
+            background-color: #f3f4f6;
+            padding: 20px 30px;
+            text-align: center;
+            font-size: 14px;
+            color: #666;
+        }
+        .social-links {
+            margin-top: 15px;
+        }
+        .social-links a {
+            display: inline-block;
+            margin: 0 10px;
+            color: #5D5FEF;
+            text-decoration: none;
+        }
+        .reference {
+            margin-top: 20px;
+            font-size: 12px;
+            color: #999;
+        }
+        @media only screen and (max-width: 600px) {
+            .email-header {
+                padding: 20px;
+            }
+            .email-body {
+                padding: 20px;
+            }
+            .detail-row {
+                flex-direction: column;
+            }
+            .detail-label {
+                width: 100%;
+                margin-bottom: 5px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="email-container">
+        <div class="email-header">
+            <h1>You're Invited!</h1>
+            <p>Join us for a special event at The Barn & Backyard</p>
+        </div>
+        
+        <div class="email-body">
+            <div class="greeting">
+                Dear {GUEST_NAME},
+            </div>
+            
+            <div class="message">
+                You have been invited to an upcoming event at The Barn & Backyard! We're looking forward to celebrating with you. Please find all the details below.
+            </div>
+            
+            <div class="event-details">
+                <h2>Event Details</h2>
+                <div class="detail-row">
+                    <div class="detail-label">Date:</div>
+                    <div class="detail-value">{EVENT_DATE}</div>
+                </div>
+                <div class="detail-row">
+                    <div class="detail-label">Time:</div>
+                    <div class="detail-value">{EVENT_TIME}</div>
+                </div>
+                <div class="detail-row">
+                    <div class="detail-label">Location:</div>
+                    <div class="detail-value">{EVENT_LOCATION}</div>
+                </div>
+                <div class="detail-row">
+                    <div class="detail-label">Package:</div>
+                    <div class="detail-value">{EVENT_PACKAGE}</div>
+                </div>
+                <div class="detail-row">
+                    <div class="detail-label">Theme:</div>
+                    <div class="detail-value">{EVENT_THEME}</div>
+                </div>
+            </div>
+            
+            <div class="qr-note">
+                <h3 class="code-heading">YOUR UNIQUE EVENT CODE</h3>
+                <div class="unique-code-display">{UNIQUE_CODE}</div>
+                <p>Please save this code or take a screenshot and bring it with you to the event for check-in.</p>
+            </div>
+            
+            <p>If you have any questions or special requests, please don't hesitate to contact us.</p>
+            <p>Looking forward to seeing you!</p>
+        </div>
+        
+        <div class="email-footer">
+            <p>The Barn & Backyard</p>
+            <p>Pioneer Avenue, Polomolok, South Cotabato</p>
+            <div class="social-links">
+                <a href="https://facebook.com/barnbackyard" target="_blank">Facebook</a>
+                <a href="https://instagram.com/barnbackyard" target="_blank">Instagram</a>
+                <a href="https://twitter.com/barnbackyard" target="_blank">Twitter</a>
+            </div>
+            <p class="reference">Booking Reference: {BOOKING_REFERENCE}</p>
+        </div>
+    </div>
+</body>
+</html> 

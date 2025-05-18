@@ -1,0 +1,40 @@
+[08-May-2025 01:38:43 Europe/Berlin] [2025-05-08 01:38:43] [INFO] Starting to send invitations for booking ID: 66 with 2 guests
+[08-May-2025 01:38:43 Europe/Berlin] [2025-05-08 01:38:43] [INFO] Processing invitation for: John Hanssen N. Eya <eddiemagtanggol@gmail.com>
+[08-May-2025 01:38:44 Europe/Berlin] [2025-05-08 01:38:44] [ERROR] Error (2): file_get_contents(https://chart.googleapis.com/chart?chs=300x300&amp;cht=qr&amp;chl=BK20250507204559533%0AJohn+Hanssen+N.+Eya&amp;chld=M|0): Failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+ in C:\xampp\htdocs\event\email\send-invitations.php on line 180
+[08-May-2025 01:38:44 Europe/Berlin] [2025-05-08 01:38:44] [WARNING] Google Charts API didn't return a valid QR image
+[08-May-2025 01:38:45 Europe/Berlin] [2025-05-08 01:38:45] [INFO] Generated QR code using alternative QR service
+[08-May-2025 01:38:45 Europe/Berlin] [2025-05-08 01:38:45] [INFO] Attached QR code to email: C:\xampp\htdocs\event\email/temp_qrcodes/BK20250507204559533_3a0e9922a5aa54e8d7ad7f56dfec32c2.png
+[08-May-2025 01:38:50 Europe/Berlin] [2025-05-08 01:38:50] [INFO] Successfully sent invitation to eddiemagtanggol@gmail.com using PHPMailer
+[08-May-2025 01:38:50 Europe/Berlin] [2025-05-08 01:38:50] [INFO] Processing invitation for: Mike Acenas <mikeacenas2715@gmail.com>
+[08-May-2025 01:38:50 Europe/Berlin] [2025-05-08 01:38:50] [ERROR] Error (2): file_get_contents(https://chart.googleapis.com/chart?chs=300x300&amp;cht=qr&amp;chl=BK20250507204559533%0AMike+Acenas&amp;chld=M|0): Failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+ in C:\xampp\htdocs\event\email\send-invitations.php on line 180
+[08-May-2025 01:38:50 Europe/Berlin] [2025-05-08 01:38:50] [WARNING] Google Charts API didn't return a valid QR image
+[08-May-2025 01:38:52 Europe/Berlin] [2025-05-08 01:38:52] [INFO] Generated QR code using alternative QR service
+[08-May-2025 01:38:52 Europe/Berlin] [2025-05-08 01:38:52] [INFO] Attached QR code to email: C:\xampp\htdocs\event\email/temp_qrcodes/BK20250507204559533_b9b2eafb592af84487f0112d5ec1b320.png
+[08-May-2025 01:38:56 Europe/Berlin] [2025-05-08 01:38:56] [INFO] Successfully sent invitation to mikeacenas2715@gmail.com using PHPMailer
+[08-May-2025 01:59:50 Europe/Berlin] [2025-05-08 01:59:50] [INFO] Starting to send invitations for booking ID: 69 with 2 guests
+[08-May-2025 01:59:50 Europe/Berlin] [2025-05-08 01:59:50] [INFO] Processing invitation for: John Hanssen N. Eya <eddiemagtanggol@gmail.com>
+[08-May-2025 01:59:54 Europe/Berlin] [2025-05-08 01:59:54] [INFO] Successfully sent invitation to eddiemagtanggol@gmail.com using PHPMailer
+[08-May-2025 01:59:54 Europe/Berlin] [2025-05-08 01:59:54] [INFO] Processing invitation for: Mike Acenas <mikeacenas2715@gmail.com>
+[08-May-2025 01:59:57 Europe/Berlin] [2025-05-08 01:59:57] [INFO] Successfully sent invitation to mikeacenas2715@gmail.com using PHPMailer
+[08-May-2025 02:03:38 Europe/Berlin] [2025-05-08 02:03:38] [INFO] Starting to send invitations for booking ID: 69 with 2 guests
+[08-May-2025 02:03:38 Europe/Berlin] [2025-05-08 02:03:38] [INFO] Processing invitation for: John Hanssen N. Eya <eddiemagtanggol@gmail.com>
+[08-May-2025 02:03:43 Europe/Berlin] [2025-05-08 02:03:43] [INFO] Successfully sent invitation to eddiemagtanggol@gmail.com using PHPMailer
+[08-May-2025 02:03:43 Europe/Berlin] [2025-05-08 02:03:43] [INFO] Processing invitation for: Mike Acenas <mikeacenas2715@gmail.com>
+[08-May-2025 02:03:47 Europe/Berlin] [2025-05-08 02:03:47] [INFO] Successfully sent invitation to mikeacenas2715@gmail.com using PHPMailer
+[08-May-2025 02:12:08 Europe/Berlin] [2025-05-08 02:12:08] [INFO] Starting to send invitations for booking ID: 69 with 2 guests
+[08-May-2025 02:12:08 Europe/Berlin] [2025-05-08 02:12:08] [INFO] Processing invitation for: John Hanssen N. Eya <eddiemagtanggol@gmail.com>
+[08-May-2025 02:12:12 Europe/Berlin] [2025-05-08 02:12:12] [INFO] Successfully sent invitation to eddiemagtanggol@gmail.com using PHPMailer
+[08-May-2025 02:12:12 Europe/Berlin] [2025-05-08 02:12:12] [INFO] Processing invitation for: Mike Acenas <mikeacenas2715@gmail.com>
+[08-May-2025 02:12:16 Europe/Berlin] [2025-05-08 02:12:16] [INFO] Successfully sent invitation to mikeacenas2715@gmail.com using PHPMailer
+[08-May-2025 02:14:02 Europe/Berlin] [2025-05-08 02:14:02] [INFO] Starting to send invitations for booking ID: 69 with 2 guests
+[08-May-2025 02:14:02 Europe/Berlin] [2025-05-08 02:14:02] [INFO] Processing invitation for: John Hanssen N. Eya <eddiemagtanggol@gmail.com>
+[08-May-2025 02:14:06 Europe/Berlin] [2025-05-08 02:14:06] [INFO] Successfully sent invitation to eddiemagtanggol@gmail.com using PHPMailer
+[08-May-2025 02:14:06 Europe/Berlin] [2025-05-08 02:14:06] [INFO] Processing invitation for: Mike Acenas <mikeacenas2715@gmail.com>
+[08-May-2025 02:14:10 Europe/Berlin] [2025-05-08 02:14:10] [INFO] Successfully sent invitation to mikeacenas2715@gmail.com using PHPMailer
+[08-May-2025 02:14:21 Europe/Berlin] [2025-05-08 02:14:21] [INFO] Starting to send invitations for booking ID: 69 with 2 guests
+[08-May-2025 02:14:21 Europe/Berlin] [2025-05-08 02:14:21] [INFO] Processing invitation for: John Hanssen N. Eya <eddiemagtanggol@gmail.com>
+[08-May-2025 02:14:24 Europe/Berlin] [2025-05-08 02:14:24] [INFO] Successfully sent invitation to eddiemagtanggol@gmail.com using PHPMailer
+[08-May-2025 02:14:24 Europe/Berlin] [2025-05-08 02:14:24] [INFO] Processing invitation for: Mike Acenas <mikeacenas2715@gmail.com>
+[08-May-2025 02:14:28 Europe/Berlin] [2025-05-08 02:14:28] [INFO] Successfully sent invitation to mikeacenas2715@gmail.com using PHPMailer

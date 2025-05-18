@@ -1,0 +1,24 @@
+{
+    "name": "barnbackyard/event-system",
+    "description": "Event management system for The Barn & Backyard",
+    "type": "project",
+    "require": {
+        "php": ">=7.2.0",
+        "phpmailer/phpmailer": "^6.8",
+        "ext-gd": "*",
+        "ext-json": "*",
+        "ext-mysqli": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "App\\": "app/"
+        }
+    },
+    "authors": [
+        {
+            "name": "The Barn & Backyard",
+            "email": "info@barnbackyard.com"
+        }
+    ],
+    "minimum-stability": "stable"
+} 
