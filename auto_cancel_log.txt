@@ -1,0 +1,205 @@
+[2025-05-18 14:49:08] Starting auto-cancel unpaid bookings script
+[2025-05-18 14:49:08] Current time: 2025-05-18 14:49:08
+[2025-05-18 14:49:08] Looking for bookings confirmed before: 2025-05-18 13:49:08
+[2025-05-18 14:49:08] Found 2 bookings that meet cancellation criteria
+[2025-05-18 14:49:08] Booking #19 (Ref: BK20250419161046547) was last updated 41318 minutes ago
+[2025-05-18 14:49:08] Cancelled booking #19 (Ref: BK20250419161046547) for user #11 due to unpaid after 1 hour
+[2025-05-18 14:49:08] Booking #74 (Ref: BK20250518073029106) was last updated 76 minutes ago
+[2025-05-18 14:49:08] Cancelled booking #74 (Ref: BK20250518073029106) for user #22 due to unpaid after 1 hour
+[2025-05-18 14:49:08] Completed auto-cancel job: 2 bookings cancelled
+[2025-05-18 16:01:08] ==== AUTO-CANCEL EXECUTION STARTED ====
+[2025-05-18 16:01:08] Script running as: apache2handler
+[2025-05-18 16:01:08] Timezone set to Asia/Manila
+[2025-05-18 16:01:08] Current time: 2025-05-18 16:01:08
+[2025-05-18 16:01:08] Database connection successful
+[2025-05-18 16:01:08] Looking for bookings confirmed before: 2025-05-18 15:01:08
+[2025-05-18 16:01:08] Found 1 bookings that meet cancellation criteria
+[2025-05-18 16:01:08] Booking #78 (Ref: BK20250518145547904) was last updated 65 minutes ago
+[2025-05-18 16:01:08] SUCCESS: Cancelled booking #78 (Ref: BK20250518145547904) for user #22 due to unpaid after 1 hour
+[2025-05-18 16:01:08] Completed auto-cancel job: 1 bookings cancelled
+[2025-05-18 16:01:08] Database connection closed
+[2025-05-18 16:01:08] Script execution completed in 0.0071 seconds
+[2025-05-18 16:01:08] ==== AUTO-CANCEL EXECUTION FINISHED ====
+
+[2025-05-18 10:04:02] ==== AUTO-CANCEL EXECUTION STARTED ====
+[2025-05-18 10:04:02] Script running as: cli
+[2025-05-18 16:04:02] Timezone set to Asia/Manila
+[2025-05-18 16:04:02] Current time: 2025-05-18 16:04:02
+[2025-05-18 16:04:02] Database connection successful
+[2025-05-18 16:04:02] Looking for bookings confirmed before: 2025-05-18 15:04:02
+[2025-05-18 16:04:02] Found 0 bookings that meet cancellation criteria
+[2025-05-18 16:04:02] Found some potential bookings that might be cancelled soon:
+[2025-05-18 16:04:02] Booking #80 (Ref: BK20250518160252109) with status 'confirmed', payment_status 'unpaid', updated 0 minutes ago, will be eligible for cancellation in approximately 60 minutes
+[2025-05-18 16:04:02] Completed auto-cancel job: 0 bookings cancelled
+[2025-05-18 16:04:02] Database connection closed
+[2025-05-18 16:04:02] Script execution completed in 0.0081 seconds
+[2025-05-18 16:04:02] ==== AUTO-CANCEL EXECUTION FINISHED ====
+
+[2025-05-18 10:09:02] ==== AUTO-CANCEL EXECUTION STARTED ====
+[2025-05-18 10:09:02] Script running as: cli
+[2025-05-18 16:09:02] Timezone set to Asia/Manila
+[2025-05-18 16:09:02] Current time: 2025-05-18 16:09:02
+[2025-05-18 16:09:02] Database connection successful
+[2025-05-18 16:09:02] Looking for bookings confirmed before: 2025-05-18 15:09:02
+[2025-05-18 16:09:02] Found 0 bookings that meet cancellation criteria
+[2025-05-18 16:09:02] Found some potential bookings that might be cancelled soon:
+[2025-05-18 16:09:02] Booking #80 (Ref: BK20250518160252109) with status 'confirmed', payment_status 'unpaid', updated 5 minutes ago, will be eligible for cancellation in approximately 55 minutes
+[2025-05-18 16:09:02] Completed auto-cancel job: 0 bookings cancelled
+[2025-05-18 16:09:02] Database connection closed
+[2025-05-18 16:09:02] Script execution completed in 0.0072 seconds
+[2025-05-18 16:09:02] ==== AUTO-CANCEL EXECUTION FINISHED ====
+
+[2025-05-18 10:14:02] ==== AUTO-CANCEL EXECUTION STARTED ====
+[2025-05-18 10:14:02] Script running as: cli
+[2025-05-18 16:14:02] Timezone set to Asia/Manila
+[2025-05-18 16:14:02] Current time: 2025-05-18 16:14:02
+[2025-05-18 16:14:02] Database connection successful
+[2025-05-18 16:14:02] Looking for bookings confirmed before: 2025-05-18 15:14:02
+[2025-05-18 16:14:02] Found 0 bookings that meet cancellation criteria
+[2025-05-18 16:14:02] Found some potential bookings that might be cancelled soon:
+[2025-05-18 16:14:02] Booking #80 (Ref: BK20250518160252109) with status 'confirmed', payment_status 'unpaid', updated 10 minutes ago, will be eligible for cancellation in approximately 50 minutes
+[2025-05-18 16:14:02] Completed auto-cancel job: 0 bookings cancelled
+[2025-05-18 16:14:02] Database connection closed
+[2025-05-18 16:14:02] Script execution completed in 0.0207 seconds
+[2025-05-18 16:14:02] ==== AUTO-CANCEL EXECUTION FINISHED ====
+
+[2025-05-18 10:19:02] ==== AUTO-CANCEL EXECUTION STARTED ====
+[2025-05-18 10:19:02] Script running as: cli
+[2025-05-18 16:19:02] Timezone set to Asia/Manila
+[2025-05-18 16:19:02] Current time: 2025-05-18 16:19:02
+[2025-05-18 16:19:02] Database connection successful
+[2025-05-18 16:19:02] Looking for bookings confirmed before: 2025-05-18 15:19:02
+[2025-05-18 16:19:02] Found 0 bookings that meet cancellation criteria
+[2025-05-18 16:19:02] Found some potential bookings that might be cancelled soon:
+[2025-05-18 16:19:02] Booking #80 (Ref: BK20250518160252109) with status 'confirmed', payment_status 'unpaid', updated 15 minutes ago, will be eligible for cancellation in approximately 45 minutes
+[2025-05-18 16:19:02] Completed auto-cancel job: 0 bookings cancelled
+[2025-05-18 16:19:02] Database connection closed
+[2025-05-18 16:19:02] Script execution completed in 0.0173 seconds
+[2025-05-18 16:19:02] ==== AUTO-CANCEL EXECUTION FINISHED ====
+
+[2025-05-18 10:24:02] ==== AUTO-CANCEL EXECUTION STARTED ====
+[2025-05-18 10:24:02] Script running as: cli
+[2025-05-18 16:24:02] Timezone set to Asia/Manila
+[2025-05-18 16:24:02] Current time: 2025-05-18 16:24:02
+[2025-05-18 16:24:02] Database connection successful
+[2025-05-18 16:24:02] Looking for bookings confirmed before: 2025-05-18 15:24:02
+[2025-05-18 16:24:02] Found 0 bookings that meet cancellation criteria
+[2025-05-18 16:24:02] Found some potential bookings that might be cancelled soon:
+[2025-05-18 16:24:02] Booking #80 (Ref: BK20250518160252109) with status 'confirmed', payment_status 'unpaid', updated 20 minutes ago, will be eligible for cancellation in approximately 40 minutes
+[2025-05-18 16:24:02] Completed auto-cancel job: 0 bookings cancelled
+[2025-05-18 16:24:02] Database connection closed
+[2025-05-18 16:24:02] Script execution completed in 0.0257 seconds
+[2025-05-18 16:24:02] ==== AUTO-CANCEL EXECUTION FINISHED ====
+
+[2025-05-18 10:29:02] ==== AUTO-CANCEL EXECUTION STARTED ====
+[2025-05-18 10:29:02] Script running as: cli
+[2025-05-18 16:29:02] Timezone set to Asia/Manila
+[2025-05-18 16:29:02] Current time: 2025-05-18 16:29:02
+[2025-05-18 16:29:02] Database connection successful
+[2025-05-18 16:29:02] Looking for bookings confirmed before: 2025-05-18 15:29:02
+[2025-05-18 16:29:02] Found 0 bookings that meet cancellation criteria
+[2025-05-18 16:29:02] Found some potential bookings that might be cancelled soon:
+[2025-05-18 16:29:02] Booking #80 (Ref: BK20250518160252109) with status 'confirmed', payment_status 'unpaid', updated 25 minutes ago, will be eligible for cancellation in approximately 35 minutes
+[2025-05-18 16:29:02] Completed auto-cancel job: 0 bookings cancelled
+[2025-05-18 16:29:02] Database connection closed
+[2025-05-18 16:29:02] Script execution completed in 0.0068 seconds
+[2025-05-18 16:29:02] ==== AUTO-CANCEL EXECUTION FINISHED ====
+
+[2025-05-18 10:34:02] ==== AUTO-CANCEL EXECUTION STARTED ====
+[2025-05-18 10:34:02] Script running as: cli
+[2025-05-18 16:34:02] Timezone set to Asia/Manila
+[2025-05-18 16:34:02] Current time: 2025-05-18 16:34:02
+[2025-05-18 16:34:02] Database connection successful
+[2025-05-18 16:34:02] Looking for bookings confirmed before: 2025-05-18 15:34:02
+[2025-05-18 16:34:02] Found 0 bookings that meet cancellation criteria
+[2025-05-18 16:34:02] Found some potential bookings that might be cancelled soon:
+[2025-05-18 16:34:02] Booking #80 (Ref: BK20250518160252109) with status 'confirmed', payment_status 'unpaid', updated 30 minutes ago, will be eligible for cancellation in approximately 30 minutes
+[2025-05-18 16:34:02] Completed auto-cancel job: 0 bookings cancelled
+[2025-05-18 16:34:02] Database connection closed
+[2025-05-18 16:34:02] Script execution completed in 0.0329 seconds
+[2025-05-18 16:34:02] ==== AUTO-CANCEL EXECUTION FINISHED ====
+
+[2025-05-18 10:39:02] ==== AUTO-CANCEL EXECUTION STARTED ====
+[2025-05-18 10:39:02] Script running as: cli
+[2025-05-18 16:39:02] Timezone set to Asia/Manila
+[2025-05-18 16:39:02] Current time: 2025-05-18 16:39:02
+[2025-05-18 16:39:02] Database connection successful
+[2025-05-18 16:39:02] Looking for bookings confirmed before: 2025-05-18 15:39:02
+[2025-05-18 16:39:02] Found 0 bookings that meet cancellation criteria
+[2025-05-18 16:39:02] Found some potential bookings that might be cancelled soon:
+[2025-05-18 16:39:02] Booking #80 (Ref: BK20250518160252109) with status 'confirmed', payment_status 'unpaid', updated 35 minutes ago, will be eligible for cancellation in approximately 25 minutes
+[2025-05-18 16:39:02] Completed auto-cancel job: 0 bookings cancelled
+[2025-05-18 16:39:02] Database connection closed
+[2025-05-18 16:39:02] Script execution completed in 0.0209 seconds
+[2025-05-18 16:39:02] ==== AUTO-CANCEL EXECUTION FINISHED ====
+
+[2025-05-18 10:44:02] ==== AUTO-CANCEL EXECUTION STARTED ====
+[2025-05-18 10:44:02] Script running as: cli
+[2025-05-18 16:44:02] Timezone set to Asia/Manila
+[2025-05-18 16:44:02] Current time: 2025-05-18 16:44:02
+[2025-05-18 16:44:02] Database connection successful
+[2025-05-18 16:44:02] Looking for bookings confirmed before: 2025-05-18 15:44:02
+[2025-05-18 16:44:02] Found 0 bookings that meet cancellation criteria
+[2025-05-18 16:44:02] Found some potential bookings that might be cancelled soon:
+[2025-05-18 16:44:02] Booking #80 (Ref: BK20250518160252109) with status 'confirmed', payment_status 'unpaid', updated 40 minutes ago, will be eligible for cancellation in approximately 20 minutes
+[2025-05-18 16:44:02] Completed auto-cancel job: 0 bookings cancelled
+[2025-05-18 16:44:02] Database connection closed
+[2025-05-18 16:44:02] Script execution completed in 0.0087 seconds
+[2025-05-18 16:44:02] ==== AUTO-CANCEL EXECUTION FINISHED ====
+
+[2025-05-18 10:49:02] ==== AUTO-CANCEL EXECUTION STARTED ====
+[2025-05-18 10:49:02] Script running as: cli
+[2025-05-18 16:49:02] Timezone set to Asia/Manila
+[2025-05-18 16:49:02] Current time: 2025-05-18 16:49:02
+[2025-05-18 16:49:02] Database connection successful
+[2025-05-18 16:49:02] Looking for bookings confirmed before: 2025-05-18 15:49:02
+[2025-05-18 16:49:02] Found 0 bookings that meet cancellation criteria
+[2025-05-18 16:49:02] Found some potential bookings that might be cancelled soon:
+[2025-05-18 16:49:02] Booking #80 (Ref: BK20250518160252109) with status 'confirmed', payment_status 'unpaid', updated 45 minutes ago, will be eligible for cancellation in approximately 15 minutes
+[2025-05-18 16:49:02] Completed auto-cancel job: 0 bookings cancelled
+[2025-05-18 16:49:02] Database connection closed
+[2025-05-18 16:49:02] Script execution completed in 0.0079 seconds
+[2025-05-18 16:49:02] ==== AUTO-CANCEL EXECUTION FINISHED ====
+
+[2025-05-18 10:54:02] ==== AUTO-CANCEL EXECUTION STARTED ====
+[2025-05-18 10:54:02] Script running as: cli
+[2025-05-18 16:54:02] Timezone set to Asia/Manila
+[2025-05-18 16:54:02] Current time: 2025-05-18 16:54:02
+[2025-05-18 16:54:02] Database connection successful
+[2025-05-18 16:54:02] Looking for bookings confirmed before: 2025-05-18 15:54:02
+[2025-05-18 16:54:02] Found 0 bookings that meet cancellation criteria
+[2025-05-18 16:54:02] Found some potential bookings that might be cancelled soon:
+[2025-05-18 16:54:02] Booking #80 (Ref: BK20250518160252109) with status 'confirmed', payment_status 'unpaid', updated 50 minutes ago, will be eligible for cancellation in approximately 10 minutes
+[2025-05-18 16:54:02] Completed auto-cancel job: 0 bookings cancelled
+[2025-05-18 16:54:02] Database connection closed
+[2025-05-18 16:54:02] Script execution completed in 0.0091 seconds
+[2025-05-18 16:54:02] ==== AUTO-CANCEL EXECUTION FINISHED ====
+
+[2025-05-18 10:59:02] ==== AUTO-CANCEL EXECUTION STARTED ====
+[2025-05-18 10:59:02] Script running as: cli
+[2025-05-18 16:59:02] Timezone set to Asia/Manila
+[2025-05-18 16:59:02] Current time: 2025-05-18 16:59:02
+[2025-05-18 16:59:02] Database connection successful
+[2025-05-18 16:59:02] Looking for bookings confirmed before: 2025-05-18 15:59:02
+[2025-05-18 16:59:02] Found 0 bookings that meet cancellation criteria
+[2025-05-18 16:59:02] Found some potential bookings that might be cancelled soon:
+[2025-05-18 16:59:02] Booking #80 (Ref: BK20250518160252109) with status 'confirmed', payment_status 'unpaid', updated 55 minutes ago, will be eligible for cancellation in approximately 5 minutes
+[2025-05-18 16:59:02] Completed auto-cancel job: 0 bookings cancelled
+[2025-05-18 16:59:02] Database connection closed
+[2025-05-18 16:59:02] Script execution completed in 0.0077 seconds
+[2025-05-18 16:59:02] ==== AUTO-CANCEL EXECUTION FINISHED ====
+
+[2025-05-18 11:04:02] ==== AUTO-CANCEL EXECUTION STARTED ====
+[2025-05-18 11:04:02] Script running as: cli
+[2025-05-18 17:04:02] Timezone set to Asia/Manila
+[2025-05-18 17:04:02] Current time: 2025-05-18 17:04:02
+[2025-05-18 17:04:02] Database connection successful
+[2025-05-18 17:04:02] Looking for bookings confirmed before: 2025-05-18 16:04:02
+[2025-05-18 17:04:02] Found 1 bookings that meet cancellation criteria
+[2025-05-18 17:04:02] Booking #80 (Ref: BK20250518160252109) was last updated 60 minutes ago
+[2025-05-18 17:04:02] SUCCESS: Cancelled booking #80 (Ref: BK20250518160252109) for user #22 due to unpaid after 1 hour
+[2025-05-18 17:04:02] Completed auto-cancel job: 1 bookings cancelled
+[2025-05-18 17:04:02] Database connection closed
+[2025-05-18 17:04:02] Script execution completed in 0.0094 seconds
+[2025-05-18 17:04:02] ==== AUTO-CANCEL EXECUTION FINISHED ====
+
