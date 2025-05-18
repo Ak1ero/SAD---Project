@@ -203,3 +203,16 @@
 [2025-05-18 17:04:02] Script execution completed in 0.0094 seconds
 [2025-05-18 17:04:02] ==== AUTO-CANCEL EXECUTION FINISHED ====
 
+[2025-05-18 11:09:02] ==== AUTO-CANCEL EXECUTION STARTED ====
+[2025-05-18 11:09:02] Script running as: cli
+[2025-05-18 17:09:02] Timezone set to Asia/Manila
+[2025-05-18 17:09:02] Current time: 2025-05-18 17:09:02
+[2025-05-18 17:09:02] Database connection successful
+[2025-05-18 17:09:02] Looking for bookings confirmed before: 2025-05-18 16:09:02
+[2025-05-18 17:09:02] Found 0 bookings that meet cancellation criteria
+[2025-05-18 17:09:02] No potential bookings found that might be cancelled soon
+[2025-05-18 17:09:02] Completed auto-cancel job: 0 bookings cancelled
+[2025-05-18 17:09:02] Database connection closed
+[2025-05-18 17:09:02] Script execution completed in 0.0195 seconds
+[2025-05-18 17:09:02] ==== AUTO-CANCEL EXECUTION FINISHED ====
+

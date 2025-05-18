@@ -1,110 +1,137 @@
-# Event Management System - Service Items Module
+# 🎉 The Barn & Backyard Event Management System
 
-This module adds functionality to manage items associated with services, such as bands, photographers, and more.
+A comprehensive system for managing event bookings, services, and guest attendance.
 
-## Setup
+![The Barn & Backyard](img/barn-backyard.svg)
 
-1. Execute the SQL script to create the necessary database table:
+## 📋 Table of Contents
 
-```sql
-mysql -u [username] -p [database_name] < database/service_items.sql
-```
+- [System Overview](#-system-overview)
+- [Key Features](#-key-features)
+- [Installation](#-installation)
+- [Admin Features](#-admin-features)
+- [User Features](#-user-features)
+- [Automatic Booking Cancellation](#-automatic-booking-cancellation)
+- [Troubleshooting](#-troubleshooting)
 
-2. Make sure the following directory exists and is writable:
+## 🌐 System Overview
 
-```
-uploads/service_items/
-```
+The Barn & Backyard Event Management System helps venue owners manage event bookings, services, and guest attendance. The system handles everything from booking new events to tracking attendance on the day of the event.
 
-3. Upload the new files to your server:
-   - `admin/service_items.php`
-   - Update to `admin/theme.php`
-   - `database/migrate_service_items.php` (optional, for migration)
+## ✨ Key Features
 
-## Data Migration
+- **Event Booking Management**: Schedule and manage all event bookings
+- **Service Management**: Offer various service packages (e.g., weddings, corporate events)
+- **Guest Management**: Track guest lists and attendance
+- **Automatic Cancellation**: Auto-cancel unpaid bookings after 1 hour
+- **Mobile-Friendly Design**: Works on all devices
+- **Dark Mode Support**: Comfortable viewing in any lighting
 
-If you are upgrading from a previous version with separate tables for bands and photographers, a migration script is provided:
+## 💻 Installation
 
-1. Run the migration script to transfer data to the new unified table:
+1. **Requirements**:
+   - PHP 7.4+
+   - MySQL 5.7+
+   - Web server (Apache/Nginx)
+   - XAMPP (recommended for local setup)
 
-```
-php database/migrate_service_items.php
-```
+2. **Setup Steps**:
+   ```
+   # Clone the repository
+   git clone https://github.com/Ak1ero/SAD-Project.git
+   
+   # Import the database
+   mysql -u username -p event < database.sql
+   
+   # Configure database connection
+   # Edit db/config.php with your database credentials
+   ```
 
-This script will:
-- Check if old tables (bands, photographers) exist
-- Transfer all data to the new unified service_items table
-- Preserve all item information including references to services
-- Report on the migration progress
+3. **Time Zone Configuration**:
+   - The system uses Philippines time zone (Asia/Manila)
+   - This can be modified in db/config.php if needed
 
-## Usage
+## 👨‍💼 Admin Features
 
-1. From the Admin Dashboard, go to Theme Management
-2. In the services section, you'll see a "+" button next to each service
-3. Click the "+" button to add an item to that service:
-   - For services with "band" or "music" in the name, it will be categorized as a band
-   - For services with "photo" or "camera" in the name, it will be categorized as a photographer
-   - For other services, it will be categorized as a generic service item
+### Dashboard
+Access the admin dashboard at `/admin/admindash.php` to view:
+- Event statistics
+- Recent bookings
+- System status
 
-## Data Model
+### Event Management
+- View all upcoming events
+- Check event details
+- Manage event status
 
-All service items are stored in a single table (`service_items`) with the following fields:
+### Guest Management
+- View guest lists for each event
+- Take attendance on event day
+- Generate attendance reports
 
-- Name
-- Phone Number
-- Email
-- Price Range
-- Image
-- Service ID (reference to the associated service)
-- Service Type (band, photographer, or generic)
+### Service Management
+- Add/edit service packages
+- Manage service items (bands, photographers, etc.)
+- Set pricing and availability
 
-This unified approach simplifies the database structure while still allowing for categorization of items by their service type.
+## 👨‍👩‍👧‍👦 User Features
 
-## Customizing Item Types
+### Booking Process
+1. Users browse available services
+2. Select an event date and package
+3. Add guest information
+4. Complete payment
+5. Receive booking confirmation
 
-To add more specialized item types:
+### Guest Information
+Guests receive:
+- Unique codes for check-in
+- Event details and location
+- Automated notifications
 
-1. Update the service type detection in the JavaScript code to recognize different service categories
-2. Use the existing service_items table with the new service type value 
+## ⏱️ Automatic Booking Cancellation
 
-# Auto-Cancellation Feature
+The system automatically cancels unpaid bookings after 1 hour to prevent reservation blocking.
 
-This feature automatically cancels reservations that remain unpaid after a specified period, preventing users from indefinitely holding reservations without payment.
+### How It Works
+1. When a booking is confirmed but not paid, a 1-hour timer starts
+2. System checks every 5 minutes for unpaid bookings older than 1 hour
+3. Any found bookings are automatically cancelled
+4. Customers are notified about the cancellation
 
-## How It Works
+### Monitoring Auto-Cancel Status
+Visit `/check_auto_cancel_status.php` to:
+- See when the auto-cancel system last ran
+- View upcoming cancellations
+- Check for any issues with the system
 
-1. When a booking is confirmed, the system updates the `updated_at` timestamp in the database.
-2. The auto-cancel script checks for confirmed bookings that are unpaid and were confirmed more than 1 hour ago.
-3. These bookings are automatically changed to "cancelled" status, freeing the date for other customers.
-4. An optional notification system warns users before their bookings are cancelled.
+### Troubleshooting Auto-Cancel
+If automatic cancellation isn't working:
+1. Verify XAMPP services are running
+2. Check Task Scheduler is running the EventBookingAutoCancel task
+3. View error logs in auto_cancel_log.txt
 
-## Files Added
+## 🔧 Troubleshooting
 
-- `auto_cancel_unpaid_bookings.php` - Main script that performs the cancellations
-- `notify_unpaid_bookings.php` - Sends warning emails to users approaching the cancellation deadline
-- `admin/run_auto_cancel.php` - Admin interface for manually running the auto-cancel script
-- `setup_cron.php` - Instructions for setting up automated execution
+### Common Issues
 
-## Setup Instructions
+**Database Connection Errors**
+- Verify database credentials in db/config.php
+- Ensure MySQL service is running
 
-1. Upload all the new files to your server
-2. Set up a cron job to run the auto-cancel script every 15 minutes:
+**Booking Not Showing**
+- Clear browser cache
+- Check for payment confirmation
 
-```
-*/15 * * * * php /path/to/your/site/auto_cancel_unpaid_bookings.php > /dev/null 2>&1
-```
+**Time Zone Issues**
+- Ensure the server's time zone is set correctly
+- Check date_default_timezone_set in config files
 
-3. (Optional) Set up a cron job to send notification emails every 5 minutes:
+### Getting Help
+- Visit admin/check_auto_cancel_status.php for system diagnostics
+- Contact system administrator for database issues
+- Submit issues to the GitHub repository for software bugs
 
-```
-*/5 * * * * php /path/to/your/site/notify_unpaid_bookings.php > /dev/null 2>&1
-```
+---
 
-4. Test the functionality by confirming a booking and leaving it unpaid for the specified time period.
-
-## Customizing the Time Limit
-
-The default time limit is 1 hour. To change this:
-
-1. Edit `auto_cancel_unpaid_bookings.php` and modify the cutoff time calculation
-2. Also update the notification timing in `notify_unpaid_bookings.php` to maintain the appropriate warning period 
+© 2024 The Barn & Backyard | All Rights Reserved 
