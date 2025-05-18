@@ -12,7 +12,7 @@ if (!isset($_SESSION['user_id'])) {
 // Check if booking_id is provided
 if (!isset($_GET['booking_id']) || !is_numeric($_GET['booking_id'])) {
   http_response_code(400);
-  echo json_encode(['success' => false, 'message' => 'Invalid booking ID', 'is_started' => false]);
+  echo json_encode(['success' => false, 'message' => 'Invalid booking ID', 'is_started' => false, 'is_ended' => false]);
   exit();
 }
 
@@ -32,7 +32,7 @@ $result = $stmt->get_result();
 
 if ($result->num_rows === 0) {
   http_response_code(404);
-  echo json_encode(['success' => false, 'message' => 'Booking not found', 'is_started' => false]);
+  echo json_encode(['success' => false, 'message' => 'Booking not found', 'is_started' => false, 'is_ended' => false]);
   exit();
 }
 
@@ -69,11 +69,28 @@ if ($eventDate == $currentDate && $currentTime >= $graceStartTime && $currentTim
   $hasStarted = true;
 }
 
+// Check if event has ended
+$hasEnded = false;
+
+if ($eventDate < $currentDate) {
+  // Event date is in the past
+  $hasEnded = true;
+} elseif ($eventDate == $currentDate && $eventEndTime < $currentTime) {
+  // Event is today and end time has passed
+  $hasEnded = true;
+}
+
+// If status is 'completed', also consider the event as ended
+if ($event['status'] === 'completed') {
+  $hasEnded = true;
+}
+
 // Return the result
 http_response_code(200);
 echo json_encode([
   'success' => true,
   'is_started' => $hasStarted,
+  'is_ended' => $hasEnded,
   'event_date' => $formattedDate,
   'start_time' => $formattedStartTime,
   'end_time' => $formattedEndTime,

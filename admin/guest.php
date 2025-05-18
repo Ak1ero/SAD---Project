@@ -57,10 +57,9 @@ $sql = "SELECT
         FROM bookings b 
         JOIN users u ON b.user_id = u.id 
         LEFT JOIN guests bg ON b.id = bg.booking_id 
-        WHERE b.status != 'cancelled' 
-        AND (b.payment_status = 'paid' OR b.payment_status = 'partially_paid')
+        WHERE b.status != 'cancelled'
         GROUP BY b.id
-        ORDER BY b.event_date DESC";
+        ORDER BY b.created_at DESC";
 $result = $conn->query($sql);
 
 if ($result && $result->num_rows > 0) {
@@ -78,8 +77,7 @@ $offset = ($page - 1) * $recordsPerPage;
 $totalRecordsQuery = "SELECT COUNT(DISTINCT b.id) as total 
                     FROM bookings b 
                     JOIN users u ON b.user_id = u.id 
-                    WHERE b.status != 'cancelled' 
-                    AND (b.payment_status = 'paid' OR b.payment_status = 'partially_paid')";
+                    WHERE b.status != 'cancelled'";
 $totalResult = $conn->query($totalRecordsQuery);
 $totalRecords = $totalResult->fetch_assoc()['total'];
 $totalPages = ceil($totalRecords / $recordsPerPage);
@@ -100,10 +98,9 @@ $paginatedSql = "SELECT
                 FROM bookings b 
                 JOIN users u ON b.user_id = u.id 
                 LEFT JOIN guests bg ON b.id = bg.booking_id 
-                WHERE b.status != 'cancelled' 
-                AND (b.payment_status = 'paid' OR b.payment_status = 'partially_paid')
+                WHERE b.status != 'cancelled'
                 GROUP BY b.id
-                ORDER BY b.event_date DESC
+                ORDER BY b.created_at DESC
                 LIMIT $recordsPerPage OFFSET $offset";
 $paginatedResult = $conn->query($paginatedSql);
 $paginatedReservations = [];
@@ -1152,8 +1149,24 @@ if ($paginatedResult && $paginatedResult->num_rows > 0) {
           .then(response => response.json())
           .then(data => {
             isEventStarted = data.is_started;
+            let isEventEnded = data.is_ended;
             
-            if (data.is_started) {
+            if (isEventEnded) {
+              // Event has ended - show gray badge
+              eventStatusBadge.classList.remove('bg-red-100', 'text-red-800', 'dark:bg-red-900/30', 'dark:text-red-400');
+              eventStatusBadge.classList.remove('bg-green-100', 'text-green-800', 'dark:bg-green-900/30', 'dark:text-green-400');
+              eventStatusBadge.classList.add('bg-gray-200', 'text-gray-800', 'dark:bg-gray-700', 'dark:text-gray-300');
+              eventStatusBadge.innerHTML = '<i class="fas fa-flag-checkered mr-1"></i> Event Ended';
+              
+              // Disable the Take Attendance button
+              takeAttendanceBtn.disabled = true;
+              takeAttendanceBtn.classList.add('opacity-50', 'cursor-not-allowed', 'bg-gray-500', 'hover:bg-gray-500');
+              takeAttendanceBtn.innerHTML = '<i class="fas fa-ban mr-1"></i> Attendance Closed';
+              
+              // Create a tooltip or message for the button
+              takeAttendanceBtn.title = "Attendance cannot be taken after the event has ended";
+            }
+            else if (data.is_started) {
               // Event has started - show green badge
               eventStatusBadge.classList.remove('bg-red-100', 'text-red-800', 'dark:bg-red-900/30', 'dark:text-red-400');
               eventStatusBadge.classList.add('bg-green-100', 'text-green-800', 'dark:bg-green-900/30', 'dark:text-green-400');
@@ -1178,6 +1191,7 @@ if ($paginatedResult && $paginatedResult->num_rows > 0) {
             // Store event details
             currentEventDate = data.event_date;
             currentEventStartTime = data.start_time;
+            currentEventEndTime = data.end_time;
           })
           .catch(error => {
             console.error('Error checking event status:', error);
@@ -1188,6 +1202,11 @@ if ($paginatedResult && $paginatedResult->num_rows > 0) {
 
       // Take Attendance Button Click
       takeAttendanceBtn.addEventListener('click', function() {
+        // Check if button is disabled (event ended)
+        if (this.disabled) {
+          return;
+        }
+        
         // Check if event has started before proceeding
         if (!isEventStarted) {
           // Show warning message

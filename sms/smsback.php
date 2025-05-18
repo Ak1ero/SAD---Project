@@ -2,14 +2,45 @@
 // Include configuration file
 require_once dirname(__FILE__) . '/config.php';
 
-function sendSMS($recipient, $message) {
-    // Format phone number (ensure it starts with 63 for Philippines)
+/**
+ * Send SMS using the configured provider
+ * 
+ * @param string $recipient The recipient phone number
+ * @param string $message The message to send
+ * @param string $provider (Optional) The SMS provider to use (defaults to DEFAULT_SMS_PROVIDER)
+ * @return string JSON response
+ */
+function sendSMS($recipient, $message, $provider = null) {
+    // If no provider specified, use the default one
+    if ($provider === null) {
+        $provider = defined('DEFAULT_SMS_PROVIDER') ? DEFAULT_SMS_PROVIDER : 'philsms';
+    }
+    
+    // Format phone number
     $original_phone = $recipient;
     $recipient = formatPhoneNumber($recipient);
     
     // Log phone number for debugging
-    error_log("SMS Request - Original: $original_phone | Formatted: $recipient");
+    error_log("SMS Request - Original: $original_phone | Formatted: $recipient | Provider: $provider");
     
+    // Select the appropriate provider
+    switch (strtolower($provider)) {
+        case 'second_provider':
+            return sendSMSViaSecondProvider($recipient, $message);
+        case 'philsms':
+        default:
+            return sendSMSViaPhilSMS($recipient, $message);
+    }
+}
+
+/**
+ * Send SMS via the PhilSMS API
+ * 
+ * @param string $recipient The recipient phone number (formatted)
+ * @param string $message The message to send
+ * @return string JSON response
+ */
+function sendSMSViaPhilSMS($recipient, $message) {
     // Get API token and endpoint from config
     $token = PHILSMS_API_TOKEN;
     $url = PHILSMS_API_ENDPOINT;
@@ -70,14 +101,16 @@ function sendSMS($recipient, $message) {
         return json_encode([
             'status' => 'success',
             'message' => 'SMS sent successfully',
-            'message_id' => $response_data['data']['message_id']
+            'message_id' => $response_data['data']['message_id'],
+            'provider' => 'philsms'
         ]);
     } elseif ($httpCode >= 200 && $httpCode < 300 && !isset($response_data['error'])) {
         // 2xx status without explicit error
         return json_encode([
             'status' => 'success',
             'message' => 'SMS request accepted',
-            'response' => $response_data
+            'response' => $response_data,
+            'provider' => 'philsms'
         ]);
     } else {
         // Error response
@@ -85,13 +118,97 @@ function sendSMS($recipient, $message) {
         return json_encode([
             'status' => 'error',
             'message' => $error_message,
-            'response' => $response_data
+            'response' => $response_data,
+            'provider' => 'philsms'
         ]);
     }
 }
 
 /**
- * Format phone number to ensure it's in the correct format for PhilSMS
+ * Send SMS via the Second Provider API
+ * 
+ * @param string $recipient The recipient phone number (formatted)
+ * @param string $message The message to send
+ * @return string JSON response
+ */
+function sendSMSViaSecondProvider($recipient, $message) {
+    // Get API token and endpoint from config
+    $token = SECOND_PROVIDER_API_TOKEN;
+    $url = SECOND_PROVIDER_API_ENDPOINT;
+    
+    // NOTE: Adjust the data structure according to your second provider's API requirements
+    // This is just an example and should be modified based on your provider's documentation
+    $data = [
+        'to' => $recipient,
+        'message' => $message,
+        'from' => SECOND_PROVIDER_SENDER_ID,
+        // Add any other required parameters for your second provider
+    ];
+    
+    error_log("Second Provider Request Data: " . json_encode($data));
+    
+    // Set up cURL request
+    $ch = curl_init($url);
+    
+    // Set cURL options
+    curl_setopt($ch, CURLOPT_POST, true);
+    curl_setopt($ch, CURLOPT_POSTFIELDS, json_encode($data));
+    curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
+    curl_setopt($ch, CURLOPT_SSL_VERIFYPEER, false);
+    curl_setopt($ch, CURLOPT_TIMEOUT, 30);
+    
+    // Set the authorization header according to your second provider's requirements
+    // Modify this based on your provider's authentication method
+    curl_setopt($ch, CURLOPT_HTTPHEADER, [
+        'Authorization: Bearer ' . $token, // Adjust as needed
+        'Content-Type: application/json',
+        'Accept: application/json'
+    ]);
+    
+    // Execute the request
+    $response = curl_exec($ch);
+    
+    // Check for cURL errors
+    if (curl_errno($ch)) {
+        $error = curl_error($ch);
+        curl_close($ch);
+        error_log("Second Provider API Error: " . $error);
+        return json_encode(['status' => 'error', 'message' => 'Connection error: ' . $error, 'provider' => 'second_provider']);
+    }
+    
+    // Get HTTP status code
+    $httpCode = curl_getinfo($ch, CURLINFO_HTTP_CODE);
+    error_log("Second Provider API HTTP Code: " . $httpCode);
+    error_log("Second Provider API Response: " . $response);
+    
+    curl_close($ch);
+    
+    // Parse the response
+    $response_data = json_decode($response, true);
+    
+    // NOTE: Adjust the success/error checking logic based on your second provider's API response format
+    // This is just an example and should be modified
+    if ($httpCode >= 200 && $httpCode < 300) {
+        return json_encode([
+            'status' => 'success',
+            'message' => 'SMS sent successfully via second provider',
+            'response' => $response_data,
+            'provider' => 'second_provider'
+        ]);
+    } else {
+        // Error response
+        $error_message = isset($response_data['message']) ? $response_data['message'] : 'Unknown error';
+        return json_encode([
+            'status' => 'error',
+            'message' => $error_message,
+            'response' => $response_data,
+            'provider' => 'second_provider'
+        ]);
+    }
+}
+
+/**
+ * Format phone number to ensure it's in the correct format for SMS APIs
  * 
  * @param string $phone The phone number to format
  * @return string The formatted phone number

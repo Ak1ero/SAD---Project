@@ -22,8 +22,11 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
     $number = $_POST['number'];
     $message = $_POST['message'];
     
+    // Get the provider if specified, otherwise use default
+    $provider = isset($_POST['provider']) ? $_POST['provider'] : null;
+    
     // Send the SMS
-    $response = sendSMS($number, $message);
+    $response = sendSMS($number, $message, $provider);
     
     // Log for debugging
     error_log("SMS API response for " . $number . ": " . $response);

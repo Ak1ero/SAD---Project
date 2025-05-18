@@ -1,14 +1,18 @@
 <?php
 /**
- * PhilSMS API Configuration
+ * SMS API Configuration
  */
 
-// API Token - Replace with your actual API token from PhilSMS
-define('PHILSMS_API_TOKEN', '1549|xvQ14tZn03dZgXURydfpb4XXb4Bhk0vGZbQ2MO5S');
+// Default SMS provider
+define('DEFAULT_SMS_PROVIDER', 'philsms'); // Options: 'philsms', 'second_provider'
 
-// API Endpoint
+// PhilSMS Configuration
+define('PHILSMS_API_TOKEN', '1678|HDsKAtLPRp4y0gsbviCjeNefB8pwz5DMQdy4SgRp');
 define('PHILSMS_API_ENDPOINT', 'https://app.philsms.com/api/v3/sms/send');
-
-// Sender ID - Make sure this is registered in your PhilSMS account
 define('PHILSMS_SENDER_ID', 'PhilSMS');
+
+// Second SMS Provider Configuration (replace with your actual second provider details)
+define('SECOND_PROVIDER_API_TOKEN', '1678|HDsKAtLPRp4y0gsbviCjeNefB8pwz5DMQdy4SgRp');
+define('SECOND_PROVIDER_API_ENDPOINT', 'https://app.philsms.com/api/v3/sms/send');
+define('SECOND_PROVIDER_SENDER_ID', 'SecondProvider');
 ?> 

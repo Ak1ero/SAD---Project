@@ -23,8 +23,7 @@ $bookingId = isset($_POST['booking_id']) ? intval($_POST['booking_id']) : 0;
 // Validate booking ID if provided
 if ($bookingId > 0) {
   $bookingCheckSql = "SELECT id, event_date, event_start_time, event_end_time FROM bookings WHERE id = ? 
-                      AND status != 'cancelled'
-                      AND (payment_status = 'paid' OR payment_status = 'partially_paid')";
+                      AND status != 'cancelled'";
   $bookingStmt = $conn->prepare($bookingCheckSql);
   $bookingStmt->bind_param("i", $bookingId);
   $bookingStmt->execute();
@@ -71,6 +70,26 @@ if ($bookingId > 0) {
     ]);
     exit();
   }
+  
+  // Check if event has ended
+  $hasEnded = false;
+  
+  if ($eventDate < $currentDate) {
+    // Event date is in the past
+    $hasEnded = true;
+  } elseif ($eventDate == $currentDate && $eventEndTime < $currentTime) {
+    // Event is today and end time has passed
+    $hasEnded = true;
+  }
+  
+  if ($hasEnded) {
+    http_response_code(403);
+    echo json_encode([
+      'success' => false, 
+      'message' => 'Attendance cannot be taken. This event has already ended.'
+    ]);
+    exit();
+  }
 }
 
 // Find the guest with this unique code
@@ -78,8 +97,7 @@ $sql = "SELECT g.id, g.name, g.booking_id, b.package_name, b.event_date
         FROM guests g 
         JOIN bookings b ON g.booking_id = b.id
         WHERE g.unique_code = ? 
-        AND b.status != 'cancelled'
-        AND (b.payment_status = 'paid' OR b.payment_status = 'partially_paid')";
+        AND b.status != 'cancelled'";
 
 if ($bookingId > 0) {
   $sql .= " AND g.booking_id = ?";
